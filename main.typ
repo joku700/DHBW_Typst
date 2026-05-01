@@ -1,0 +1,71 @@
+// LTeX: enabled=false
+#import "template.typ": project, caption_with_source
+
+#show: project.with(
+
+  // ── Language ───────────────────────────────────────────────────────────────
+  // "en" for English, "de" for German.
+  lang: "en",
+
+  // ── Submission options ─────────────────────────────────────────────────────
+  // Remove confidentiality clause by setting to false
+  confidentiality_clause: true,
+
+  // ── Cover page ─────────────────────────────────────────────────────────────
+  title_long:  "A thesis about writing a thesis in Typst that is really long and needs a lot of space and is therfore spanning over 3 lines ",
+  title_short: "Writing in Typst",
+  thesis_type: "Bachelor Thesis",
+  faculty:     "Faculty of Business",
+  program:     "Business Informatics",
+
+  firstname:            "Max",
+  lastname:             "Mustermann",
+  matriculation_number: "111111",
+  course:               "XXXXX",
+  signature_place:      "Karlsruhe",
+  submission_date:      "04.04.2026",
+  processing_period:    "01.01.2026 – 04.04.2026",
+
+  partner_company:      "Company_name",
+  department:           "Team_name",
+  supervisor_company:   "supervisor_name",
+  supervisor_university: "supervisot_name",
+
+  // ── Degree statement ───────────────────────────────────────────────────────
+  // Embedded in the cover page sentence via the FTL template in locales/.
+  // Override all three when writing in German:
+  //   degree:        "Bachelor of Science (B. Sc.)",
+  //   study_program: "Informatik",
+  //   university:    "Dualen Hochschule Baden-Württemberg Karlsruhe",
+  degree:        "Bachelor of Science (B. Sc.)",
+  study_program: "Computer Science",
+  university:    "Baden-Württemberg Cooperative State University Karlsruhe",
+
+  // ── Bibliography ───────────────────────────────────────────────────────────
+  // Accepts a single path or an array: ("refs.bib", "more.yaml")
+  library_paths: "refs.bib",
+
+  // ── Acronyms ───────────────────────────────────────────────────────────────
+  // List of acronyms for the abbreviation list.
+  // Reference them in text with @key
+  // acronyms: (
+  //   (key: "API", short: "API", long: "Application Programming Interface"),
+  // ),
+  acronyms: (
+    (key: "API",  short: "API",  long: "Application Programming Interface"),
+    (key: "LLM",  short: "LLM",  long: "Large Language Model"),
+    (key: "RAG",  short: "RAG",  long: "Retrieval-Augmented Generation"),
+    (key: "AST",  short: "AST",  long: "Abstract Syntax Tree"),
+  ),
+
+)
+
+// ── Additional imports ─────────────────────────────────────────────────────
+#import "@preview/drafting:0.2.2": *
+
+// LTeX: enabled=true
+
+// ── Chapters ───────────────────────────────────────────────────────────────
+#include "chapters/chapter_1.typ"
+#include "chapters/chapter_2.typ"
+// add more chapters as you need
