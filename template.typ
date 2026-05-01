@@ -67,6 +67,7 @@
     justify: true,
     leading: 1.5em,
     spacing: 1.5em + 6pt,
+    justification-limits: (tracking: (min: -0.01em, max: 0.02em), )
   )
 
   // ── Headings ─────────────────────────────────────────────────────────────
@@ -346,6 +347,8 @@
   [#[] <__thesis_end>]
   // Start of Appendix
   [#[] <__appendix-start>]
+
+  set page(header: none)
 
   set heading(numbering: (..nums) => {
     let n = nums.pos()
