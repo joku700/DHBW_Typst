@@ -1,5 +1,5 @@
 // LTeX: enabled=false
-// The Template was created with the Help of "Hinweise zur Anfertigung von Projekt- udn Bachelorarbeiten 2.0"
+// The Template was created with the Help of "Hinweise zur Anfertigung von Projekt- und Bachelorarbeiten 2.0"
 
 #import "@preview/glossarium:0.5.9": (
   gls, glspl, make-glossary, print-glossary, register-glossary,
@@ -305,16 +305,21 @@
   set page(
     header: context {
       if here().page() > 1 {
-        let h = hydra(3, book: true)
-        let h = if h != none { h } else { hydra(2, book: true) }
-        let h = if h != none { h } else { hydra(1, book: true) }
-        [#set block(spacing: 4pt)
-        #grid(
-          columns: (1fr, 1fr),
-          align(left)[#title_short],
-          align(right)[#h],
+        let h = {
+          let h3 = hydra(3)
+          let h2 = hydra(2)
+          let h1 = hydra(1)
+          if h3 != none { h3 } else if h2 != none { h2 } else { h1 }
+        }
+        set text(size: 10pt)
+        set block(spacing: 4pt)
+        grid(
+          columns: (auto, 1fr),
+          gutter: 8pt,
+          title_short,
+          align(right, box(width: 100%, clip: true)[#h]),
         )
-        #line(length: 100%)]
+        line(length: 100%)
       }
     },
     header-ascent: 1.25cm,

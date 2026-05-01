@@ -24,6 +24,8 @@ Typst resolves packages automatically from the [Typst Universe](https://typst.ap
 
 You can also use the [Tinymist VS Code extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) for an integrated editor experience with live preview.
 
+> **Tinymist note:** When editing a chapter file directly, Tinymist may show false errors for cross-references, acronyms, or bibliography entries (e.g. `@KEY`, `@citekey`). This is a Tinymist limitation — it compiles the open file in isolation instead of through `main.typ`. To fix it, open `main.typ` and run the VS Code command **`>Typst: Pin the Main File to the Currently Open Document`**. Tinymist will then always compile through `main.typ` regardless of which file you are editing.
+
 ## Configuration
 
 All metadata is passed to `project()` in `main.typ`. Each parameter is documented inline there.
