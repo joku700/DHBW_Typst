@@ -110,6 +110,9 @@
   show figure.caption: set text(size: 11pt)
 
   // ── Code ─────────────────────────────────────────────────────────────────
+
+  // add a specific language of your choice by including a .sublime-syntax file into the /syntax directory and adding it to this list
+  // it can the be referenced via ```language_name ```
   set raw(syntaxes: ("syntax/cds.sublime-syntax", "syntax/abap.sublime-syntax"))
   show raw.where(block: false): box.with(
     fill:    luma(240),
