@@ -20,15 +20,11 @@
 
   firstname:            "Max",
   lastname:             "Mustermann",
-  matriculation_number: "111111",
   course:               "XXXXX",
   signature_place:      "Karlsruhe",
   submission_date:      "04.04.2026",
-  processing_period:    "01.01.2026 – 04.04.2026",
 
   partner_company:      "Company_name",
-  department:           "Team_name",
-  supervisor_company:   "supervisor_name",
   supervisor_university: "supervisot_name",
 
   // ── Degree statement ───────────────────────────────────────────────────────

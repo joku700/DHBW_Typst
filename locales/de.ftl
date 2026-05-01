@@ -10,16 +10,15 @@ matriculation-number = Matrikelnummer
 course = Kurs
 company = Ausbildungsfirma
 department = Abteilung
-supervisor-company = Betreuer der Ausbildungsfirma
 supervisor-university = Wissenschaftliche BetreuerIn
 by = von
 
 ## Deckblatt — Prüfungsaussage
 ## { $degree }         z.B. „Bachelor of Science (B. Sc.)"
-## { $study-program }  z.B. „Informatik"
-## { $university }     z.B. „Dualen Hochschule Baden-Württemberg Karlsruhe"
 
-degree-statement = Im Rahmen der Prüfung zum { $degree } des Studienganges { $study-program } an der { $university }
+degree-statement = Im Rahmen der Prüfung zum { $degree }
+
+confidentiality-notice = Sperrvermerk
 
 ## ---------------------------------------------------------------------------
 ## Vorspann — Verzeichnisüberschriften

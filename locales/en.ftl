@@ -10,16 +10,15 @@ matriculation-number = Matriculation Number
 course = Course
 company = Training Company
 department = Department
-supervisor-company = Supervisor (Training Company)
 supervisor-university = Reviewer (DHBW)
 by = by
 
 ## Cover page — degree statement
 ## { $degree }         e.g. "Bachelor of Science (B. Sc.)"
-## { $study-program }  e.g. "Computer Science"
-## { $university }     e.g. "Baden-Württemberg Cooperative State University Karlsruhe"
 
-degree-statement = As part of the examination for the { $degree } in { $study-program } at the { $university }
+degree-statement = As part of the examination for the { $degree }
+
+confidentiality-notice = Confidentiality Clause
 
 ## ---------------------------------------------------------------------------
 ## Front matter — list headings

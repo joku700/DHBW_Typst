@@ -32,23 +32,18 @@
   thesis_type: none,
   firstname: none,
   lastname: none,
-  matriculation_number: none,
   course: none,
   faculty: none,
   signature_place: none,
   program: none,
   submission_date: none,
-  processing_period: none,
   partner_company: none,
-  department: none,
-  supervisor_company: none,
   supervisor_university: none,
-  abstract: [],
-  appendices: none,
+  abstract: (),
   library_paths: (),
   acronyms: (),
   // ── Cover page: degree statement ────────────────────────────────────────
-  degree:        "Bachelor of Science (B. Sc.)",
+  degree: "Bachelor of Science (B. Sc.)",
   body,
 ) = {
 
@@ -191,12 +186,12 @@
 
       #smallcaps(text(1.25em, weight: "semibold")[#thesis_type])
 
-      #t("degree-statement", args: (degree: degree, study-program: study_program, university: university))
+      #t("degree-statement", args: (degree: degree))
 
       #v(25pt)
 
       #if (confidentiality_clause) {
-        text(20pt, fill: red)[Confidentiality Clause]
+        text(20pt, fill: red)[#t("confidentiality-notice")]
       }
 
       #text(20pt)[#submission_date]
@@ -249,7 +244,7 @@
     footer-descent: 0.75cm,
   )
 
-  // ── Abstracts ─────────────────────────────────────────────────────
+  // ── Abstracts ────────────────────────────────────────────────────────────
   for a in abstract {
     let (abstract_lang, abstract_body) = a
       align(center, heading(outlined: false, numbering: none, [#text(
@@ -257,6 +252,7 @@
           smallcaps[Abstract],
         ) ]))
       text(lang: abstract_lang, abstract_body)
+      pagebreak()
   }
 
   // ── Table of contents ─────────────────────────────────────────────────────
@@ -280,14 +276,13 @@
     print-glossary(acronyms, disable-back-references: true)
   }
 
-  // Suppress source citations inside outline/list entries
+  // ── Conditional front matter lists ───────────────────────────────────────
+  // Suppress caption sources inside list entries (caption_with_source / caption_long)
   show outline: it => {
     in-outline.update(true)
     it
     in-outline.update(false)
   }
-
-  // ── Conditional front matter lists ───────────────────────────────────────
   context {
     // List of figures
     if query(figure.where(kind: image)).len() > 0 {
@@ -325,7 +320,7 @@
           columns: (auto, 1fr),
           gutter: 8pt,
           title_short,
-          align(right, box(width: 100%, clip: true)[#h]),
+          align(right)[#h],
         )
         line(length: 100%)
       }
@@ -378,15 +373,20 @@
   counter(heading).update(0)
 
   heading(level: 1, numbering: none, outlined: true, t("appendix"))
-  counter(heading).update(0)
 
   include "assets/appendix.typ"
-  include "assets/tool_declaration.typ"
+  {
+    import "assets/tool_declaration.typ": toolDeclarationWith
+    toolDeclarationWith(lang: lang)
+  }
   [#[] <__appendix-end>]
 
   bibliography(library_paths, title: t("list-bibliography"))
 
-  include "assets/index_of_attachments.typ"
+  {
+    import "assets/index_of_attachments.typ": indexOfAttachmentsWith
+    indexOfAttachmentsWith(lang: lang)
+  }
 
   [#[] <__bibliography-end>]
 }
