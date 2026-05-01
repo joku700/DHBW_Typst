@@ -32,18 +32,17 @@
   supervisor_university: "supervisot_name",
 
   // ── Degree statement ───────────────────────────────────────────────────────
-  // Embedded in the cover page sentence via the FTL template in locales/.
-  // Override all three when writing in German:
-  //   degree:        "Bachelor of Science (B. Sc.)",
-  //   study_program: "Informatik",
-  //   university:    "Dualen Hochschule Baden-Württemberg Karlsruhe",
   degree:        "Bachelor of Science (B. Sc.)",
-  study_program: "Computer Science",
-  university:    "Baden-Württemberg Cooperative State University Karlsruhe",
 
   // ── Bibliography ───────────────────────────────────────────────────────────
   // Accepts a single path or an array: ("refs.bib", "more.yaml")
   library_paths: "refs.bib",
+
+  // ── Abstract ───────────────────────────────────────────────────────────
+  abstract: (
+    ("de", include("abstract/abstract_german.typ")),
+    ("en", include("abstract/abstract_english.typ"))
+  ),
 
   // ── Acronyms ───────────────────────────────────────────────────────────────
   // List of acronyms for the abbreviation list.

@@ -49,8 +49,6 @@
   acronyms: (),
   // ── Cover page: degree statement ────────────────────────────────────────
   degree:        "Bachelor of Science (B. Sc.)",
-  study_program: "Computer Science",
-  university:    "Baden-Württemberg Cooperative State University Karlsruhe",
   body,
 ) = {
 
@@ -251,6 +249,16 @@
     footer-descent: 0.75cm,
   )
 
+  // ── Abstracts ─────────────────────────────────────────────────────
+  for a in abstract {
+    let (abstract_lang, abstract_body) = a
+      align(center, heading(outlined: false, numbering: none, [#text(
+          0.85em,
+          smallcaps[Abstract],
+        ) ]))
+      text(lang: abstract_lang, abstract_body)
+  }
+
   // ── Table of contents ─────────────────────────────────────────────────────
   [#show outline.entry.where(level: 1): it => {
       v(12pt, weak: true)
@@ -378,7 +386,7 @@
 
   bibliography(library_paths, title: t("list-bibliography"))
 
-  include "assets/additions.typ"
+  include "assets/index_of_attachments.typ"
 
   [#[] <__bibliography-end>]
 }
