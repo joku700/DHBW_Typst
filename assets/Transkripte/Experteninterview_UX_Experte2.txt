@@ -1,0 +1,221 @@
+Teilnehmer:
+- Jonas Röber (Interviewer)
+- Marco Santos (Experte)
+
+Jonas: Vielen Dank, dass du dir heute die Zeit genommen hast. Dann würde ich direkt mal rein starten mit ein paar Fragen zu dir als Person. Was ist so deine Rolle und was ist deine alltägliche Arbeit?
+
+Marco: Mein Jobtitel ist UX Designer. Ich bin bei der Produktsparte SuccessFactors. Das ist unser HR-Tool von der SAP und dort bin ich insbesondere für das Zeiterfassungsmodul verantwortlich als Designer. Das heißt, alles was irgendwie mit Zeit zu tun hat, sei es Zeiterfassung, Urlaubsanträge und so weiter, sind alles Module, die wir bei SuccessFactors haben. Da bin ich als Designer tätig. Als Designer heißt es, dass ich Mockups erstelle, basierend auf Anforderungen von Produktmanagement und im Umkehrschluss von Kunden. Diese Anforderungen setze ich in Mockups um, meistens in Figma. Die Mockups benutzen wir dann als Basis für Diskussion mit dem Produktmanagement, wie das aussehen könnte, wie wir das bestmöglich umsetzen, und dann auch mit den Engineering-Kollegen. Da haben wir so ein Dreiergespann - Produktmanagement, Design und Engineering - mit denen reden wir dann über Machbarkeit, also Feasibility. Wenn das dann alles gut aussieht und ich sage, das ist eine gute User Experience, und Engineering sagt, das können wir so umsetzen, dann machen sich auch die Entwicklungskollegen daran und setzen das um. Dann haben wir noch mal so einen kleinen Loop, wo ich das dann nochmal bestätige und dann wird das zum Kunden gebracht.
+
+Jonas: OK, sehr cool. Dann würde ich jetzt direkt mal fragen, hast du schon Erfahrung damit gemacht, AI in diesem Ablauf einzusetzen, also sei es jetzt explizit sogar für die Generierung von User Interfaces? Wie stehst du dazu?
+
+Marco: Ja, tatsächlich ist es gerade bei uns ein supergroßes Thema, wie wir AI bei uns einbinden können. Ich habe da zwei Herangehensweisen. Einmal habe ich AI dafür benutzt, mir Plugins zu bauen, die mir mein Leben einfacher machen, also so Vibe Coding mäßig. Aber das zweite, wie ich AI zum Generieren von UIs benutze: Wir haben da Tools wie Figma Make, wo wir ganz easy mit simplen Prompts User Interfaces generieren können und die einfach als Basis nehmen können. Wir können auch Input geben, also Komponenten, die wir schon gebaut haben, oder UIs die wir schon haben aus anderen Projekten, die können wir dann einfach mitgeben, reinkopieren, das Anpassen in Figma Make und dann wieder exportieren und das einfach als Basis für initiale Diskussion mit dem Produktmanagement Team.
+
+Jonas: Genau, aber du denkst auf jeden Fall, dass das, was von der AI initial rauskommt, noch nicht so gut ist, dass man es zum Beispiel einem Kunden geben könnte, sondern dass quasi der Mensch noch einmal drüber gucken muss, oder vielleicht auch noch ein bisschen mehr als nur drüber gucken, aber das auf jeden Fall einmal durch eine menschliche Verifizierungsstufe durchgehen muss?
+
+Marco: Im aktuellen Stand von Figma Make auf jeden Fall 100%. Also das ist, da fehlen ganz viele, auch wenn man die Komponenten mitgibt, die umgesetzt werden sollen, dann hält sich der Figma Make auch nicht immer dran. Da ist immer noch mal eine menschliche Komponente notwendig, um das einmal alles zu übersetzen in dann unsere Design Guidelines. Weil wir bei der SAP versuchen natürlich ein sehr einheitliches Designsystem zu haben, sehr großes Unternehmen, sehr viele Module, sehr sehr viele Designer. Wir versuchen schon alle irgendwie ein gleiches Bild zu vermitteln. Das heißt, wenn der Kunde irgendwo ein SAP-Screen sieht, dass man direkt weiß, OK das ist SAP, weil es einfach immer ähnlich aussieht. Deshalb versuchen wir natürlich immer gleiche Screens zu haben und uns relativ streng an das Design Guidelines System zu halten, und das kann Figma Make AI halt ganz, ganz schlecht. Sich da die richtigen Object Cards und so weiter auszuwählen, da fehlt immer noch die menschliche Komponente. Aber um so einen Grundsatz, einfach nur eine Idee zu geben, auch wenn es komplett falsch ist, aber so ein Grundbaustein auf dem man sagen kann "OK so will ich es nicht haben, ich möchte lieber die Tabelle links haben" oder "Von der User Experience her weiß ich, dass das viel zu viel Information ist" - dafür aber, ja aktuell würde ich sagen, muss da immer noch eine menschliche Komponente dazwischen.
+
+Jonas: OK, ja cool, weil das ist ja quasi genau das, worüber ich meine Bachelorarbeit geschrieben habe. Da würde ich jetzt mal ein bisschen Kontext geben. Sagt dir der Lean Catalogue was? Wie stark bist du in dem Thema?
+
+Marco: Ja, das sehe ich sogar relativ viel. Ich hatte nämlich einen Workshop mit den Jungs, die dich auch empfohlen haben. Da haben wir nämlich genau versucht, so neue UIs für den Lean Catalog zu bauen und versucht, das da irgendwie in Fiori Elements umzusetzen. Grundsätzlich, ich würde mal sagen, ich kenne mich bisschen damit aus. Das waren nur 3 Tage mit sehr wenig Schlaf, deshalb weiß ich nicht, wie viel wir da wirklich gemacht haben. Den Grundsatz verstehe ich vom Catalog Management.
+
+Jonas: OK, cool. Dann würde ich jetzt einfach mal auf die relevanten Faktoren eingehen. Du weißt ja, der Lean Catalogue ist eine katalogbasierte Beschaffungslösung. Das heißt, wir haben diesen Katalog, den man aber auch anlegen muss mit den Produkten, die darin liegen, aber halt eben auch den einzelnen Bereichen. Und die Bereiche und die Produkte haben alle verschiedene Daten, die man dazu hochladen kann. Zum Beispiel haben die einzelnen Bereiche dann halt Bilder, die quasi so eine Art Thumbnails sind. Aber es gibt natürlich auch ganz viele Texte, weil wenn wir jetzt ein Produkt haben, dann hat das natürlich einen Bestellungstext, eine Beschreibung und eben all so was. Und das möchte man natürlich auch auf mehreren Sprachen haben.
+
+Aber jetzt haben wir sowohl bei diesem Bild für einzelne Bereiche als auch bei den Übersetzungen das Problem, dass es sehr aufwendig ist, wenn man das alles menschlich macht. Also vor allem bei Bildern ist natürlich das Problem, dass man, wenn man jetzt irgendwie nur durch Stockfootage-Bibliotheken durchgeht, wahrscheinlich nie genau das perfekte Bild findet. Und selbst wenn man das perfekte Bild findet, dann findet man wahrscheinlich beim nächsten Knoten halt nicht das perfekte Bild oder eben eines, das vielleicht einfach nicht dieselbe Qualität hat. Und dasselbe haben wir auch bei Übersetzungen - da haben wir eben auch das Problem, dass es sehr zeitaufwendig ist für menschliche Nutzer und ja, auch einfach die Qualität da dann relativ stark variiert.
+
+Deswegen haben wir jetzt eben den sogenannten Content Manager Agent entwickelt, der eben diese zwei Use Cases hat: einmal Bildgenerierung für einzelne Bereiche und Textübersetzung für AD Sätze eines Bereiches. Aber jetzt haben wir ja eben auch schon drüber geredet, dass die Inhalte, die AI erstellt, eben oft noch nicht perfekt sind. Deswegen wollten wir eben auch noch ein sogenanntes Feedback Tool entwickeln.
+
+Dieses Feedback-Tool ist der Dreh- und Angelpunkt meiner Bachelorarbeit. Da versuchen wir eben, den Human in den Loop zu bekommen - also quasi nach jeder Inhaltsgenerierung soll einmal ein Mensch drüberschauen, soll es validieren, soll es verbessern, soll es anpassen und soll es dann eben ja abwinken im letzten Schritt oder rejecten.
+
+Dieses Feedback wollen wir eben mit User Interfaces einholen und nicht einfach nur mit einem Chatfenster. Jetzt ist aber natürlich halt die Frage, wie sorgt man dafür, dass diese User Interfaces dynamisch sind und zur spezifischen Situation passen? Weil es kann natürlich zu vielen verschiedenen Situationen kommen - also es ist ja derselbe Agent, der Bilder generiert und Text übersetzt, und der benutzt dann ja auch dasselbe Feedback-Tool.
+
+Dafür habe ich drei verschiedene Ansätze von Generative UI untersucht. Wenn man das hört, da denkt man vielleicht erst mal, dass halt einfach eine AI so ein UI komplett selbst generiert. Das ist aber tatsächlich nur eine von diesen drei Ansätzen - offenes Gen UI. Da wird dann wirklich alles von Grund auf von der AI erstellt. Aber es gibt eben noch zwei andere Ansätze: einmal deklaratives Gen UI, da erstellt die AI keinen Code, sondern einfach ein JSON Schema, und basierend auf diesem Schema wird dann eben vom UI Framework das UI erstellt. Aber es gibt eben noch eine dritte Version, das ist auch die, die wir gewählt haben: statisches Gen UI. Dabei wählt die AI quasi nur aus sehr vielen - oder auch weniger vielen, in unserem Fall jetzt so um die 10 - vordefinierten User Interfaces aus. Das heißt, das hat ein Entwickler, also in dem Fall ich, dann eben entwickelt und die AI hat eben die Information darüber, in welcher Situation welches UI einzusetzen ist, und wählt dann eben entsprechend je nach Situation das Passende aus.
+
+Das ist so der Kontext. Dann würde ich jetzt direkt mal in die Demo reingehen. Wenn dir jetzt irgendwas auffällt, dann kannst du natürlich gerne sagen, wenn zum Beispiel irgendein Button komisch benannt ist oder so was.
+
+Marco: Kurz einmal zum Verständnis noch eine Frage: Hier geht es ja darum, dass ihr Feedback für Bilder und Texte geben wollt, gell? Und was ist dann der initiale Startpunkt in dieser Applikation? Kommt dann eine Trigger-E-Mail? Wie wird der User dahin gebracht?
+
+Jonas: Das zeige ich dir am besten jetzt gleich einfach anhand des Workflows. Das ist alles hier auf dieser Website quasi.
+
+[Demo: Bildgenerierung]
+
+Jonas: Wenn wir jetzt hier auf "Bild generieren" klicken, dann sehen wir erstmal hier so ein Pop-up mit dem Protokoll, was gerade passiert. Es wurde jetzt der Agent gestartet und jetzt gerade wird ein Bild generiert. Das dauert natürlich jetzt ein bisschen länger. Wir können hier relativ gut einsehen, was gerade passiert, sehen dass auch noch etwas passiert, indem halt dieser Timer da oben geht.
+
+Das Bild wurde fertig generiert. Und jetzt wird Nutzerfeedback eingeholt. Das heißt, jetzt gerade passiert eben das, was ich meinte, dass sie im Hintergrund eine Liste mit UIs durchgeht und sich dafür entscheidet, welches am besten zu dieser Situation passt. Und jetzt sehen wir hier eben dieses UI, so bekommen wir halt quasi dieses Feedback Formular angezeigt.
+
+OK, perfekt. Also jetzt hat sich die AI quasi dafür entschieden, dass dieses Formular hier am besten zur Situation passt und wir sehen, es wurden auch direkt 2 Bilder erstellt und wir können uns jetzt für eines von beiden entscheiden. Können jetzt eben, indem wir auf "Bild wählen" klicken, wird dann eben eins ausgewählt. Wir können aber theoretisch auch noch Anpassungen machen. Das heißt, wenn wir sagen "OK, das Bild gefällt uns, aber die Hose soll auch noch blau sein", dann geben wir hier ein "Mach die Hose blau" und bestätigen die Auswahl.
+
+Dann geht es jetzt wieder in dieses Schrittprotokoll rein. Wir sehen, OK, jetzt gerade wird das Bild angepasst. Jetzt wird eben gleich wieder Feedback eingeholt. So, jetzt sehen wir, OK, cool, die Hose wurde jetzt auch blau gemacht. Da sehen wir jetzt auch ein anderes Formular. Hier können wir jetzt eben eine Bewertung machen. Wenn es uns nicht gefallen würde, würden wir jetzt eine niedrige Bewertung geben und hier wieder Feedback reingeben. Wir sagen jetzt einfach mal, es gefällt uns aber gut und wir wollen es bestätigen. Dann geben wir also 5 Sterne und klicken auf Bestätigen.
+
+Und kommen wieder kurz hier rein. OK, der Agent ist fertig, können wir jetzt schließen und sehen: OK, cool, es wurde abgelegt. Das war jetzt quasi der erste Use Case. Hast du da jetzt schon irgendwelche Anmerkungen?
+
+Marco: Kannst du noch mal auf den Screen gehen, wo ich das aussuchen kann?
+
+Jonas: Da muss ich jetzt kurz ein neues Bild generieren.
+
+Marco: Ja, ich habe mich ein bisschen stärker mit diesem roten Knopf beschäftigt, tatsächlich, nämlich deshalb habe ich das gerade gefragt. Der rote Knopf, der ist ja dieser semantisch negative Knopf, der heißt ja dann meistens, dass es irgendwas abbricht.
+
+Jonas: Okay, ja.
+
+Marco: Ich würde, glaube ich, wenn das einfach "Bilder neu generieren" ist, was du mit diesem roten Button machst, würde ich den, glaube ich, einfach normal, also Secondary Button machen, also ganz normalen weißen Button mit Blau. Weil das Rote würde ich also - wenn dann wäre das rote eher bei dem Abbrechen, aber das machen wir eigentlich nicht. Das ist ein bisschen too much, weil dann wird es irgendwann zu bunt auch.
+
+Jonas: Okay, ja, das ja macht Sinn.
+
+Marco: Und ich würde auch noch mal überlegen, ob "beide ablehnen" oder ob du einfach "neu generieren" oder so haben möchtest. Es eher positiv formulierst.
+
+Jonas: OK, ja, gut. Das ist ein guter Punkt.
+
+Marco: Und dann überlege ich auch gerade, weil also wenn ich "Bild A wählen" oder "Bild B" - was macht, wenn ich noch keins davon gewählt habe, kann ich dann schon "Auswahl bestätigen"? Welche Auswahl ist denn dann ausgewählt?
+
+Jonas: Ja, gut, stimmt. Dann ist ja da keine ausgewählt.
+
+Marco: OK, ja, dann würde ich den vielleicht disablen. Da kann man den Knopf ja auch, der hat ja auch diese Property, dass er disabled sein kann.
+
+Jonas: Respunkte.
+
+Marco: Aber an sich finde ich das sehr smooth. Also ich finde, vom Flow her fand ich das sehr praktisch, dass ich sehe, dass da was passiert. Ich hab es verstanden, dass ich das Fenster, das davor kommt, dieses Ladefenster, dass ich das auch schließen kann und trotzdem die Generierung weiterläuft.
+
+Jonas: Ja, das ist so. Wir können auch das hier jetzt noch schließen und können dann hier oben wieder rein navigieren.
+
+Marco: Wo hast du jetzt drauf geklickt? Sorry, das hab ich jetzt nicht gesehen.
+
+Jonas: Also ja, hier oben, da ist jetzt auch gerade dieser rote Punkt, weil wir jetzt gerade eben ein Feedback-Formular offen haben.
+
+Marco: Ah, OK. Das fand ich jetzt - wär ich jetzt nicht drauf gekommen, da oben drauf zu klicken.
+
+Jonas: Ja, habe ich auch schon Feedback bekommen.
+
+Marco: Das wäre jetzt, also ich hätte eher gedacht, dass man wieder auf diese - dass man irgendwie da drauf wieder klickt und dann um dann wieder in das Fenster zu kommen.
+
+Jonas: Ja, hier unten wieder.
+
+Marco: Ja, ich würde auch noch mal gucken. Also diese grünen und roten Buttons, das würde ich mir noch mal überlegen. Ich weiß, was die Intention ist. Ich weiß also vom Gefühl her, ist es zweimal grün. Ich weiß, weil beides richtig ist, aber es fühlt sich irgendwie nicht richtig an, zweimal richtig zu haben. Du kannst auch überlegen, ob du nicht lieber so einen Radio Button haben möchtest und einfach eine Auswahl hast anstatt einen Knopf, der die Auswahl beschreibt. Hast ja diese Radiobuttons, diese runden Knöpfe, wo man einfach eine Option auswählen kann. Dann hast du die Auswahl und dann kannst du einfach unten auf "Auswahl bestätigen" klicken und dann hast du praktisch diese Knöpfe nicht mehr "Bild A" oder "Bild B".
+
+Jonas: Darüber nachgedacht, aber wir wussten ja nicht, wie wir dann "anpassen" umsetzen würden.
+
+Marco: Ja, das würde ich also neben dem Label dann vielleicht haben. Also du kannst entweder, du machst, du kannst es ja so horizontal machen oder auch vertikal. Ja, das ist so ein Vorschlag. Also auch alles, was ich sage, ist ein Vorschlag, ist auch mit meinem SF Kopf, also SuccessFactors, wir haben da so bestimmte Ideen und Guidelines. Aber generell, also ich mag das, dass ich eine Auswahl hab, dass ich die bestätige. Und dann weitergehen, dass ich neu generieren kann. Das wäre mir in dem Fall wichtig, dass ich auch einfach abbrechen kann, ist mir auch wichtig. Die Verbesserungsvorschläge da unten, das Textfeld - an wen wird das weitergeleitet?
+
+Jonas: Das wird einfach an den Agent zurückgegeben. Also ich schreib, ich will das hier anpassen, und schreib hier rein "Akkuschrauber grün", dann geht das halt an den Agenten.
+
+Marco: OK, das geht nur an den Agent direkt.
+
+Jonas: Ja, genau, dann ich bestätige, dann wird es halt neu generiert mit der entsprechenden Farbe.
+
+Marco: Das heißt, OK, der Flow ist also, ich gebe da was ein und dann klicke ich "Anpassen" auf dem entsprechenden Bild, wo ich das angepasst haben möchte.
+
+Jonas: Genau, ja. Genau so ist es gedacht.
+
+Marco: Passt er das auf beiden an oder?
+
+Jonas: Nee, nur auf dem, was ich ausgewählt habe. Deswegen haben wir auch bei jedem einen Anpassen Button.
+
+Marco: OK. Ich finde es ein bisschen - wenn du dir vom Userflow anschaust, wenn es für den OK ist und der keine Bilder anpassen möchte, dann sieht er trotzdem Verbesserungsvorschläge-Textfeld.
+
+Jonas: OK, dass es erst reinkommt wenn wir - OK, ja.
+
+Marco: Genau, vielleicht kannst du es einfach, wenn du "Anpassen" klickst, dass sich dann ein Dialog öffnet oder dass sich das dann unten erst dann öffnet, dass es vorher einfach Hidden ist oder Read Only. Das kannst du dann überlegen, aber dass du vom Flow her: "Passt OK, ich will anpassen" und dann öffnet sich das zum Anpassen. Weil sonst wüsste ich nicht, was ich da eingeben müsste. Und ich würde noch mal überlegen, ob "Verbesserungsvorschläge" da das - weil man könnte es auch so verstehen, dass man Verbesserungsvorschläge für das Tool hat.
+
+Jonas: Ach so, OK. Wäre dann vielleicht "Anpassungen"?
+
+Marco: Vielleicht genau Anpassungen, aber ich glaube, das wird dann klarer. Auch das wird klarer, wenn der Flow ist, dass du erst "Anpassen" klickst und sich dann das Feld öffnet.
+
+Jonas: Das stimmt. Ja, OK. Ja, das ist ein guter Punkt.
+
+Marco: Das wird, glaube ich, klarer, weil wenn ich einverstanden bin mit den Bildern, dann muss ich das nicht sehen und dann macht es auch das UI einfach nur noch schlanker.
+
+Jonas: Ja, das ist ein guter Punkt.
+
+Marco: OK, und dann kannst du auch einmal auf den anderen Screen gehen, bitte.
+
+[Demo: Bildanpassungs-Formular]
+
+Marco: Da - die - das geht jetzt auch einfach wieder an die AI würde ich vermuten?
+
+Jonas: Ja, genau.
+
+Marco: OK, auch da dann Feedback. Ich würde das einfach das gleiche Naming nehmen wie bei dem anderen Textfeld.
+
+Jonas: Ja, das macht Sinn.
+
+Marco: Dass du es da einheitlich hast. Und dann würde ich mir da auch wieder diese bunten Knöpfe unten anschauen, weil das aktuell ist wohl Overload für den User. Und ich würde den blauen Knopf, den Primary-Knopf immer auf deine Wunschaktion haben. Also in dem Fall wünschst du dir, dass der User auf "Bestätigen" klickt.
+
+Jonas: Ja, eigentlich schon, stimmt.
+
+Marco: Im Idealfall - ja, hast du jetzt grün benutzt, was ja auch irgendwie positiv bestätigen ist und so, aber in der Regel haben wir den Primary-Knopf immer als Hauptaktion auf dem Screen. Hast du ja bei dem Screen, das dahinter liegt, dein Admin-Config-Screen, hast du ja Dialog öffnen - ist ja deine Main Action da, hast du den blauen Knopf komplett richtig. Das würde ich da unten einfach auch machen und dann hast du die anderen Knöpfe einfach normal in Blau. Und was ist der Unterschied zwischen Ablehnen und Abbrechen?
+
+Jonas: OK, "Ablehnen" ist, dass dann das an den Agent zurückgeht mit dem jeweiligen Feedback. "Abbrechen" wäre, dass sie den gesamten Workflow abbrechen.
+
+Marco: Ah, dann komm ich also, wenn ich "Ablehnen" drücke, komm ich in diesen Screen zurück, wo die beiden Optionen sind und wenn ich "Abbrechen" drücke, komm ich in den ganz großen Screen zurück?
+
+Jonas: Ja, also wenn ich "Ablehnen" klick, dann bekommt der Agent halt das Feedback: "OK, dieses Bild hier ist nicht gut scheinbar." und kann dann eben weitermachen, wie er will. Also ob er dann wieder 2 Bilder erstellt und dann nochmal den Screen von vorhin zeigt oder dann nochmal sich an diesem hier versucht, das ist dann eben die Entscheidung von dem Agenten.
+
+Marco: Aha, OK. War mir jetzt so nicht klar. Ich hätte auch eher gedacht, dass ich dann, wenn ich mit etwas nicht zufrieden bin, dann würde ich es eher in deinen Verbesserungsvorschläge-Box da unten eingeben und das dann noch mal abschicken und dann würde ich es eher "neu generieren" oder so nennen.
+
+Jonas: OK, ja, ja, ja, stimmt. "Ablehnen" ist eigentlich "neu generieren". Ja, OK. Dann muss man es auch nicht rot machen, wenn es positiv ist.
+
+Marco: Ja, genau, dann ist das eher so neutral irgendwie beschrieben. Und dann das Abbrechen auch einheitlich eindeutig. Das heißt, du brichst das jetzt, diesen Prozess jetzt hier ab und gehst auf das zurück, wo du eben warst.
+
+Jonas: Yeah, OK.
+
+Marco: Und was ist, gibt's einen Unterschied zwischen dem X und Abbrechen?
+
+Jonas: Nee, das macht das gleich. Also X schließt das, damit wir es eben wieder öffnen können und Abbrechen bricht das eben ab. Also bricht den Workflow ab.
+
+Marco: Ach so, ich kann das also auch minimieren quasi.
+
+Jonas: Ja genau, man kann es minimieren.
+
+Marco: OK, das habe ich so noch nie gesehen. Weiß ich nicht, ob das so intuitiv ist, dass X minimiert.
+
+Jonas: Ja, das ist fair. Das haben wir uns auch überlegt, aber auf SAP One macht es Joule genauso und dann haben wir jetzt erst mal gedacht, dass wir uns ein bisschen daran orientieren wollen.
+
+Marco: Ja, gut, aber Joule ist halt ein Chatfenster, wo ich das verstehen kann, weil man da in Konversation ist, die man nicht verlieren möchte. Hier würde ich jetzt sagen, da würde ich jetzt nicht so viel Zeit investieren - also das entscheide ich jetzt, ob ich das haben möchte oder nicht. Und wenn ich da abbreche, dann hab ich einfach keine Lust mehr gerade.
+
+Jonas: Ja, okay.
+
+Marco: Weil es ist schwierig mit diesem Fenster, das du da oben rechts hast, diesen Knopf. Der ist so ein bisschen, der macht gerade so ein bisschen alles irgendwie.
+
+Jonas: Ja.
+
+Marco: Bin ich nicht so ganz zufrieden. Ich kann jetzt ad hoc auch keine bessere Lösung - das ist immer das beste Feedback, kann ad hoc auch keine bessere Lösung geben. Also auf dem Screen, wie gesagt, das mit den Knöpfen würde ich mir noch mal überlegen, ansonsten finde ich den schon mal gut. Und wenn ich dann Abbrechen klicke, dann bricht es einfach ab. Und habe ich eine Möglichkeit, ohne irgendwelche Änderungen auf den Screen mit der Auswahl zu gehen, mit Bild A und Bild B?
+
+Jonas: Das geht nicht so, wie wir uns das jetzt überlegt haben, weil wir wollen quasi - wenn wir jetzt auf einem Screen 2 Bilder nebeneinander haben und dann eines davon anpassen, dann wird halt wirklich dieses konkrete Bild in der vorcodierten Wert von diesem Bild in der Tabelle im Backend wirklich geändert. Das heißt, das alte Bild existiert nicht mehr. Sondern wir haben es halt wirklich geändert.
+
+Marco: OK, und dann ein drittes neues zu speichern, das wird nicht gehen?
+
+Jonas: Ja, das wäre halt, das könnt würde ich schon gehen, das müssen wir halt umbauen.
+
+Marco: Ja, OK. Dann kann ich verstehen, dass das nicht so gerne gehört wird. Dann lass es so, überleg, ob du vielleicht den User informierst, dass das eine Einbahnstraße ist. Das ist immer Good Practice zu sagen "Hey, die Änderung kannst du nicht mehr zurücknehmen" - wenn du das jetzt ausführst, kannst du es nicht mehr zurückführen oder so. Irgendwie sowas, dass du da vielleicht so ein kleines Info-Icon oder so dran hast, dass man weiß, das geht nicht mehr zurück.
+
+Jonas: Okay, ja. Verstehe. Dann würde ich jetzt noch ein paar allgemeine Fragen stellen. Wir haben ja gar nicht mehr so viel Zeit jetzt eigentlich. Denkst du denn, einfach mal allgemein gesagt, denkst du denn, dass man mit diesem Tool, das ich jetzt gezeigt habe, einfach eine Validierungsaufgabe adäquat erfüllen kann? Denkst du, das ist an sich erstmal möglich?
+
+Marco: Ja.
+
+Jonas: OK, und was denkst du, was sind denn die größten Stärken oder die größten Pluspunkte, die wir jetzt eben durch dieses Tool haben?
+
+Marco: Ich würde als einen sehr großen Punkt sehen, dass es einfach, dass du das Tool nicht mehr verlassen musst. Das heißt, du musst keinen neuen Tab aufmachen oder irgendwelche Ordner durchsuchen, gucken wo das Bild ist oder Ordner suchen, sondern das ist alles in dem einen Tool drin und das sind einfach verschiedene Flows in einem Tool. Das würde ich für mich als großen Win sehen.
+
+Jonas: OK, und was gibt es für Schwächen oder Limitierungen?
+
+Marco: Von UX Perspektive sind da so ein paar Flow-Verbesserungsvorschläge oder Optimierungspotenziale - würde ich dir jetzt vielleicht sagen, jetzt auf jeden Fall keine Roadblocker in jeglicher Sicht. Also das ist vom Flow eigentlich schon sehr gut durchdacht. Aber minimale Optimierungspotenziale mit den Knöpfen, vielleicht das Wording ein bisschen tweaken hier und da, das fände ich nicht schlecht.
+
+Jonas: Würdest du sagen, dass die Usability trotzdem gut ist oder würdest du sagen, diese Faktoren sind dann tatsächlich so ausschlaggebend, dass es dann das ganze Tool irgendwie runterzieht?
+
+Marco: Runterziehen finde ich jetzt sehr hart, das finde ich nicht. Das finde ich jetzt sehr hart formuliert, auf gar keinen Fall. Also ich glaube einfach, dass da ist noch ein bisschen Verbesserungspotential. Aber man muss halt überlegen - gut, vielleicht bin ich jetzt auch einfach zu hart, weil ich komm von so einer Unternehmensperspektive, wir delivern halt Software an Kunden, da muss das halt alles irgendwie zu einem Level funktionieren. Aber ich denke grundsätzlich, die Usability hier ist gut.
+
+Jonas: OK. Sehr schön. Dann haben wir jetzt ein bisschen überzogen, aber ich glaube dann, wenn du jetzt nichts mehr hast, was du irgendwie mitteilen möchtest, dann wären wir an der Stelle, glaub ich, fertig.
+
+Marco: Ja, sorry, ich hab dir vielleicht irgendwie zu viel gesagt gerade.
+
+Jonas: Nee, also ich hab ja die Transkripte, die werd ich gleich durchgehen. Das ist auf jeden Fall hilfreich.
+
+Marco: Ich hoffe, das war irgendwo hilfreich und hat dich jetzt nicht komplett aus der Bahn geworfen. Du kannst sonst auch jederzeit noch mal irgendwie einen Screenshot mir schicken oder irgendwie nach Feedback fragen und ich kann dir da gerne zeigen oder irgendwie Vorschläge machen oder einfach nur einen Daumen hoch geben.
+
+Jonas: Ja, also ich denke, ich bin jetzt nicht mehr so lange hier, also ich werde wahrscheinlich nicht mehr so viel weiter dran entwickeln. Ich schreibe jetzt hauptsächlich noch die Bachelorarbeit, aber ich gebe das ganze Feedback weiter an Tim, der ist jetzt hier Masterstudent, Werkstudent, der arbeitet daran noch. Das heißt, vielleicht würde er sich mal melden.
+
+Marco: Ja, gerne. Genau. Gib das gerne weiter.
+
+Jonas: OK, super. Dann noch mal vielen Dank.
+
+Marco: Alrighty, ja, viel Erfolg dir beim Schreiben. Ciao ciao und herzlichen Glückwunsch zu dem, was du schon hast.
+
+Jonas: Dankeschön. Ciao ciao.

@@ -1,0 +1,119 @@
+Teilnehmer:
+- Jonas Roeber (Interviewer)
+- Maximilian Hoffmann (Experte)
+
+Jonas: Vielen Dank, dass du dir die Zeit genommen hast für dieses Interview. Ich würde erstmal ein paar Fragen zu dir als Person stellen. Welche Rolle hast du in deinem beruflichen Kontext? Was ist deine Day-to-Day-Arbeit?
+
+Maximilian: Danke für die Anfrage. Meine Rolle wird als Project Consultant Development bezeichnet. Ich bin in einer Abteilung, die sehr eng mit dem Kunden auf Projektebene arbeitet. Wir supporten die Kunden hinsichtlich aller AI Features, die SAP entwickelt hat. Wir fokussieren uns vor allem auf strategisch wichtige Kunden - wir haben eine Top 100 Liste und für diese Kunden supporten wir alles, was mit AI zu tun hat.
+
+Wenn die zum Beispiel einen neuen AI Use Case umsetzen möchten mit den Services, die wir auf der BTP und im SAP Umfeld anbieten, dann unterstützen wir sie dabei. Auf der anderen Seite unterstützen wir Kunden, die Teil von Beta-Phasen sind für neue Features. Wenn ein neues Feature rauskommt, geht es üblicherweise erstmal in eine Beta-Phase oder Early Adopter Care Phase. Wir führen das technische Setup durch, schreiben die Dokumentation und geben es dann weiter an die Berater. Wir sind im Prinzip kostenlos für den Kunden, machen beratende Tätigkeiten, sind aber eigentlich Entwickler.
+
+Jonas: Ich bin beim Lean Catalogue. Der Lean Catalogue möchte einen AI Agent entwickeln - einen sogenannten Content Manager Agent für den Katalog Manager. Dieser Agent soll verschiedene Arten von Content generieren können. Zum Beispiel für bestimmte Bereiche Thumbnails generieren - also Bilder, auf denen ersichtlich ist, was in diesem Bereich drin ist. Ein Bereich mit Werkzeug soll ein passendes Bild haben. Ein anderer Use Case ist die Texte eines Bereiches zu übersetzen.
+
+In diesem Kontext setzt meine Bachelorarbeit an. Es geht darum, den Human in den Loop zu bekommen - also menschliches Feedback auf KI-generierte Inhalte zu ermöglichen. Das Problem dabei ist, dass das tendenziell statisch ist. Wenn man verschiedene Arten von Inhalten generiert, muss man auch Formulare haben, die für verschiedene Situationen passendes Feedback einholen können.
+
+Jonas: Welche Erfahrungen hast du mit KI-Inhalten? Texte, Bilder, Code - welche Probleme und Chancen siehst du?
+
+Maximilian: Ich benutze täglich Claude Code für wirklich jegliche Aufgabe und finde es fast schon ein bisschen scary, wie gut es funktioniert. Ich habe kaum Probleme, eine Aufgabe nicht lösen zu können.
+
+Herausforderungen waren vor einem Jahr noch Halluzinationen, aber das ist mittlerweile sehr stark reduziert worden. Man braucht ein Entwicklerverständnis dafür, wie man promptet und wie man eine Architektur aufzieht. Man überspringt diesen Junior Developer Step und wird direkt zum Senior - man macht sich mehr über die Architektur Gedanken und das eigentliche Coding übernehmen dann die Vibe Coding Tools.
+
+Meine Masterarbeit habe ich darüber geschrieben, wie man den Output von LLMs bzw. von Assistenten evaluieren kann - textbasiert, nicht Bilder. Ich habe aber auch schon Vision Language Models verwendet, um Bilder zu generieren. Die meisten Erfahrungen habe ich im Bereich Textgenerierung und Codegenerierung, weniger bei UI-Elementen.
+
+Fairerweise sind mir deine Use Cases sehr vertraut. Ich war vor einem Jahr im Linker Team und habe im Prinzip einen der ersten Prototypen für diese Image Generation mitentwickelt.
+
+Jonas: Hast du Erfahrung mit Generative UI?
+
+Maximilian: Nach meinem Verständnis ist Gen UI: Du hast einen Assistenten, mit dem interagierst du über Sprache im Chat. Dem sagst du z.B. "zeig mir alle Bestellanforderungen an" und dann sollte dynamisch eine Liste aufploppen mit diesen Informationen. Wenn ich aber dann eine Frage stelle wie "zeig mir alle User an", dann soll dieses UI-Element mit der Liste verschwinden und ein neues UI-Element mit allen Usern eingezogen werden.
+
+Jonas: Wir haben uns für statisches Gen UI entschieden. Wir haben vordefinierte Forms, die dynamisch eingesetzt werden. Ich habe eine Nutzwertanalyse gemacht, in der ich die drei Alternativen verglichen habe: offen, statisch, deklarativ. Bei offener Gen UI, wo die komplette UI generiert wird, haben wir Sicherheitsprobleme und die Gefahr, dass es nicht zu unserem Corporate Design passt.
+
+Jonas: Hier haben wir einen Mockup mit einem Katalog - verschiedene Bereiche wie Werkzeuge, Maschinen, Befestigungstechnik mit Unterbereichen. Die Vollständigkeit ist nur teilweise, weil die Übersetzung auf Englisch noch fehlt.
+
+Wenn wir auf "Alle Texte übersetzen" klicken, wird das getriggert. Wir sehen ein Schrittprotokoll: Der Agent wurde gestartet, hat ein Tool aufgerufen, lädt die Katalogstruktur. Diese wird wieder in den Content Manager Agent gegeben, der wiederum neue Tools aufruft - die Textübersetzung in Batches.
+
+Dann kommt das Gen UI Form als Pop-up. Das sind UI5 Fragments. Auf der linken Seite der Originaltext, rechts die Übersetzung. Man kann ablehnen, akzeptieren, alle ablehnen oder alle akzeptieren, oder bearbeiten.
+
+Maximilian: Von der Usability her ist das schon recht angenehm. Diese Ausführungsruntime ist auch hilfreich. Was würde im Errorfall passieren? Kann der Anwender das zurückverfolgen?
+
+Jonas: Im Errorfall würde angezeigt, in welchem Schritt konkret der Error vorgefallen ist. Wenn bei einem Toolaufruf etwas schiefgeht, bekommt der Agent die Information. Er würde dann in einer Question Form kommunizieren, dass es schiefgegangen ist und ob man es noch mal versuchen möchte.
+
+Maximilian: Wäre das nicht Agent Human After the Loop? Was ist der Loop an der Stelle?
+
+Jonas: Wir können auch ablehnen, dann bekommt der Agent die Info. Er hat ein Tool zur Verfügung, mit dem er Fragen stellen kann. Dann würde er fragen, was falsch war, man schreibt es rein, und er kann den Inhalt bearbeiten.
+
+Maximilian: Wird es danach noch mal ins LLM geschickt?
+
+Jonas: Dem LLM wird gesagt, dass wir akzeptiert haben, aber der Inhalt selbst wird nicht noch mal geschickt. Der Agent bekommt nie die konkreten Inhalte zu Gesicht, nur Referenzen und Statusbenachrichtigungen, um die Requests möglichst klein zu halten.
+
+Jonas: Bei der Bildgenerierung haben wir dasselbe Schrittprotokoll. Der Agent ruft das Bildgenerierungstool auf.
+
+Maximilian: Wie Agentic ist es dahinter? Ist die Abfolge der Tools immer dieselbe?
+
+Jonas: Nicht wirklich. Er entscheidet selbst, wann er welches Tool einsetzt. Wir haben: Image Generierung, Image Neugenerierung (mit Änderungs-Prompt), Translation Tool, Context Retrieval Tool und das Feedback-Tool. Nach jeder Content-Generierung soll Feedback eingeholt werden. Je nach Feedback wird entweder noch mal regeneriert oder mehr Feedback eingeholt.
+
+Maximilian: Welches Pattern hast du verwendet, um den Agent zu bauen?
+
+Jonas: Wir haben uns einen Agent Loop selbst gebaut. Wir benutzen Claude 4.5 Haiku und rufen den immer wieder auf mit den aktuellen Informationen. Er gibt zurück, welches Tool er aufrufen möchte oder ob er fertig ist. Das Tool wird aufgerufen und das Ergebnis kommt wieder in die Beschreibung zurück an den Agent.
+
+Jonas: Bei der Bildgenerierung wurden zwei Bilder erstellt. Wir können uns entscheiden, welches uns gefällt, oder Anpassungen machen - z.B. "mach die Weste grün".
+
+Das Feedback-Tool hat 6 oder 7 Formulare, die vordefiniert sind für verschiedene Situationen und Arten von Content. Es gibt einen Sub-Agent, der entscheidet, welches Formular in dieser Situation ausgewählt werden soll. Jedes Formular wird als eigenes Tool für diesen Feedback Agent deklariert.
+
+Maximilian: Hätte ich das nicht auch komplett ohne Gen UI statisch implementieren können?
+
+Jonas: An sich wahrscheinlich momentan sogar wirklich, aber ein Vorteil von Gen UI ist die Erweiterbarkeit. Wenn wir ein neues Formular hinzufügen wollen, müssen wir nur dieses Formular schreiben und dem Agent sagen, was darauf zu sehen ist.
+
+Maximilian: Wenn immer dieselbe Abfolge von Formularen angezeigt wird, verliert dieses Gen UI ein bisschen den Charakter. Gen UI bedeutet für mich, dass verschiedene UI-Elemente flexibel je nach Kontext ausgewählt werden. Trotzdem fairerweise: du generierst Inhalt und der wird angezeigt. Die Begrifflichkeit ist schon in Ordnung.
+
+Maximilian: Wird das Feedback im Tool oder im Agent verarbeitet?
+
+Jonas: Das Feedback kommt erst zurück an den Feedback Agent, der löst sein Promise an den Content Manager Agent aus. Der versteht dann: "Wir haben ein neues Bild, ich muss nach der Generierung immer den User Bescheid geben und Freigabe erbitten." Er ruft also wieder das Feedback Agent Tool auf.
+
+Maximilian: Das finde ich cool gelöst - ihr haltet die Content Manager Agent Execution an, gebt Feedback zurück, und dadurch kommt das Feedback im Content Manager Agent an.
+
+Maximilian: Die User Experience bzw. Nutzerfreundlichkeit ist gut. Durch die Buttons beschränkst du die Funktionalität ein, was den Vorteil bringt, dass der User klar weiß, welchen Case das abdeckt. Du hast die Kontrolle und die AI gibt im gewünschten Umfeld den gewünschten Erfolg.
+
+Der Thread, der anzeigt, was gerade passiert, wie lange es dauert, woran es vielleicht hakt - das ist hilfreich für den Nutzer. Die Transparenz ist gut.
+
+Die Erweiterbarkeit: Man kann das einfach skalieren, wenn man neue Formulare verwenden möchte.
+
+Bei der Übersetzung kann man bearbeiten und das Feedback direkt einarbeiten.
+
+Maximilian: Mit der Stärke kommt die Schwäche: Du nimmst dir die Flexibilität, das über einen Chatbot zu lösen. Wenn man viel mit Chatbots arbeitet, will man alles machen können und nicht in der Funktionalität eingeschränkt sein.
+
+Aber dafür kriegst du halt Kontrolle. Das ist immer ein Abwägen. Brauchst du immer einen Chat? Wenn du nur einen kleinen Use Case abdecken willst - Bilder generieren und Texte übersetzen - würde ich salopp sagen: Nein.
+
+Die Schwächen liegen in der Flexibilität und Dynamik. Auf der anderen Seite kriegst du mehr Struktur.
+
+Maximilian: Der Agent könnte mehr über den Bereich wissen, um dynamischer zu entscheiden, ob die Inhalte zusammenpassen.
+
+Ein Button könnte alle Bilder direkt auf einmal generieren.
+
+Man könnte einen Agent haben, der über Feedback gefragt wird: "Wie gut sind diese Katalogknoten aufgeteilt? Was will ich in welchem Knoten haben?" Der analysiert das und macht Vorschläge.
+
+Jonas: Auf lange Sicht ist das Ziel, dass der Content Manager Agent komplett Kataloge erstellen kann, die Bereiche selbst zuweist und deklariert.
+
+Maximilian: Für den Zweck der Qualitätssicherung ist das Tool geeignet. Das Human in the Loop bei einem Image Generator finde ich gut gelöst.
+
+Maximilian: Ihr habt den Agent Loop selbst entwickelt, was bemerkenswert ist. Ihr hättet aber auch einen wiederverwenden können. Die Agent Patterns sind gut durchdacht - da haben sich schon etliche Leute Gedanken gemacht.
+
+SAP hat das Cloud SDK for AI, das verschiedene Open Source Libraries verwendet. Da bekommst du Out of the Box diese Agent Capabilities - Reasoning-Komponenten, Planungskomponenten, Agent Memory. Dann kannst du dich auf deine Tools konzentrieren.
+
+Im ABAP zu entwickeln ist eine Challenge, aber es sieht doch sehr gut aus. Was es können soll, macht es auch gut.
+
+Jonas: Wir haben die HTTP-Requests ans LLM manuell runter gecoded.
+
+Maximilian: Das dachte ich mir. Es ist ein gutes Learning, man hat dann viel angefasst.
+
+Jonas: Vielen Dank, es war sehr informativ und wertvolles Feedback.
+
+Maximilian: Ich hoffe, es hat geholfen. Es gibt mittlerweile gute Tools, wo man die MWV-Datei hochladen kann.
+
+Jonas: Dann nochmal vielen Dank für die Zeit.
+
+Maximilian: Wir hören uns.
+
+Jonas: Ciao, ciao.
+
+Maximilian: Ciao, ciao.

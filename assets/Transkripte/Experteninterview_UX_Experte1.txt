@@ -1,0 +1,217 @@
+Teilnehmer:
+- Jonas Röber (Interviewer)
+- Sindy Bernhardt (Expertin)
+
+Jonas: Vielen lieben Dank, dass du dir heute die Zeit genommen hast. Dann würde ich erst mal anfangen und fragen, was dein beruflicher Kontext ist - was für eine Rolle du hast und was du so alltäglich machst.
+
+Sindy: Von der Rolle her bin ich UX Designer im Core Design im UX Engagement Team. Mit dem Team machen wir viele Fiori Maker Bootcamps, in denen ich dann entweder als Lead Designer oder als Moderator und Host bin - ich kann beide Rollen abdecken. Ansonsten arbeite ich auch mit dem zentralen Hedgefonds Team zusammen. Da vor allem mit dem Fokus, wie kann man die Teams unterstützen, die zu wenig UX-Ressourcen haben für ihre Projekte? Wie kann man sie bei Discovery unterstützen? Bei Tooling: Wie geht man am besten vor? Alles so die Themen.
+
+Jonas: Spannend. Hast du auch schon mal Erfahrung gemacht mit AI im UI-Entwicklungskontext, also vor allem das Stichwort Generative UI?
+
+Sindy: Wir hatten jetzt Anfang des Jahres ein Bootcamp bei einem Kunden, der wollte in seinen Prozess gerne AI einbezogen haben für die Endanwender. Und da haben wir den Flow erarbeitet, wo wir wirklich auch sichergestellt haben, dass die Endanwender auch verstehen, was die AI macht, um den Trust aufzubauen. Und da muss man auch feststellen, so ein Prompting-Feld einem Endanwender hinzugeben, bedarf dann doch einiges an Erklärungsaufwand, weil die meisten Endanwender bei unseren Kunden noch gar nicht so den Kontakt zur AI haben.
+
+Ansonsten AI nutzen, um Designs zu generieren - ja, hab ich auch schon bisschen mit rumgespielt, aber nicht so, dass ich sagen kann, es ist abschließend. Dafür ist es viel zu schnelllebig, da ist man immer wieder dabei. Und ansonsten, wo ich AI jetzt noch genutzt habe, ist bei User Interviews, die ich geführt habe, um dann einfach da die Synthesis zu unterstützen. Dass man dann auch wirklich chatten kann - also mit dem UX Insights, das ihr auf Dovetail aufbaut. Wenn man einfach sich schnell mal den Prozess darstellen lassen kann, Fragen zum Prozess stellen kann, Pain Points, Needs, Challenges, Day in Life generieren, alles sowas.
+
+Jonas: Wie genau läuft denn bei euch die Evaluierung von UIs ab? Gibt es da irgendwelche spezifischen Methoden, die ihr benutzt?
+
+Sindy: Im Rahmen von den Bootcamps gucken wir, dass wir da einfach End User aus der entsprechenden Firma, mit der wir das Bootcamp machen, finden, die jetzt nicht im Bootcamp dabei waren, und dann einen klassischen Usability Test machen.
+
+Jonas: Gut, dann würde ich jetzt direkt dann schon mal ein bisschen Kontext geben zu meiner Bachelorarbeit und dir dann eine kleine Demo geben. Wie sehr bist du im Lean Catalog drin?
+
+Sindy: Wir hatten das eine Bootcamp zum Lean Catalog, aber ich glaube, da haben wir auch bloß einen ganz kleinen Bereich beleuchtet. Du bist da jetzt wahrscheinlich in einem komplett anderen Bereich unterwegs gewesen. Von daher darfst du gerne ein bisschen weiter ausholen.
+
+Jonas: Man hat im Rahmen des Lean Catalogs ja diesen Catman, diesen Catalogmanager, wo man eben dann einen bestimmten Katalog mit Produkten und so - ja, wie dieser Catalog ungefähr aufgebaut ist, dass da halt dann Bereiche in den einzelnen Bereichen liegen, dann eben Materialien. Es gibt auch Unterbereiche und eben all sowas. Im Catalogmanager kann man eben diese Bereiche aufbauen bzw. einen Katalog aufbauen mit diesen Bereichen und dann eben auch einzelne Produkte in bestimmte Bereiche hinzufügen. Man kann in dem Catman auch Daten pflegen zu den Produkten und zu den Bereichen.
+
+Zum Beispiel kann man für einzelne Bereiche dann so Thumbnails machen, also Bilder, die beschreiben, was genau darin vorgeht. Oder natürlich gibt es dann auch Texte, vor allem bei den Produkten - Beschreibung oder Titel. Und die möchte man natürlich im besten Fall auch auf vielen verschiedenen Sprachen zur Verfügung haben. Das ist natürlich alles händisch möglich momentan, das ist auch die einzige Möglichkeit, aber es ist natürlich sehr aufwendig, es dauert lange, es ist auch kostspielig und die Qualität schwankt dann auch, vor allem wenn man dann für einzelne Bereiche irgendwie Stock Footage nimmt, hat man ja oft einfach nicht das perfekte Bild. Oder die Bilder unterscheiden sich einfach sehr stark in der Qualität. Dafür haben wir jetzt eben den Content Manager Agent entwickelt, der eben zum einen Bilder generieren kann für einzelne Bereiche, aber eben dann auch Text übersetzen kann.
+
+Jetzt haben wir nur das Problem bei AI - AI ist ja nicht perfekt und deswegen möchten wir quasi den Human in the Loop bekommen. Das heißt, es soll der menschliche Nutzer immer noch die Kontrollinstanz sein, die eben alles abwinken muss, bevor es dann wirklich gespeichert wird. Und dafür haben wir jetzt eben so ein weiteres Tool entwickelt, das der Agent dann benutzen kann. Dieses Tool gibt dann quasi UI Popups zurück, die dann angezeigt werden.
+
+Ich möchte nur kurz darauf eingehen, wie genau diese zustande kommen, weil dafür benutzen wir eben dieses Generative UI. Da gibt es ja theoretisch 3 verschiedene Ansätze. Einmal, dass der Dialog komplett von der AI generiert wird, also der gesamte Code. Dann haben wir deklaratives Gen UI, wo die AI eben ein JSON Schema zurückgibt und dann eben das UI Framework sich daran orientiert und basierend darauf dann selber etwas baut. Oder man hat als dritte Möglichkeit das statische Gen UI, wo ein Entwickler oder mehrere Entwickler eben im Vorhinein eine bestimmte Anzahl von diesen Dialogen - jetzt in unserem Fall von diesen Feedback-Formularen - entwickelt und die AI wählt dann zur Laufzeit nur den Dialog aus, der am besten zur Situation passt.
+
+Wir haben das eben untersucht, haben es gegeneinander abgewogen und sind für uns zu dem Schluss gekommen, dass statisches Gen UI das Beste ist, weil wir damit einfach die beste Konsistenz gewähren können. Bei offenem Gen UI zum Beispiel kann es bei der gleichen Beschreibung dazu kommen, dass dann 2 verschiedene UIs rauskommen, oder man kann nicht so sehr dafür garantieren, dass es sich an die Fiori Guidelines hält. Deswegen haben wir uns jetzt für das statische Gen UI entschieden.
+
+Wenn dir jetzt irgendwas auffällt während dieses Workflows, dann gerne melden. Ich stell dann im Nachhinein auch noch ein paar Fragen dazu.
+
+[Demo: Textübersetzung]
+
+Jonas: Wir sehen jetzt hier einen Mockup von so einem Katalog. Wir haben hier also unsere Bereiche und in jedem Unterbereiche mit spezifischen Katalogen. Wie wir schon sehen, ist die Vollständigkeit hier gerade noch auf "teilweise". Das bedeutet, dass Englisch eben noch nicht gepflegt ist - es gibt hier noch keine englischen Texte. Jetzt könnten wir das natürlich alles manuell pflegen oder wir klicken hier auf diesen Button "Alle Texte übersetzen".
+
+Hier bekommt der Nutzer eben angezeigt, was passiert denn nacheinander. Das heißt, jetzt wurde der Agent gestartet. Dann wird die Katalogstruktur geladen, die dann eben benutzt wird für die Textübersetzung und jetzt werden nacheinander eben die Texte im Batch übersetzt. Währenddessen kann man es auch schließen und andere Sachen machen. Sobald der Agent dann fertig ist mit seinem Task kommt da oben eben dieser rote Punkt und wir sehen jetzt hier unser Feedback-Formular.
+
+Wir sehen also auf der linken Seite hier die Originalsprache und auf der rechten Seite die Übersetzung. Können alles einzeln akzeptieren und ablehnen oder eben auch stichprobenartig überprüfen und dann direkt alle akzeptieren oder alle ablehnen. Wie du siehst, kann man auch hier in diesem Formular schon direkt Änderungen vornehmen.
+
+Sindy: Jetzt gerade auf dem Fenster - es sind zwar Fiori-Komponenten verwendet, aber so von der Anordnung ist es nicht so ganz guideline-konform. Weil zum einen haben wir den Primary Button unten mit "Bestätigen". Und dann habe ich aber auch dieses "Alle Akzeptieren" und den "Akzeptieren" Button, und die hängen alle an unterschiedlichen Stellen und "Bearbeiten" hängt jetzt dann noch mal oben, weil ich das hier nur für das eine habe.
+
+Jonas: Das ist nicht konform.
+
+Sindy: Genau, und auch was ich jetzt hier auch sehr ungünstig finde, ist, dass ich zum einen dieses Akzeptieren, Ablehnen, Akzeptieren, Ablehnen habe und dann "Alle akzeptieren", "Alle ablehnen", weil ich sehe ja immer nur einen Wert. Und da ist die Gefahr relativ groß, dass man da einfach auf den falschen Button klickt.
+
+Jonas: Dann würdest du quasi es bevorzugen, wenn man eine Übersicht sehen würde?
+
+Sindy: Entweder eine Übersicht und dann kann man diese "Alle"-Aktionen haben, oder ansonsten wirklich, wenn man hier Schritt für Schritt durchgeht, nur die Einzelaktionen und die Buttons sollten dann aber auch eher rechts angeordnet sein.
+
+Sindy: Vom Interaction Flow her wäre jetzt noch meine Frage: Was passiert, wenn ich einfach auf "Bestätigen" klicke, ohne dass ich die anderen oben durchgehe?
+
+Jonas: Dann bekommt der Agent als Feedback zurück, dass eben jetzt - also wenn wir sagen, es wurden jetzt nur 2 oder 3 akzeptiert, dann bekommt er eben diese zurück als akzeptiert und die restlichen sind dann weder akzeptiert noch abgelehnt. Das bedeutet, der würde dann wahrscheinlich so was sagen wie "Was ist mit den restlichen Texten, sollen die auch akzeptiert werden?" - dann würde er quasi wieder nachfragen.
+
+Sindy: Aber das, also es reicht jetzt nicht, wenn ich hier nur das Akzeptieren durchgehe. Ich muss am Ende wirklich noch das Bestätigen klicken.
+
+Jonas: Ja, genau.
+
+Sindy: Dann wäre eine Frage, ob das Bestätigen eventuell auch bloß aktiv ist, sobald alle abgearbeitet sind.
+
+Jonas: Das hab ich auch schon Feedback bekommen bei den Usability Tests - das ist ein guter Punkt, das sollte man wahrscheinlich so umsetzen.
+
+Sindy: Und wie gesagt, bitte keine drei Action-Buttonzeilen übereinander. Das ist nicht guideline-konform und sehr verwirrend.
+
+Sindy: Bevor ich auf das Bestätigen klicke, kriege ich dann noch mal eine Übersicht von allem, was ich gemacht habe?
+
+Jonas: Nein, das wird dann direkt abgeschickt.
+
+Sindy: Gibt es einen technischen Grund dafür, dass ich den Bestätigen-Knopf brauche?
+
+Jonas: Also, wie meinst du, anstatt dass man auf "Alle akzeptieren" klickt und es dann direkt abgeschickt wird?
+
+Sindy: Ja, oder wenn ich einzeln da durch hoppel und immer akzeptieren sag, dann ist es akzeptiert, aber ich muss es nicht noch mal bestätigen. Das ist ja so dieses Speichern. Willst du wirklich speichern?
+
+Jonas: Mit diesem Bestätigen-Button senden wir das dann quasi wieder zurück an den Agenten. Das heißt, mit akzeptieren, ablehnen, alle akzeptieren, alle ablehnen setzen wir jeweils immer nur Flags in dem lokalen Modell von diesem Dialog. Und mit Bestätigen wird es dann eben zurück an den Agenten gesendet, der dann eben damit weitermacht, wie er denkt, dass es passend ist.
+
+Sindy: OK, nee, also von daher ja, ist die technische Notwendigkeit, aber da wäre es vielleicht auch ganz schön, wenn man einfach, nachdem man hier durch alle durchgehoppelt ist, noch mal eine Übersicht sieht. Die Texte wurden bestätigt, die wurden abgelehnt, die wurden akzeptiert - dann ist es für den User auch nachvollziehbarer, warum er jetzt noch mal auf Bestätigen klicken muss.
+
+Sindy: Und dann ist noch eine Frage: Würde es hier auch Sinn machen, einen Text zu überspringen, dass der irgendwie später noch mal hochkommt, weil ich mir da jetzt vielleicht gerade nicht ganz sicher bin und ich will ihn jetzt weder akzeptieren noch ablehnen, aber ich muss vielleicht noch mit einem Kollegen Rücksprache halten oder was auch immer?
+
+Jonas: Man könnte theoretisch einfach einen überspringen und ihn weder akzeptieren noch ablehnen. Dann würde der Agent das so reinbekommen als Tool-Antwort von diesem Feedback-Tool und dann würde er wahrscheinlich noch mal nachfragen, was denn mit diesem Text, der nicht behandelt wurde, passieren soll.
+
+Sindy: Das wäre quasi eher wie ein Ablehnen. Also einen Draft habt ihr da an der Stelle dann nicht?
+
+Jonas: Nee, das haben wir noch nicht implementiert.
+
+Sindy: Was mir hier auf dem Screen gerade noch auffällt: Ich habe unten diese ganzen bunten Buttons und habe oben schon das Akzeptiert-Häkchen. Also das heißt, ich habe jetzt hier in dem Moment schon drauf geklickt, oder? Wenn ich hier schon akzeptiert habe, dann müssten die Buttons vielleicht disabled sein. Oder springt der automatisch zum nächsten oder muss ich händisch oben weiterblättern?
+
+Jonas: Er klickt auf "Akzeptiert" und dann springt er zum nächsten.
+
+Sindy: Das ist bisschen ungünstig von der Usability. Weil akzeptiert wurde ja der Vierte und wenn ich jetzt hier nur so drauf gucke, weil kam vielleicht gerade ein Kollege vorbei, der mich was gefragt hat - ah Moment, hier 5, ah ja, habe ich schon akzeptiert, dann navigiere ich oben händisch weiter zum nächsten, aber vorher war ja bei dem Vierer, als noch nichts gemacht war, ein anderes Icon.
+
+[Demo: Bildgenerierung]
+
+Jonas: Dann würde ich jetzt noch kurz auf die Bildgenerierung eingehen. Wir sehen, es kommt jetzt erstmal hier dasselbe Schrittprotokoll. Der Agent wurde gestartet. Wir generieren jetzt also dieses Bild. Wie findest du allgemein dieses Schrittprotokoll, das dem User da angezeigt wird?
+
+Sindy: Ja, ist wesentlich hilfreicher als nur die Sanduhr. Das heißt, der User weiß, wo er steht. Es wird auch oben hochgezählt. Das heißt, man sieht auch, er hat sich nicht aufgehängt.
+
+Jonas: Das war bei der Bildgenerierung halt relevant, weil wie man sieht, die kann halt schon eine halbe Minute dauern.
+
+Sindy: Was heißt jetzt "Nutzerfeedback einholen"?
+
+Jonas: Jetzt gerade ist im Hintergrund das Feedback-Tool, das eben die Liste von bestehenden Dialogen durchgeht und eben das Passende auswählt.
+
+Sindy: Weil bei "Nutzerfeedback" würde ich jetzt denken, ich bin ja ein Nutzer. Wie kann, wo wird jetzt mein Feedback eingeholt? Also von der, vom Wording her.
+
+Jonas: Ja, das ist vielleicht ein bisschen blöd benannt. Aber wir sehen jetzt auf jeden Fall, dass hier jetzt dieses Formular ausgewählt wurde. Wir sehen also diese 2 Bilder hier wurden erstellt und wir können jetzt auswählen, welches davon uns besser gefällt. Da könnten wir jetzt sagen, Bild A wählen, dann wäre es ausgewählt oder natürlich auch Bild B. Aber wir können auch sagen, gefällt mir eigentlich schon ganz gut, ich habe aber noch ein paar Anpassungen, dann ist jetzt die Anpassung markiert und ich kann hier unten reinschreiben, ich weiß nicht, "Mach die Handschuhe blau". Meine Auswahl bestätigen.
+
+Sindy: Hier noch oben zu dem Text "Bitte wählen Sie ein Bild aus" - das ist von den UA-Richtlinien: "Bitte", "Danke", sowas wird nicht verwendet, sondern wir würden dann einfach nur schreiben "Passendes Bild auswählen", also auch gar nicht den User direkt ansprechen, sondern eher die indirekte Formulierung.
+
+Jonas: OK, verstehe. Wir sehen auf jeden Fall, es wurde halt ein anderes Formular ausgewählt, weil wir jetzt ein Bild haben. Und die Handschuhe wurden jetzt blau gemacht. Es ist ja immer noch so ein bisschen orange, aber ja, wir sagen einfach mal, dass das für uns jetzt so gut ist und haben kein weiteres Feedback.
+
+Sindy: "Gesamtbewertung" heißt hier, wie ich das Bild bewerte?
+
+Jonas: Ja, genau.
+
+Sindy: Was würdest du da intuitiv sagen, was es eigentlich heißt?
+
+Jonas: Ich war am überlegen, wo diese Sternchen-Bewertung herkommt, ob das dann von den Katalognutzern - aber die sind ja hier in dem Moment noch nicht mit eingebunden.
+
+Jonas: Nee, das ist erst mal nur aus Sicht vom Katalogmanager.
+
+Jonas: Hast du noch zu den Formularen eine Anmerkung?
+
+Sindy: So im Allgemeinen nicht. Die Texte müsste man wahrscheinlich - also bin ich jetzt nicht dazu gekommen, da alles im Detail durchzulesen. Da muss man einfach vielleicht noch mal mit UA drüber gehen, was dann den UA-Richtlinien entspricht.
+
+Jonas: Gut, dann würde ich jetzt einfach ein paar allgemeine Fragen noch stellen.
+
+Sindy: Warum habe ich jetzt oben den roten Punkt? Muss ich das jetzt noch irgendwie sichern oder ist es schon gesichert?
+
+Jonas: Es ist gesichert. Das war jetzt - ich glaub, das hätte eigentlich nicht so sein sollen. Es ist halt ein Mockup, aber es ist noch ein bisschen nicht perfekt. Das ist ein Fehler.
+
+Sindy: Und wenn ich jetzt hier quasi mir die Texte übersetzen lassen würde, könnte ich dann die Sprache auswählen, ob eine oder mehrere Sprachen?
+
+Jonas: Also jetzt in dem Workflow noch nicht. Das haben wir jetzt halt nur gemacht, um zu zeigen, wie dann dieser Workflow eben nacheinander aussehen würde, wenn man dann später das vor allem auch in den richtigen Catman übertragen würde. Da wäre natürlich eine Auswahl, in welche Sprache.
+
+Sindy: Und zu diesem AI-Button "Alle Texte unter dem Knoten übersetzen": Heißt das jetzt, ich habe ja seitlich den Knoten "Arbeitskleidung" ausgewählt - ich würde den Knoten "Arbeitskleidung" und alles, was unten drunter hängt, auch wenn es ein langer Baum ist, alles übersetzen, obwohl ich noch überhaupt nicht weiß, ob ich hier unten drunter schon gearbeitet hab? Oder fange ich nicht eigentlich immer mit dem Knoten an und pflege dann die Blätter ein, immer die Unterknoten?
+
+Jonas: Ich denke nur, dass man die Übersetzungen dann ja wahrscheinlich erst am Ende machen würde, wenn schon alles feststeht. An sich ist es ein guter Punkt. An sich würde man wahrscheinlich tendenziell - ja, es kann schon dazu kommen, dass man "Arbeitskleidung" schon hat und "Schutzbrillen, Handschuhe" - "Textilien" ist noch gar nicht drin. Aber dann könnte man theoretisch auch "Arbeitskleidung" übersetzen lassen und dann, wenn man "Schutzbrillen" gemacht hat, so auch noch für "Schutzbrillen, Handschuhe". Das ist vom Workflow vielleicht nicht so perfekt. Aber das ist jetzt nicht der Fokus von der Bachelorarbeit.
+
+Sindy: Und wenn ich jetzt sage, ich bin auf "Arbeitskleidung" und lass alle unten drunter hängenden Texte übersetzen - das heißt nur die, die noch keine Übersetzung haben?
+
+Jonas: Ja, nur die, die noch nicht bestehend sind in anderer Sprache. Das ist wahrscheinlich dem Nutzer an der Stelle nicht perfekt kommuniziert.
+
+Sindy: Da sollte man auf jeden Fall noch mal rangehen, also weil gerade diese AI Tokens ist was, was für die Nutzer wichtig ist. Das hatten wir jetzt auch bei den Workshops mit Kunden festgestellt - die wollen da genau wissen, was sind das für Kosten und wollen natürlich keine unnötigen Kosten verursachen.
+
+Jonas: Ja, klar. Auf jeden Fall.
+
+Sindy: Da sind wir bei SAP. Meinst du auch? Ja, wir generieren mal, aber die Kunden ticken da ein bisschen anders. Das sollten wir immer im Kopf haben.
+
+[Allgemeine Fragen]
+
+Jonas: Ich hatte dir vorhin diese 3 Ansätze von Gen UI erläutert. Wir hatten ja auch schon drüber geredet, dass es wahrscheinlich ein Vorteil ist, dass wir jetzt halt Anpassungen einfach einmal zentral machen können und dann werden die halt sofort umgesetzt. Siehst du noch andere Vorteile, die jetzt dieser Ansatz hat, gegenüber komplett AI-generierten UIs?
+
+Sindy: Ja, ich denke gerade dieses Sprachliche, die Ausdrucksweise - dadurch dass wir UA Guidelines haben, da weiß ich jetzt noch nicht, inwieweit die irgendwie eingebettet sind in die AI, die hier verwendet wird. Und wenn natürlich immer wieder etwas Neues generiert wird, muss man sich darauf verlassen können, dass die Texte entsprechend dann auch unseren Guidelines sind.
+
+Weil, wenn man es händisch macht, dann geht man einmal drüber und sagt, die Texte passen, und solange man sie nicht anpasst, kann man sich sicher sein, dass es passt. Und auch bei so Button-Texten, die eben generiert werden, hatten wir eben auch gerade ein schönes Beispiel. Es muss wirklich alles transparent für den User sein.
+
+Wenn man sich als Mensch hinsetzt und sich drüber Gedanken macht, kann man das wirklich alles vordenken und testen und gucken, was wird verstanden, was wird nicht verstanden. Wenn das von der AI generiert wird - ich meine so Buttons wie "Bestätigen", "Abbrechen", "Ablehnen", "Zustimmen", das ist OK, aber sobald irgendwie bisschen mehr dahintersteckt, muss man sich natürlich sicher sein, dass der Nutzer auch verstehen kann, was gemeint ist. Und das sehe ich heutzutage bei der AI eher noch schwierig.
+
+Jonas: Um auf das Tool zurückzukommen - was sind so für dich jetzt die größten Stärken, aber vielleicht auch die größten Schwächen, die du jetzt bei der Usability oder der User Experience bei diesem Workflow siehst?
+
+Sindy: Insgesamt finde ich es erstmal gut, den User dahingehend zu unterstützen mit dieser Vollständigkeit. Ist auch erst mal visuell ein guter Hinweis, wo muss man hingucken, wo muss man nicht hingucken.
+
+Was bei mir jetzt ist: Ich guck auf eine Kataloggruppe und hab dann da jetzt meine Textilien drin und sehe dann den Artikel mit Bild. Was für mich hier momentan noch nicht richtig hervorgeht, ist das Color Coding bei dem Bild-Icon - da habe ich noch keine Ahnung, von was das abhängig ist.
+
+Ansonsten, die Vollständigkeitsspalte, die würde ich jetzt vielleicht nicht unbedingt nur auf den Text beziehen, sondern ob der Artikel insgesamt vollständig gepflegt ist.
+
+Jonas: Das ist auch so gedacht. Also wir haben hier Preis, dann Texte, Bild, eben halt sowas.
+
+Sindy: Das passt vom Ablauf. In dem Dialog, der dann da aufgeht mit diesen ganzen vielen bunten Buttons - ich denk, da muss man auf jeden Fall noch mal ran, weil das verwirrend ist. Aber insgesamt ist es erst mal eine gute Unterstützung für den User. Wenn man dann noch ein bisschen am Flow feilt, dann ist es richtig gut, auf jeden Fall.
+
+Jonas: Das Wichtigste ist, dass dieses Tool eben dem User erlaubt, den generierten Content zu validieren. Denkst du, dass mit dem Tool eine effiziente und vor allem auch frustfreie Validierungsarbeit möglich ist?
+
+Sindy: Ich denke mal ja. Die Frage wäre jetzt noch: Deutsch-Englisch, wenn wir jetzt hier bei uns im Sprachraum sind, ist glaube ich nicht das Problem. Wenn man jetzt sagt, man will die Texte aber auf Polnisch übersetzen, dann würde man natürlich davon ausgehen, dass jemand das macht, der auch der polnischen Sprache mächtig ist, um dann wirklich gleich validieren zu können: Passt das oder passt das nicht?
+
+Jonas: Ja, klar. Wir wollen aber auf jeden Fall, dass ein Mensch, der halt auch eine gewisse Expertise hat, das überwacht. Das ist genau das Ziel hinter diesem Tool, dass wir uns eben nicht darauf verlassen müssen, dass die AI das perfekt macht, sondern dass wir überprüfen und an jedem Schritt einfach nochmal checken, ob jetzt das wirklich so passt.
+
+Sindy: Was ja ansonsten auch noch möglich sein könnte: Wenn ich eben alles übersetzen lasse und dann wähle ich meine 5, 6, 7 Sprachen, in denen ich die Beschreibung haben will, aus, lass das alles durchgenerieren und dann weiß ich, ich habe Kollegen - dann erproben sie das und dann wird es automatisch im System eingepflegt oder aktiviert, weil dann muss nicht immer wieder jemand anderes mit dem Tool arbeiten und ich habe halt dann auch nur einmal diese ganzen AI Credits verbraucht.
+
+Jonas: Ja, das ist ein guter Punkt. Da müsste man dann wahrscheinlich ein weiteres Tool mit anschließen an den Agenten, der dann eben sich darum kümmert, das Feedback noch über eine andere Quelle einzuholen oder dass man das quasi dann weitergeben kann, diese Validierungsaufgabe. Aber das sollte eigentlich relativ einfach machbar sein, weil wir es so gebaut haben, dass es eigentlich gut erweiterbar ist. Man kann relativ einfach neue Tools anschließen. Man kann auch einfach neue Formulare mit einbauen.
+
+Sindy: Und dann ist noch die Frage, wie es immer mit der Sperrlogik ist: Wann ist ein Knoten für die Bearbeitung von anderen Leuten gesperrt?
+
+Jonas: Ja klar, da muss man dann gucken, welcher Prozess da besser funktioniert.
+
+Jonas: Hast du noch irgendwelche Anmerkungen, die du gerne geben möchtest?
+
+Sindy: Nee, also insgesamt cool zu sehen. Die grundlegenden Mockups kamen mir dann doch etwas bekannt vor - sind beim Bootcamp letztes Jahr entstanden, wo ich mit dabei war.
+
+Jonas: Ah, ja, gut. Das kann sein.
+
+Sindy: Von daher einfach schön, das mal wieder zu sehen. Aber ich meine, in der Zwischenzeit waren so viele neue Themen schon, an denen man gearbeitet hat, deswegen ist da nicht mehr alles so im Kopf und dann können sich auch die Konzepte im Hintergrund ändern. Deswegen hatte ich da so ein paar Fragen gestellt, wie das jetzt gedacht ist.
+
+Aber insgesamt finde ich das eine sehr gute Idee, da die AI mit einzubinden. Diese Bildgenerierungs-AI hatten wir damals auch schon mit gedraftet gehabt in unserem Design - das war ein schöner Wiedererkennungseffekt. Man merkt halt auch schön, im Bootcamp kannst du die Themen immer nur an der Oberfläche ankratzen und du musst dann wirklich noch mal weiter durchiterieren, auch mit Nutzern testen, wie das ankommt.
+
+Aber insgesamt, da AI für die Übersetzung einzusetzen, macht heutzutage auf jeden Fall Sinn. Es ist eben wichtig, dass die Leute wissen, was macht die AI - aber das habt ihr ja schön mit eingebunden, wo kommt das Ganze her, um da dieses Vertrauen in die AI und das, was sie generiert, aufzubauen beim Endanwender.
+
+Jonas: Ja, genau. Das ist das gesamte Ziel meiner Bachelorarbeit - dass man da vertrauen kann.
+
+Sindy: Genau, und dafür ist halt auch eine klare, aber eine sehr klare Sprache nötig, und das ist das, wo wir da immer drauf achten müssen.
+
+Jonas: Genau, da müssen wir noch mal rüber, aber ich denke, es hat auf jeden Fall Potenzial. Vielen Dank noch mal für deine Zeit auf jeden Fall und auch für die wertvollen Einblicke.
+
+Sindy: Ja, dann dir viel Erfolg für deine Bachelorarbeit. Wie lange hast du noch?
+
+Jonas: Ich hab jetzt noch 2 Wochen ungefähr. Ich bin im Endspurt, aber es läuft ganz gut.
+
+Sindy: Und im Sommer bist du dann fertig?
+
+Jonas: Ja genau, im Herbst, also im Oktober, fange ich dann hier an, insofern dass ich eine Übernahmestelle finde, aber sind wir mal zuversichtlich.
+
+Sindy: Also bist noch auf der Suche?
+
+Jonas: Ja.

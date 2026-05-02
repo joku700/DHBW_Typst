@@ -1,0 +1,20 @@
+﻿Kategorie;Kriterium;Einzelbewertungen (1-10);;;;;Durchschnitt;
+;;Hannes Baum;Ulrich Hullen;Tim Polland;Jonas Sladek;Jonas Röber;Bewertung (1-10);Gewichtung (%)
+UX;Reaktionszeit ;10;6;10;9;9;8,8;7,32
+UX;Accessibility;1;4;5;7;7;4,8;3,99
+UX;Responsiveness ;5;4;6;6;8;5,8;4,83
+UX;Generierungsgeschwindigkeit;10;6;10;9;8;8,6;7,15
+UX;Darstellungskonsistenz (innerhalb einer Session);8;6;8;8;7;7,4;6,16
+UX;Mehrsprachigkeit;5;6;8;6;6;6,2;5,16
+UX;Statusanzeige;5;4;8;9;8;6,8;5,66
+UX;Support für Corporate Design;3;2;3;3;7;3,6;3
+UX;Individualisierbarkeit;1;2;3;2;5;2,6;2,16
+UX;Fehlertoleranz;3;8;9;8;9;7,4;6,16
+UX;Nachvollziehbarkeit;5;2;8;6;8;5,8;4,83
+Wirtschaftlichkeit;Betriebskosten;10;8;9;9;7;8,6;7,15
+Wirtschaftlichkeit;Implementierungsaufwand;5;8;8;8;6;7;5,82
+Stabilität;Wartbarkeit;6;6;9;7;8;7,2;5,99
+Stabilität;Erweiterbarkeit;8;4;9;6;7;6,8;5,66
+Stabilität;Einsatz von zukunftssicheren Technologien;8;4;8;9;6;7;5,82
+Stabilität;Funktionale Konsistenz (sessionübergreifend);5;8;6;9;7;7;5,82
+Sicherheit;Manipulationssicherheit;5;10;9;10;10;8,8;7,32

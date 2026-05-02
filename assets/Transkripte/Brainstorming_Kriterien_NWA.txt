@@ -1,0 +1,162 @@
+Teilnehmer:
+- Jonas Röber (Moderator)
+- Hannes Baum
+- Ulrich Hullen
+- Tim Polland
+- Jonas Sladek
+
+Jonas Röber: Ja, dann erstmal vielen Dank, dass ihr euch die Zeit genommen habt heute. Das Ziel dieses Meetings ist jetzt ja, die Kriterien für die Nutzwertanalyse für meine Bachelorarbeit zu sammeln. Um noch mal kurz euch alle abzuholen: Es geht dabei ja um diese 4 UI-Ansätze für das Gen UI zu bewerten. Also wir hätten als erstes dann natürlich das statische Gen UI, wo eben vordefinierte JSONs sind, beziehungsweise vordefinierte UIs, die dann eben dynamisch von einem Agent, je nach Situation, ausgewählt werden. Die deklarative UI, wo solche JSONs eben dann dynamisch zur Laufzeit von einer AI generiert werden, aber sich halt dann dennoch an die Regeln des Frameworks gehalten wird. Oder als dritte Option die offene Gen UI, wo eben die komplette UI komplett dynamisch von einer KI generiert wird. Und ja, dann als vierte Option hätten wir noch die chatbasierte UI, wo eben einfach alles nur in einem Chatfenster stattfindet.
+
+Genau, und dafür würde ich jetzt eben gerne ein paar Kriterien mit euch sammeln. Da würde ich einfach noch kurz sagen, dass es da keine falschen Kriterien gibt, sondern das jetzt einfach erstmal alles in den Raum stellen wollen. Das Ganze bewerten machen wir dann im Nachgang noch, beziehungsweise auch das Gewichten dieser Kriterien.
+
+Hannes: Accessibility. Dass das eine Accessible UI wird. Und dass die responsive wird und dass die schnell da ist. Mit Responsive meine ich, dass das auch auf dem Handy gut aussieht oder umgekehrt auch auf dem großen Screen gut aussieht. Und dass sie schnell generiert wird, also kurze Antwortzeiten hat.
+
+Ulrich: Nee, Stopp, Hannes, nicht weitermachen. Bei "schnell" möchte ich noch mal einhaken, weil das müssen wir präzisieren. Zwischen schnell generiert, also schnell da ist, das eine, und das andere ist ja reaktionsschnell. Also vielleicht brauchen wir da zwei Schnellattribute: schnell sichtbar und reaktionsschnell, also Lightweight.
+
+Jonas Röber: Ja, das ist wahrscheinlich auch eine gute Abgrenzung. Bei Responsive geht es dir jetzt dann hauptsächlich darum, dass es eben auf allen möglichen Geräten gut bedienbar ist?
+
+Hannes: Genau. Dann so Sachen wie eine gewisse Einheitlichkeit. Also, wenn ich jetzt das erste Mal die Bilder präsentiert bekomme und das ist ein Dialog und dann finde ich mich in dem zurecht. Und dann sage ich "ah ja, mach es mir noch mal" und das ist einmal alles andersrum - die Buttons sind oben statt unten und das Schließen-X ist rechts statt links - sowas fände ich jetzt nicht gut. Das heißt, dass das einheitlich ist.
+
+Ulrich: Einheitlich pro Session oder Session-übergreifend?
+
+Hannes: Mindestens pro Session wäre absolutes Minimum, würde ich sagen.
+
+Ulrich: Vielleicht brauchen wir da zwei Kriterien, die wir unterschiedlich gewichten.
+
+Jonas Röber: Also funktionale Einheitlichkeit, dass dieselben Funktionalitäten immer an derselben Stelle zu finden sind. Und vielleicht hätten wir dann Session-übergreifend eine Einheitlichkeit, die zum Beispiel sich auch an Company Guidelines orientiert.
+
+Ulrich: Also genau, funktionale Einheitlichkeit ist, glaube ich, das eine und das sollte Session-übergreifend sein, auf jeden Fall. Das Zweite ist innerhalb einer Session - da darf sich das nicht ändern. Das ist ja fast schon ein Ausschlusskriterium. Das ist ganz schrecklich, wenn ich zweimal ein Bild generiere und es sieht auch nur ein bisschen unterschiedlich aus. Der eine ist der Button grün und einmal blau. Das ist schrecklich. Ich würde sagen, einheitliche Darstellung innerhalb einer Session. Und die Session-übergreifende einheitliche Darstellung hat ein klein wenig weniger Gewicht. Als User kann ich mich damit abfinden, dass es morgen ein bisschen anders aussieht, aber grob gleich wie heute. Aber innerhalb von zwei Minuten finde ich das sehr verwirrend.
+
+Hannes: Dann fällt mir noch was ein: Sprache. Ich würde jetzt erwarten, dass wenn ich dem auf Deutsch schreibe, dass ich eine Deutsch-UI bekomme, wenn ich auf Englisch schreibe, eine englische UI bekomme. Das kann ja sein, potenziell hast du im deklarativen Vorlagen-Ding mehr Aufwand, weil du potenziell für 20 Sprachen das machen müsstest und im anderen nicht, weil die bekommst du generiert. Also genau, Sprachunterstützung - dass er halt in der passenden Sprache mir das präsentiert.
+
+Hannes: Corporate Design. Support für Corporate Design - dass das Popup, in dem ich interagiere, in Corporate Design hat und die Schriftgröße.
+
+Jonas Sladek: Also konsistent mit der Benutzeroberfläche quasi?
+
+Hannes: Genau.
+
+Ulrich: Nee, nee, Stopp, sorry, da muss ich eingreifen. Hannes hat es eigentlich schon gesagt: das eine ist Support für Corporate Design in der Antwort-UI, also in den Kacheln, und das andere ist ja im Content. Also hier müssen wir schon schreiben: Corporate Design in der generierten UI.
+
+Tim: OK, jetzt kurz mein Punkt: Konsistente Statusmeldung. Also, wenn ich jetzt auf "Neu generieren" drücke, soll das Frontend auch anzeigen, dass es gerade am Arbeiten ist. Beziehungsweise, wenn ich dann ein Bild bestätige, soll dann auch gezeigt werden: "OK, das Bild wurde abgespeichert und der Agent Run ist sozusagen vorbei." Dass der Nutzer halt immer auf dem Laufenden gehalten wird, was der aktuelle Status ist.
+
+Jonas Röber: Gibt es dann vielleicht noch irgendwelche technischen Kriterien, die vielleicht auch Ausschlusskriterien wären?
+
+Hannes: Ich hab mich jetzt gefragt: Du machst jetzt mal einen Wurf von diesem Agent bzw. von dem UI generieren. Und aus Sicht eines Entwicklers oder eines Unternehmens, was das dann eingeführt hat, stellen sich ja dann die Fragen: Wie gut kommst du da jetzt dran? Also die SAP, wir hätten jetzt bei Gelsenwasser das eingeführt, und dann werden die weg und der Jonas hätte die SAP verlassen - wollen wir mal nicht hoffen - und Gelsenwasser denkt sich: "Ja, ist eigentlich ganz OK, aber irgendwie ein Mini-Requirement fehlt. Und wie kann man jetzt ohne das komplett zu brechen das erweitern?"
+
+Jonas Röber: OK, das sind sowas wie Wartbarkeit oder Erweiterbarkeit.
+
+Hannes: Ja, Erweiterbarkeit auf jeden Fall. Und bei Wartbarkeit fallen mir jetzt auch noch Kosten ein. Also, wenn das viel leichter ist, wenn das nur einen Token verbraucht, wenn ich die passende Vorlage auswähle, aber 10 Tokens braucht, um jedes Mal zu generieren und de facto ist eigentlich immer das Gleiche, was ich generiert habe - dann ist das ja recht ineffizient.
+
+Jonas Sladek: Betriebskosten.
+
+Hannes: Ja, Betriebskosten. Und für dich als Entwickler potenziell sind es die initialen Kosten - also Aufwand der Umsetzung initial ist potenziell auch ein Kriterium. Du willst sehr schnell sein, und das ist ja potenziell, sind die beiden Sachen ja auch entgegengesetzt unter Umständen.
+
+Hannes: Irgendwie so Proven Technology oder so. Ich will jetzt halt nicht haben, dass morgen der AWS-Endpunkt nicht mehr da ist, weil er auf dem Experimental Stack ist. Sondern dass ich mich auf irgendwie Support von Libraries verlassen kann, LTS Support, solche Sachen.
+
+Jonas Röber: Einsatz von bewährten Technologien.
+
+Hannes: Security, dass ich da ein Sanitizing und so weiter habe vom User Input.
+
+Ulrich: Warte, vermischen wir da gerade Dinge? Spielt der User Input eine Rolle bei der UI-Generierung? Also, ich bin für den Begriff Security, aber User Input stelle ich gerade in Frage. Ein UI zeigt nur Dinge an und dass das sanitized wird, das hat gefälligst das RAP oder CAP oder sonstige Modell zu tun.
+
+Hannes: Gut, stimmt. Aber dann Security - was wäre ein Beispiel?
+
+Ulrich: Ich dachte eher an Security von außen, aber tatsächlich ist das eher intern deployed alles nur. Also, wenn wir so eine App deployen auf der BTP und so weiter, hab ich gedacht in die Richtung Security, aber die Wahrheit ist, die wird wahrscheinlich nie public sein.
+
+Hannes: Andererseits, ich glaube, der Begriff ist wahrscheinlich trotzdem nicht falsch. Security, aber wir müssten vielleicht noch überlegen, inwiefern.
+
+Ulrich: Ja, ich glaube, wenn der Begriff Security hier auftaucht und irgendwie nicht so hoch bewertet wird, dann wirft er sehr viele Fragen auf, wenn du die Bachelorarbeit einreichst. Deswegen, wenn wir das nicht präzisieren können mit irgendwas hinterlegen, dann sollten wir den Begriff vielleicht besser rauslassen. Der ist zu allgemein.
+
+Ulrich: Ja, du, ansonsten muss ich euch leider jetzt verlassen, tut mir leid. Aber viel Erfolg noch, bis dann.
+
+Jonas Röber: Okay, alles gut. Dankeschön.
+
+[Ulrich verlässt das Meeting]
+
+Hannes: Was mir jetzt gerade einfällt, was ja bisschen Security ist: gegen Bots oder so einen Denial of Service oder dass Tokens verbraucht werden en masse, weil irgendwie der Endpunkt von diesem Ding offen ist und ich automatisiere das irgendwie und du müsstest aber einen Captcha vorne dran schalten oder so.
+
+Jonas Röber: Ja, aber es stimmt halt auch schon irgendwie, was Ulrich meinte. Ist halt die Frage, ob das wirklich der Job vom UI ist.
+
+Jonas Sladek: Die Nutzwertanalyse ist hier nur für das UI, also ist das ja eigentlich nicht relevant, oder?
+
+Jonas Röber: Ja, es ist für die Auswahl zwischen diesen 4 Optionen für das UI.
+
+Jonas Sladek: Ja, aber die - aber es geht genau um die Auswahl dieser 4 Optionen und die vierte Option, wenn das komplett generisch gemacht ist, ist es ja schon relevant. Mit klar Security bildet schon einiges ab, aber auch Betriebskosten und so weiter, was wir da alles besprochen haben, das ist ja nicht nur das UI, was wir damit bewerten, sondern auch den Agent, eigentlich oder? Zum Beispiel gibt es ja beim Agent auch Abhängigkeiten, also zum Beispiel, wenn ein neues Model rauskommt. Wenn Model irgendwie ad acta gelegt wird, müssen wir dann ein neues Release mitbringen?
+
+Jonas Röber: Wird das wahrscheinlich auch wieder Einsatz von bewährten Technologien oder Wartbarkeit?
+
+Hannes: Ja, und oder Wartbarkeit.
+
+Jonas Sladek: Ja, wenn es darunter fällt, dann müssen wir es darunter auch beschreiben. Ja, das sind ja schon relativ viele.
+
+Jonas Röber: Ja, ich denke auch. Also, es sind jetzt 15.
+
+Hannes: Aber mir fehlt noch so der wichtigste Punkt. Ich hab davor zurückgeschreckt, den zu sagen, aber dass das eine gute UX ist. Also, wir haben noch gar nicht hier drin, dass die UI mir die Funktionen bietet, gut dargestellt, so wie ich sie will. Das steht hier eigentlich noch nicht. Da steht nur: "Das muss einheitlich sein, in der passenden Sprache" und so. Aber das ist auch irgendwie für den Nutzer bedienbar, dass es von der Komplexität her richtig ist. Kann ja sein, du machst so eine Chat-UI und die bietet nicht die Möglichkeit, die für das komplexe Problem eigentlich nötig wäre. Dann ist es nicht gut. Auch wenn die schnell generiert ist.
+
+Jonas Röber: Das stimmt ja, aber ich würde das noch versuchen zu spezifizieren auf den Punkt, weil in UX allgemein hängt hier schon ziemlich viel anderes noch mit drin. Zum Beispiel einheitliche Darstellung innerhalb einer Session ist auch UX. Oder reaktionsschnell.
+
+Tim: Es gibt doch diese 10 Kriterien oder so - es gibt so 10 offizielle oder mehr UX-Kriterien. Und das ist ja einiges hier schon genannt worden und der Rest, der wird natürlich auch noch mit eingeschlossen, weil es allgemein relevant ist für Frontend, dass man die Usability und User Experience hat.
+
+Hannes: Ein für den Zweck oder für das Ziel des Endanwenders passende UI.
+
+Tim: Wenn du für deine Bachelorarbeit auch eine theoretische Grundlage willst, es gibt die sogenannten ISO 9241 Usability Standards. Da sind aber glaube ich so Sachen wie Accessibility und so mit eingeschlossen. Kannst du dann nochmal ein bisschen abarbeiten. Das sagt ja so allgemein die ganzen Themen, wie man so Dialoge gestaltet, was ist konforme Benutzerfreundlichkeit.
+
+Jonas Röber: Ja, ich glaube, die hatte ich auch schon mal gesehen. Ich hatte vorhin auch Nielsen - es gibt Heuristiken nach Nielsen. Da ist zum Beispiel das mit Visibility of System State, das ist da auch mit drin.
+
+Tim: Da kannst du ja gut drüber schreiben in der Bachelorarbeit.
+
+Hannes: ISO 9241 Konformität.
+
+[Kategorisierung der Kriterien]
+
+Jonas Röber: Wenn ich jetzt noch kurz Zeit habe, würde ich sie noch in Kategorien einsortieren. Würde ich vor allem aus der ISO-Norm das rausarbeiten und euch im Anschluss schicken, dann könntet ihr die so priorisieren, wie ihr das möchtet. Einfach dann von 1 bis 10.
+
+Tim: Schnell generiert gehört ja auch zu den technischen Anforderungen. Es kann beides sein, also klar, schnell generiert ist geil für die ISO, nur ist für die ISO billig allgemein geil, aber ist ja auch technisch.
+
+Jonas Röber: Also UX für diese Kategorie - da gehören wahrscheinlich Accessibility, Responsive, Reaktionsschnell, Einheitliche Darstellung innerhalb einer Session, Darstellung des aktuellen Status rein.
+
+Tim: Der Rest sind doch eher so technische - also Wartbarkeit?
+
+Jonas Röber: Ja, die sind alle ziemlich technisch. Aufwand und Wartbarkeit.
+
+Jonas Sladek: Wirtschaftlichkeit.
+
+Jonas Röber: Ja, ist sehr gut. Und Funktionalität, wo man dann die Einheitlichkeit reinmachen würde. Und Security separat vielleicht.
+
+Hannes: Security ist, glaube ich, echt separat zu sehen, wenn es überhaupt Teil ist.
+
+Jonas Sladek: Einsatz von bewährten Technologien - ist das auch irgendwie ein Kriterium oder was?
+
+Tim: Geht es da nicht eher auch um Designpatterns allgemein?
+
+Hannes: Mir ging es ja darum, dass gewährleistet ist, dass das auch übermorgen noch supported ist, dass du auch das im UI5 Stack nicht auf eine experimentelle Bibliothek setzt.
+
+Jonas Röber: Ja, oder zukunftssicher vielleicht.
+
+Hannes: Ja, Zukunftssicher ist vielleicht sogar besser, weil bewährt hat es sich in der Vergangenheit ja vielleicht noch gar nicht so lange, aber es ist zukunftssicher besser.
+
+Jonas Sladek: Geht es nicht eher um die Stabilität? Geht auch darum, wenn man es ausrollt, wie lange ist das Ganze stabil? Also, es geht auch so ein bisschen Richtung Wartung.
+
+Hannes: Ja, deshalb ist es ja in der gleichen Kategorie.
+
+Jonas Röber: Ich denke, in dem Kontext, in dem ja alles schon ein bisschen volatil ist, ist es wahrscheinlich schon sinnvoll, das auch als Kriterium dabei zu haben.
+
+Hannes: Wie nennst du den Punkt? Wartung?
+
+Jonas Sladek: Entwicklung oder so irgendwas. Da geht es ja darum, dass du auch in Zukunft Support hast.
+
+Hannes: Uns geht es ja eigentlich eher um die Verlässlichkeit. Bei Wartbarkeit und Einsatz in zukunftssicheren Technologien geht es ja eher um so eine Verlässlichkeit. Ich fände vielleicht das Schlagwort Stabilität gar nicht so schlecht, weil Erweiterbarkeit heißt ja auch, dass nicht das ganze Kartenhaus zusammenfällt, wenn man was Gleiches draufsetzt.
+
+Jonas Röber: Finde ich OK, finde ich gut. Ich glaube, damit kann man arbeiten hier. Vielen Dank. Habt ihr denn sonst noch irgendwas? Ist euch noch was eingefallen?
+
+Hannes: Nein.
+
+Jonas Sladek: Was machst du jetzt als nächstes, vielleicht kurz die letzten zwei Minuten?
+
+Jonas Röber: Also, die nächsten Schritte sind das noch mal zusammenfassend runterzuschreiben, auch die UX-Standards hier noch mal rauszuarbeiten, und dann würde ich euch das zusammenschreiben, dann euch schicken, damit ihr das gewichten könnt. Dann würde ich in die Recherche gehen nochmal und gucken, wie die einzelnen Alternativen eben performen in diesen Kriterien. Dann eben bewerten, die Bewertung mit der Gewichtung multiplizieren, dann bekommt jede von diesen 4 Alternativen einen Nutzwertscore und das mit dem besten Nutzwertscore hat dann gewonnen und damit wird dann fortgefahren. Das wird dann implementiert.
+
+Jonas Sladek: Alles klar.
+
+Jonas Röber: Dann nochmal vielen Dank und bis morgen wahrscheinlich - oder ja, Tim, bis nächste Woche dann.
+
+Jonas Sladek: Nächste Woche, ja, warte mal, ich stopp mal die Aufnahme.

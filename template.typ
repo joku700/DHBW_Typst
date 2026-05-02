@@ -25,7 +25,7 @@
 
 // ── Setup function ─────────────────────────────────────────────────────────
 #let project(
-  lang: "en",
+  lang: "de",
   confidentiality_clause: true,
   title_long: none,
   title_short: none,

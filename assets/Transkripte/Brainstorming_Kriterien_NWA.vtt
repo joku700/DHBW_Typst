@@ -1,0 +1,3643 @@
+WEBVTT
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/17-0
+00:00:04.152 --> 00:00:04.952
+<v Sladek, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/18-0
+00:00:06.032 --> 00:00:06.752
+<v Roeber, Jonas>OK, super.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/21-0
+00:00:07.392 --> 00:00:08.192
+<v Sladek, Jonas>Glaub ich alles an.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/20-0
+00:00:07.632 --> 00:00:08.352
+<v Roeber, Jonas>Genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/26-0
+00:00:10.192 --> 00:00:15.167
+<v Roeber, Jonas>Genau, jetzt alles, alles auf Band jetzt.
+Ja, dann erstmal vielen Dank,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/26-1
+00:00:15.167 --> 00:00:18.207
+<v Roeber, Jonas>dass ihr euch die Zeit genommen habt
+heute.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/26-2
+00:00:18.207 --> 00:00:23.803
+<v Roeber, Jonas>Das Ziel dieses Meetings ist jetzt ja,
+die Kriterien für die Nutzwertanalyse für</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/26-3
+00:00:23.803 --> 00:00:25.392
+<v Roeber, Jonas>meine Bachelorarbeit zu</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/30-0
+00:00:25.712 --> 00:00:30.163
+<v Roeber, Jonas>sammeln, um noch mal kurz ja,
+euch alle abzuholen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/30-1
+00:00:30.163 --> 00:00:36.970
+<v Roeber, Jonas>Es geht dabei ja um diese 4 UI Ansätze
+für dieses für das Gen UI zu bewerten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/30-2
+00:00:36.970 --> 00:00:41.072
+<v Roeber, Jonas>Also wir hätten als erstes dann natürlich
+das.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/32-0
+00:00:42.032 --> 00:00:45.312
+<v Roeber, Jonas>Das statische Genui, wo.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/37-0
+00:00:46.672 --> 00:00:51.604
+<v Roeber, Jonas>Wo eben vordefinierte JSONs sind,
+beziehungsweise vordefinierte U.I.s,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/37-1
+00:00:51.604 --> 00:00:56.328
+<v Roeber, Jonas>einfach die dann eben dynamisch von einem
+Agent, je nach Situation,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/37-2
+00:00:56.328 --> 00:01:01.954
+<v Roeber, Jonas>ausgewählt werden. Die deklarative U.I.,
+wo solche JSONs eben dann dynamisch zur</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/37-3
+00:01:01.954 --> 00:01:03.552
+<v Roeber, Jonas>Laufzeit von einer A.I.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/41-0
+00:01:04.432 --> 00:01:08.285
+<v Roeber, Jonas>ja entwickelt werden beziehungsweise
+generiert werden,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/41-1
+00:01:08.285 --> 00:01:13.678
+<v Roeber, Jonas>aber sich wird sich halt dann dennoch an
+die Regeln des Frameworks gehalten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/41-2
+00:01:13.678 --> 00:01:19.352
+<v Roeber, Jonas>Oder als dritte Option die offene Gen U.I.
+, wo eben die komplette U.I. komplett</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/42-0
+00:01:19.632 --> 00:01:22.712
+<v Roeber, Jonas>Dynamisch von einer KI generiert wird.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/46-0
+00:01:23.792 --> 00:01:27.848
+<v Roeber, Jonas>Und ja,
+dann als vierte Option hätten wir noch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/46-1
+00:01:27.848 --> 00:01:32.681
+<v Roeber, Jonas>die chatbasierte UI,
+wo eben einfach alles nur in einem</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/46-2
+00:01:32.681 --> 00:01:34.752
+<v Roeber, Jonas>Chatfenster stattfindet.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/49-0
+00:01:35.952 --> 00:01:38.855
+<v Roeber, Jonas>Genau,
+und dafür würde ich jetzt eben oder zur</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/49-1
+00:01:38.855 --> 00:01:41.759
+<v Roeber, Jonas>Bewertung dieser 4 Kriterien,
+diese 4 Ansätze,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/49-2
+00:01:41.759 --> 00:01:45.712
+<v Roeber, Jonas>würde ich jetzt eben gerne ein paar
+Kriterien mit euch sammeln.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/53-0
+00:01:46.752 --> 00:01:51.662
+<v Roeber, Jonas>Ja, da würde ich einfach noch kurz sagen,
+dass es da keine falschen Kriterien gibt,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/53-1
+00:01:51.662 --> 00:01:55.636
+<v Roeber, Jonas>sondern das jetzt einfach erstmal alles
+in den Raum stellen wollen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/53-2
+00:01:55.636 --> 00:01:58.734
+<v Roeber, Jonas>Das Ganze bewerten machen wir dann im
+Nachgang noch,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/53-3
+00:01:58.734 --> 00:02:01.832
+<v Roeber, Jonas>beziehungsweise auch das Gewichten dieser
+Kriterien.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/56-0
+00:02:04.152 --> 00:02:07.152
+<v Roeber, Jonas>Genau, also wie bitte?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/55-0
+00:02:05.152 --> 00:02:05.872
+<v Baum, Hannes>It's up.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/57-0
+00:02:07.392 --> 00:02:08.192
+<v Baum, Hannes>Sub and path.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/59-0
+00:02:08.512 --> 00:02:09.472
+<v Roeber, Jonas>Ja, das ist sehr gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/60-0
+00:02:09.952 --> 00:02:12.752
+<v Baum, Hannes>Haha, eben getippt.
+Willst du das wieder raushauen?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/62-0
+00:02:12.832 --> 00:02:17.187
+<v Roeber, Jonas>Ja, sehr gerne. Ja,
+ich würde die alle hier jetzt dann in dem</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/62-1
+00:02:17.187 --> 00:02:18.592
+<v Roeber, Jonas>in dem aufschreiben.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/65-0
+00:02:20.112 --> 00:02:23.454
+<v Roeber, Jonas>Dann später würden wir dann auch noch in
+Kategorien einordnen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/65-1
+00:02:23.454 --> 00:02:25.152
+<v Roeber, Jonas>aber erstmal alle raushauen, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/66-0
+00:02:25.232 --> 00:02:28.352
+<v Baum, Hannes>Also, dass das eine Accessible UI wird.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/68-0
+00:02:29.232 --> 00:02:30.752
+<v Roeber, Jonas>OK, accessibility.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/72-0
+00:02:32.112 --> 00:02:37.608
+<v Baum, Hannes>dass die responsive wird und dass die
+schnell da ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/70-0
+00:02:35.592 --> 00:02:36.272
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/72-1
+00:02:37.608 --> 00:02:43.512
+<v Baum, Hannes>Accessibility nur mit mit Y. oder E.
+Accessibility mit E.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/75-0
+00:02:41.232 --> 00:02:47.632
+<v Roeber, Jonas>Ah, oh, ja, sorry, Accessibility, ja,
+und responsive beziehungsweise schnell.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/74-0
+00:02:44.672 --> 00:02:46.512
+<v Baum, Hannes>Yeah, responsive.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/83-0
+00:02:48.112 --> 00:02:51.098
+<v Baum, Hannes>Ja, das sind 2 verschiedene,
+mit Responsive meine ich eigentlich,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/76-0
+00:02:49.872 --> 00:02:50.472
+<v Roeber, Jonas>Okay.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/83-1
+00:02:51.098 --> 00:02:53.677
+<v Baum, Hannes>macht das sind 2 verschiedene.
+Mit Responsive meine ich,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/78-0
+00:02:51.752 --> 00:02:52.392
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/83-2
+00:02:53.677 --> 00:02:57.433
+<v Baum, Hannes>dass das auch auf dem Handy gut aussieht
+oder umgekehrt auch auf dem großen Screen</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/79-0
+00:02:54.352 --> 00:02:55.232
+<v Roeber, Jonas>Ah, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/83-3
+00:02:57.433 --> 00:03:00.012
+<v Baum, Hannes>gut aussieht,
+aber hauptsächlich ist halt auf dem Handy,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/83-4
+00:03:00.012 --> 00:03:03.632
+<v Baum, Hannes>ne und dass sie schnell generiert wird,
+ne so kurze kurze Antwortzeiten so hat.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/82-0
+00:03:04.272 --> 00:03:04.832
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/85-0
+00:03:05.472 --> 00:03:05.952
+<v Baum, Hannes>Dann.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/94-0
+00:03:07.552 --> 00:03:12.050
+<v Hullen, Ulrich>Nee, Stopp, Stopp, Stopp, Hannes,
+nicht weitermachen, sondern schnell,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/87-0
+00:03:11.392 --> 00:03:11.872
+<v Baum, Hannes>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/88-0
+00:03:11.552 --> 00:03:12.192
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/94-1
+00:03:12.050 --> 00:03:16.421
+<v Hullen, Ulrich>da möcht ich noch mal einhaken, ja,
+weil das müssen wir präzisieren,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/89-0
+00:03:13.592 --> 00:03:14.112
+<v Baum, Hannes>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/94-2
+00:03:16.421 --> 00:03:21.108
+<v Hullen, Ulrich>zwischen schnell, schnell generiert,
+also schnell da ist das eine und das</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/91-0
+00:03:20.112 --> 00:03:20.832
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/92-0
+00:03:20.112 --> 00:03:20.752
+<v Baum, Hannes>Hello.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/94-3
+00:03:21.108 --> 00:03:23.072
+<v Hullen, Ulrich>andere ist ja reaktionsschnell.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/104-0
+00:03:23.232 --> 00:03:25.362
+<v Hullen, Ulrich>Also,
+es sind vielleicht sogar 2</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/104-1
+00:03:25.362 --> 00:03:30.525
+<v Hullen, Ulrich>Schnellattribute, die wir brauchen, ja,
+aber das eine ist schnell sichtbar oder</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/96-0
+00:03:27.232 --> 00:03:27.872
+<v Baum, Hannes>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/98-0
+00:03:27.952 --> 00:03:28.512
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/104-2
+00:03:30.525 --> 00:03:35.495
+<v Hullen, Ulrich>so und das andere ist reaktionsschnell.
+Also Light Wheat vielleicht eher als</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/99-0
+00:03:31.152 --> 00:03:31.872
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/101-0
+00:03:33.072 --> 00:03:33.632
+<v Roeber, Jonas>Cute.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/104-3
+00:03:35.495 --> 00:03:36.592
+<v Hullen, Ulrich>reaktionsschnell.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/102-0
+00:03:35.552 --> 00:03:36.232
+<v Baum, Hannes>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/105-0
+00:03:37.512 --> 00:03:40.712
+<v Roeber, Jonas>Reaktionsschnell leid.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/111-0
+00:03:42.552 --> 00:03:45.940
+<v Roeber, Jonas>Mhm, ja,
+das ist wahrscheinlich auch 'ne gute</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/111-1
+00:03:45.940 --> 00:03:50.876
+<v Roeber, Jonas>Abgrenzung noch mal und bei,
+aber bei Responsive geht es dir jetzt</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/111-2
+00:03:50.876 --> 00:03:55.443
+<v Roeber, Jonas>dann hauptsächlich darum,
+dass es eben auf allen möglichen Ja</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/109-0
+00:03:54.832 --> 00:03:55.312
+<v Baum, Hannes>Pulli.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/111-3
+00:03:55.443 --> 00:03:56.032
+<v Roeber, Jonas>Geräten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/114-0
+00:03:57.472 --> 00:04:02.672
+<v Roeber, Jonas>Ja, also gerätunabhängig,
+Gerät oder unabhängig vom Gerät.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/112-0
+00:03:59.072 --> 00:03:59.712
+<v Baum, Hannes>Genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/116-0
+00:04:06.272 --> 00:04:08.352
+<v Baum, Hannes>Gerät unabhängig gut bedienbar.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/117-0
+00:04:08.512 --> 00:04:09.632
+<v Roeber, Jonas>Ja, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/118-0
+00:04:09.632 --> 00:04:10.192
+<v Baum, Hannes>Ähm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/119-0
+00:04:10.752 --> 00:04:11.152
+<v Roeber, Jonas>Die.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/121-0
+00:04:12.272 --> 00:04:12.592
+<v Baum, Hannes>S.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/122-0
+00:04:12.352 --> 00:04:12.832
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/124-0
+00:04:16.112 --> 00:04:17.352
+<v Roeber, Jonas>Genau, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/130-0
+00:04:16.592 --> 00:04:20.539
+<v Baum, Hannes>Dann so Sachen wie so 'ne,
+das sind vielleicht auch mehrere Sachen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/130-1
+00:04:20.539 --> 00:04:24.834
+<v Baum, Hannes>sogar so 'ne gewisse Einheitlichkeit.
+Also, wenn ich jetzt das erste Mal,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/126-0
+00:04:23.312 --> 00:04:23.952
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/130-2
+00:04:24.834 --> 00:04:27.794
+<v Baum, Hannes>wenn ich jetzt die Bilder präsentiert
+bekomme, ne,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/130-3
+00:04:27.794 --> 00:04:31.392
+<v Baum, Hannes>und das ist 'n Dialog und dann finde ich
+mich in dem zurecht.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/128-0
+00:04:29.472 --> 00:04:29.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/138-0
+00:04:31.712 --> 00:04:36.078
+<v Baum, Hannes>Und dann sage ich, ah ja,
+mach es mir noch mal und und das ist</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/129-0
+00:04:31.872 --> 00:04:32.472
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/132-0
+00:04:34.152 --> 00:04:34.832
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/138-1
+00:04:36.078 --> 00:04:40.859
+<v Baum, Hannes>einmal alles andersrum. Ja,
+die Button sind oben statt unten und das</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/134-0
+00:04:37.632 --> 00:04:38.072
+<v Roeber, Jonas>Yep.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/138-2
+00:04:40.859 --> 00:04:44.671
+<v Baum, Hannes>Schließen X.
+ist rechts statt links und so Sachen fänd</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/138-3
+00:04:44.671 --> 00:04:47.512
+<v Baum, Hannes>ich jetzt nicht, ne? Das heißt, dass das.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/136-0
+00:04:45.232 --> 00:04:45.712
+<v Roeber, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/139-0
+00:04:48.112 --> 00:04:48.912
+<v Roeber, Jonas>Auf jeden Fall, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/140-0
+00:04:48.672 --> 00:04:49.872
+<v Baum, Hannes>Einheitlich ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/141-0
+00:04:50.272 --> 00:04:52.192
+<v Roeber, Jonas>Und dann wahrscheinlich auch sowas wie.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/143-0
+00:04:51.232 --> 00:04:54.272
+<v Hullen, Ulrich>Einheitlich pro Session oder Session
+übergreifend.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/144-0
+00:04:54.832 --> 00:04:55.232
+<v Baum, Hannes>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/145-0
+00:04:55.552 --> 00:04:56.032
+<v Roeber, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/148-0
+00:04:57.472 --> 00:05:03.072
+<v Baum, Hannes>Mindest also pro Session wär mir das ist
+absolut wär Minimum würde ich sagen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/149-0
+00:05:03.552 --> 00:05:04.312
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/151-0
+00:05:04.592 --> 00:05:07.552
+<v Hullen, Ulrich>Vielleicht brauchen wir da zwei Kriterien,
+die wir unterschiedlich gewichten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/150-0
+00:05:04.832 --> 00:05:05.392
+<v Baum, Hannes>Batman.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/153-0
+00:05:07.872 --> 00:05:09.712
+<v Baum, Hannes>Ja, wahrscheinlich nicht frei, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/157-0
+00:05:08.112 --> 00:05:11.524
+<v Roeber, Jonas>Ja, aber ist dann ja, ja gut,
+man könnte es jetzt 2,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/157-1
+00:05:11.524 --> 00:05:15.901
+<v Roeber, Jonas>man könnte es so einfach als 2 Kriterien
+machen oder vielleicht ist</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/157-2
+00:05:15.901 --> 00:05:19.763
+<v Roeber, Jonas>Einheitlichkeit pro Session,
+dann vielleicht so funktionale</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/157-3
+00:05:19.763 --> 00:05:21.952
+<v Roeber, Jonas>funktionelle Einheitlichkeit, das.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/160-0
+00:05:22.592 --> 00:05:26.458
+<v Roeber, Jonas>Selben Funktionalitäten immer an
+derselben Stelle zu finden sind zum</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/160-1
+00:05:26.458 --> 00:05:31.109
+<v Roeber, Jonas>Beispiel und vielleicht hätten wir dann
+zwischenübergreifend eine Einheitlichkeit,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/160-2
+00:05:31.109 --> 00:05:34.975
+<v Roeber, Jonas>die zum Beispiel sich auch an Company
+Guidelines orientiert oder ja,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/160-3
+00:05:34.975 --> 00:05:35.872
+<v Roeber, Jonas>da auch optisch.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/162-0
+00:05:36.952 --> 00:05:41.152
+<v Roeber, Jonas>Eben übereinstimmt mit der Corporate
+Attitity oder ist nochmal was extra?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/164-0
+00:05:36.992 --> 00:05:41.412
+<v Baum, Hannes>Ja, bei funktionaler Halt danach,
+dass ich in bei,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/164-1
+00:05:41.412 --> 00:05:44.272
+<v Baum, Hannes>dass ich in der gleichen Session.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/167-0
+00:05:45.512 --> 00:05:48.091
+<v Baum, Hannes>Die gleichen Funktionen haben will,
+aber ich will auch,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/167-1
+00:05:48.091 --> 00:05:50.992
+<v Baum, Hannes>dass sie an derselben Stelle sind. Ne,
+deshalb hat mir gerade.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/171-0
+00:05:49.792 --> 00:05:52.734
+<v Hullen, Ulrich>Ja,
+also ich finde auch funktional ist noch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/166-0
+00:05:50.432 --> 00:05:51.152
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/168-0
+00:05:52.192 --> 00:05:52.752
+<v Roeber, Jonas>Okay.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/171-1
+00:05:52.734 --> 00:05:54.272
+<v Hullen, Ulrich>mal ein dritter Aspekt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/172-0
+00:05:54.192 --> 00:05:56.592
+<v Roeber, Jonas>OK, dann ja, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/170-0
+00:05:54.592 --> 00:05:54.912
+<v Baum, Hannes>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/175-0
+00:05:57.872 --> 00:06:01.220
+<v Roeber, Jonas>Aber, oder würdet ihr denn sagen,
+optische Einheitlichkeit und funktionelle</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/175-1
+00:06:01.220 --> 00:06:03.952
+<v Roeber, Jonas>Einheitlichkeit getrennt oder oder was
+wäre das Dritte jetzt?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/181-0
+00:06:04.272 --> 00:06:08.393
+<v Hullen, Ulrich>Also genau,
+also funktionale Einheitlichkeit ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/176-0
+00:06:07.472 --> 00:06:08.352
+<v Roeber, Jonas>Funktioniert.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/181-1
+00:06:08.393 --> 00:06:12.020
+<v Hullen, Ulrich>glaube ich,
+das eine und das sollte Session</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/178-0
+00:06:09.552 --> 00:06:10.112
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/181-2
+00:06:12.020 --> 00:06:15.152
+<v Hullen, Ulrich>übergreifend sein, auf jeden Fall, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/180-0
+00:06:15.472 --> 00:06:15.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/183-0
+00:06:16.032 --> 00:06:19.952
+<v Hullen, Ulrich>Das Zweite ist innerhalb einer Session.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/184-0
+00:06:21.072 --> 00:06:22.112
+<v Hullen, Ulrich>Darf sich das nicht ändern.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/192-0
+00:06:23.152 --> 00:06:24.848
+<v Hullen, Ulrich>Ja,
+das ist ja fast schon ein</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/186-0
+00:06:23.552 --> 00:06:24.032
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/185-0
+00:06:23.632 --> 00:06:24.032
+<v Sladek, Jonas>Cheat.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/192-1
+00:06:24.848 --> 00:06:27.505
+<v Hullen, Ulrich>Ausschlusskriterium.
+Das ist ganz schrecklich,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/192-2
+00:06:27.505 --> 00:06:31.520
+<v Hullen, Ulrich>wenn ich zweimal ein Bild generiere und
+es sieht auch nur ein bisschen</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/189-0
+00:06:31.392 --> 00:06:31.712
+<v Roeber, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/192-3
+00:06:31.520 --> 00:06:34.968
+<v Hullen, Ulrich>unterschiedlich aus.
+Der eine ist der Button grün und einmal</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/192-4
+00:06:34.968 --> 00:06:39.152
+<v Hullen, Ulrich>blau. Das ist schrecklich. Ja,
+und das ist nice to have meines Erachtens.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/196-0
+00:06:39.512 --> 00:06:43.450
+<v Hullen, Ulrich>Einheitlichkeit find ich deswegen
+schwierig. Also, ich würd sagen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/193-0
+00:06:42.872 --> 00:06:43.672
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/196-1
+00:06:43.450 --> 00:06:46.272
+<v Hullen, Ulrich>einheitliche Darstellung vielleicht oder
+sowas.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/195-0
+00:06:45.952 --> 00:06:47.112
+<v Roeber, Jonas>Ja, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/198-0
+00:06:48.352 --> 00:06:52.752
+<v Hullen, Ulrich>Und werde die Session übergreifende.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/204-0
+00:06:53.712 --> 00:06:58.258
+<v Hullen, Ulrich>Einheitliche Darstellung ist immer so ein
+Boah, weiß nicht,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/204-1
+00:06:58.258 --> 00:07:03.562
+<v Hullen, Ulrich>ob es nur nice to have ist,
+aber hat ein klein wenig weniger Gewicht,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/204-2
+00:07:03.562 --> 00:07:06.896
+<v Hullen, Ulrich>finde ich,
+als die einheitliche Darstellung</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/201-0
+00:07:04.192 --> 00:07:04.872
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/204-3
+00:07:06.896 --> 00:07:09.472
+<v Hullen, Ulrich>innerhalb einer Session, also ich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/210-0
+00:07:09.712 --> 00:07:15.020
+<v Hullen, Ulrich>Als User kann ich mich damit abfinden,
+dass es morgen ein bisschen anders</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/205-0
+00:07:14.672 --> 00:07:15.072
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/210-1
+00:07:15.020 --> 00:07:20.758
+<v Hullen, Ulrich>aussieht, aber grob gleich wie heute.
+Aber innerhalb von zwei Minuten finde ich</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/207-0
+00:07:16.912 --> 00:07:17.432
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/210-2
+00:07:20.758 --> 00:07:22.192
+<v Hullen, Ulrich>das sehr verwirrend.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/209-0
+00:07:22.672 --> 00:07:23.192
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/212-0
+00:07:24.352 --> 00:07:25.792
+<v Roeber, Jonas>Ja, auf jeden Fall.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/214-0
+00:07:26.432 --> 00:07:30.442
+<v Baum, Hannes>Dann fällt mir noch was ein.
+Haben wir das jetzt auseinandergetröstelt?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/214-1
+00:07:30.442 --> 00:07:30.832
+<v Baum, Hannes>Ja, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/215-0
+00:07:31.272 --> 00:07:32.112
+<v Roeber, Jonas>Glaub schon, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/222-0
+00:07:32.552 --> 00:07:36.215
+<v Baum, Hannes>Ähm, weiß nicht, ob das ein Punkt ist,
+aber also Sprache. Ich,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/222-1
+00:07:36.215 --> 00:07:39.763
+<v Baum, Hannes>Ich würde jetzt erwarten,
+dass wenn ich einen, wenn ich das,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/222-2
+00:07:39.763 --> 00:07:43.833
+<v Baum, Hannes>wenn ich dem auf Deutsch schreib, ja,
+dass ich Deutsch U. I. bekomme,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/218-0
+00:07:42.752 --> 00:07:43.312
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/222-3
+00:07:43.833 --> 00:07:47.613
+<v Baum, Hannes>wenn ich mal auf Englisch schreib,
+eine Englisch U. I. bekommen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/219-0
+00:07:45.072 --> 00:07:45.712
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/222-4
+00:07:47.613 --> 00:07:51.043
+<v Baum, Hannes>Das kann ja sein,
+potenziell hast du im Deklarat in dem in</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/222-5
+00:07:51.043 --> 00:07:52.032
+<v Baum, Hannes>dem Vorlagen Ding</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/228-0
+00:07:52.112 --> 00:07:55.712
+<v Baum, Hannes>mehr Aufwand,
+weil du potenziell für 20 Sprachen das</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/228-1
+00:07:55.712 --> 00:08:00.466
+<v Baum, Hannes>machen müsstest und im anderen nicht,
+weil die bekommst du generiert.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/224-0
+00:07:57.792 --> 00:07:58.272
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/228-2
+00:08:00.466 --> 00:08:05.356
+<v Baum, Hannes>Aber das könnte ja sein, keine Ahnung.
+Also genau, Sprachunterstützung,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/226-0
+00:08:02.672 --> 00:08:03.152
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/228-3
+00:08:05.356 --> 00:08:08.752
+<v Baum, Hannes>nur dass er halt in der passenden Sprache
+mir das</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/229-0
+00:08:09.872 --> 00:08:10.352
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/231-0
+00:08:10.552 --> 00:08:11.552
+<v Baum, Hannes>Präsentiert.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/232-0
+00:08:12.592 --> 00:08:14.392
+<v Roeber, Jonas>Ja, in der Kosten da.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/234-0
+00:08:16.512 --> 00:08:17.112
+<v Roeber, Jonas>Sprache</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/236-0
+00:08:18.112 --> 00:08:21.912
+<v Roeber, Jonas>Und vielleicht ja Inhalte in der
+Passenden.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/237-0
+00:08:23.712 --> 00:08:24.152
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/239-0
+00:08:25.312 --> 00:08:25.632
+<v Baum, Hannes>Uh.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/241-0
+00:08:29.632 --> 00:08:32.512
+<v Baum, Hannes>Ja, Corporate Design, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/244-0
+00:08:34.112 --> 00:08:37.792
+<v Baum, Hannes>Da hast du Support für Corporate Design,
+ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/243-0
+00:08:37.632 --> 00:08:38.192
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/246-0
+00:08:43.152 --> 00:08:45.472
+<v Roeber, Jonas>Ja, das ist auch wichtig, denke ich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/248-0
+00:08:47.792 --> 00:08:48.352
+<v Baum, Hannes>Und.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/250-0
+00:08:48.192 --> 00:08:50.672
+<v Polland, Tim>Ist allgemein noch, ach sorry, Hannes,
+du gern zuerst?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/249-0
+00:08:48.352 --> 00:08:48.992
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/255-0
+00:08:49.472 --> 00:08:53.554
+<v Sladek, Jonas>du da,
+meinst du damit das Support for Corporate</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/251-0
+00:08:51.152 --> 00:08:51.472
+<v Baum, Hannes>Bit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/255-1
+00:08:53.554 --> 00:08:57.554
+<v Sladek, Jonas>Design,
+dass die die Inhalte quasi support sind</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/255-2
+00:08:57.554 --> 00:09:04.552
+<v Sladek, Jonas>for Corporate Design oder dann quasi die
+U. I. Elemente von dem ganzen A. I. Agent?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/258-0
+00:09:04.912 --> 00:09:08.269
+<v Baum, Hannes>Nee, ich meine jetzt nicht,
+dass das Bild in Copyright Design</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/258-1
+00:09:08.269 --> 00:09:12.330
+<v Baum, Hannes>generiert wird, meine ich jetzt nicht,
+sondern ich meine, dass das Pop-up,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/258-2
+00:09:12.330 --> 00:09:13.792
+<v Baum, Hannes>in dem ich interagiere, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/259-0
+00:09:15.552 --> 00:09:16.232
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/262-0
+00:09:15.712 --> 00:09:19.632
+<v Baum, Hannes>In Corporate Design irgendwie hat und die
+Schriftgröße.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/261-0
+00:09:18.352 --> 00:09:18.752
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/265-0
+00:09:19.232 --> 00:09:22.192
+<v Sladek, Jonas>Also so konsistent der Benutzeroberfläche
+quasi.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/263-0
+00:09:20.152 --> 00:09:20.912
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/267-0
+00:09:22.112 --> 00:09:23.312
+<v Baum, Hannes>Genau, genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/266-0
+00:09:24.072 --> 00:09:24.432
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/269-0
+00:09:25.552 --> 00:09:30.592
+<v Roeber, Jonas>Vielleicht ja, ich, ich denk,
+das ist okay so formuliert, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/271-0
+00:09:32.032 --> 00:09:33.232
+<v Polland, Tim>Ich hätte es doch gesagt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/278-0
+00:09:32.552 --> 00:09:36.928
+<v Hullen, Ulrich>Nee, nee, nee, Stopp, sorry,
+das da muss ich eingreifen. Ich weiß,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/272-0
+00:09:34.352 --> 00:09:35.112
+<v Polland, Tim>Yep.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/278-1
+00:09:36.928 --> 00:09:41.761
+<v Hullen, Ulrich>sorry, dass ich mal ins Wort falle,
+aber ich möchte es gerne präzisieren.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/274-0
+00:09:38.112 --> 00:09:38.512
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/275-0
+00:09:41.312 --> 00:09:41.952
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/278-2
+00:09:41.761 --> 00:09:47.312
+<v Hullen, Ulrich>Hannes hat es eigentlich schon gesagt, ja,
+das eine ist Support für Corporate Design</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/289-0
+00:09:47.552 --> 00:09:53.219
+<v Hullen, Ulrich>in der Antwort U. I.
+also in der in dem Kacheln und das andere</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/279-0
+00:09:48.832 --> 00:09:49.952
+<v Roeber, Jonas>Ja, OK, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/280-0
+00:09:51.472 --> 00:09:52.032
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/289-1
+00:09:53.219 --> 00:09:58.705
+<v Hullen, Ulrich>ist ja in Content. Ja,
+also hier müssen wir schon schreiben,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/283-0
+00:09:56.592 --> 00:09:57.152
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/289-2
+00:09:58.705 --> 00:10:04.192
+<v Hullen, Ulrich>Corporate Design in der in in generierten
+U. I. oder so, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/285-0
+00:10:02.352 --> 00:10:02.832
+<v Roeber, Jonas>Hey.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/287-0
+00:10:04.032 --> 00:10:04.912
+<v Roeber, Jonas>Ja, ja, okay.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/288-0
+00:10:04.512 --> 00:10:05.152
+<v Baum, Hannes>Genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/291-0
+00:10:04.592 --> 00:10:08.257
+<v Hullen, Ulrich>Das muss schon klar sein,
+dass wir das sonst kommen wir nächste</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/291-1
+00:10:08.257 --> 00:10:10.032
+<v Hullen, Ulrich>Woche wieder in Diskussion, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/292-0
+00:10:10.352 --> 00:10:12.832
+<v Baum, Hannes>Mama, ne, nicht im ganzen Design,
+das ist schon wieder Uneinheit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/295-0
+00:10:12.592 --> 00:10:14.752
+<v Hullen, Ulrich>Im generierten UI.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/296-0
+00:10:12.832 --> 00:10:15.632
+<v Roeber, Jonas>Sorry, ja, im generierten UI.
+Ich habe mich verschrieben. So.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/298-0
+00:10:17.072 --> 00:10:18.272
+<v Roeber, Jonas>Ja, im im UI klar.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-0
+00:10:20.072 --> 00:10:21.844
+<v Polland, Tim>OK,
+jetzt kurz mein Punkt: Konsistente</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/299-0
+00:10:21.632 --> 00:10:21.992
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-1
+00:10:21.844 --> 00:10:24.434
+<v Polland, Tim>Statusmeldung. Also,
+wenn ich jetzt auf "Neu generieren"</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-2
+00:10:24.434 --> 00:10:27.751
+<v Polland, Tim>drücke, soll das Frontend auch anzeigen,
+dass es gerade am Arbeiten ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-3
+00:10:27.751 --> 00:10:30.704
+<v Polland, Tim>zum Beispiel. Beziehungsweise,
+wenn ich dann ein Bild bestätige,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-4
+00:10:30.704 --> 00:10:34.112
+<v Polland, Tim>soll dann auch gezeigt werden: "OK,
+das Bild wurde das ist nicht in deinem</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/302-0
+00:10:31.312 --> 00:10:31.872
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-5
+00:10:34.112 --> 00:10:36.293
+<v Polland, Tim>Kontext,
+aber das Bild wurde zum Beispiel schon</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/306-6
+00:10:36.293 --> 00:10:38.792
+<v Polland, Tim>abgespeichert und der Agent Run ist
+sozusagen vorbei."</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/308-0
+00:10:38.992 --> 00:10:41.474
+<v Polland, Tim>Dass der Nutzer halt immer auf dem
+Laufenden gehalten wird,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/305-0
+00:10:39.312 --> 00:10:39.792
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/308-1
+00:10:41.474 --> 00:10:42.632
+<v Polland, Tim>was der aktuelle Status ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/309-0
+00:10:42.832 --> 00:10:44.912
+<v Roeber, Jonas>Die Darstellung des</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/311-0
+00:10:48.192 --> 00:10:49.392
+<v Roeber, Jonas>Aktuellen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/312-0
+00:10:50.832 --> 00:10:51.552
+<v Roeber, Jonas>Status.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/314-0
+00:10:54.952 --> 00:10:55.472
+<v Baum, Hannes>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/315-0
+00:10:56.112 --> 00:10:56.992
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/317-0
+00:11:01.152 --> 00:11:02.512
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/320-0
+00:11:05.392 --> 00:11:07.312
+<v Roeber, Jonas>Gibt es dann vielleicht</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/319-0
+00:11:05.952 --> 00:11:06.032
+<v Hullen, Ulrich>Äh.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/323-0
+00:11:08.272 --> 00:11:12.912
+<v Roeber, Jonas>Noch irgendwelche technischen Kriterien,
+die wirklich</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/322-0
+00:11:10.672 --> 00:11:12.672
+<v Hullen, Ulrich>If you are keine external *****.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/326-0
+00:11:14.512 --> 00:11:16.639
+<v Roeber, Jonas>Ja,
+die es dann vielleicht auch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/326-1
+00:11:16.639 --> 00:11:18.832
+<v Roeber, Jonas>Ausschlusskriterien gäbe oder so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/328-0
+00:11:20.912 --> 00:11:25.312
+<v Baum, Hannes>Ich hab mich jetzt gefragt, ne du.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/334-0
+00:11:26.272 --> 00:11:29.787
+<v Baum, Hannes>Du, du hast,
+du machst jetzt mal einen Wurf von von</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/334-1
+00:11:29.787 --> 00:11:34.857
+<v Baum, Hannes>diesem Bild Generierungs oder von diesem
+Agent, ja, von oder von dem U. I.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/334-2
+00:11:34.857 --> 00:11:38.440
+<v Baum, Hannes>generieren, ne?
+Und aus Sicht eines Entwicklers oder</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/332-0
+00:11:35.712 --> 00:11:36.392
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/334-3
+00:11:38.440 --> 00:11:41.752
+<v Baum, Hannes>eines Unternehmens,
+was das dann eingeführt hat.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/339-0
+00:11:42.432 --> 00:11:46.668
+<v Baum, Hannes>Stellen sich ja dann die Fragen,
+wie gut kommst du da jetzt dran? Ne,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/339-1
+00:11:46.668 --> 00:11:49.815
+<v Baum, Hannes>also die SAP,
+wir hätten jetzt bei Gelsenwasser das</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/339-2
+00:11:49.815 --> 00:11:53.082
+<v Baum, Hannes>eingeführt, ne,
+und dann werden die weg und der Jonas</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/337-0
+00:11:52.432 --> 00:11:52.792
+<v Roeber, Jonas>Yep.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/339-3
+00:11:53.082 --> 00:11:56.592
+<v Baum, Hannes>hätte die SAP verlassen,
+wollen wir mal nicht hoffen und.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/343-0
+00:11:57.552 --> 00:12:01.514
+<v Baum, Hannes>Und Gelsenwasser denkt sich: "Ja,
+ist eigentlich ganz OK,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/343-1
+00:12:01.514 --> 00:12:07.252
+<v Baum, Hannes>aber irgendwie ein Mini-Requirement fehlt.
+Und wie kann man jetzt ohne das komplett</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/341-0
+00:12:04.512 --> 00:12:04.992
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/343-2
+00:12:07.252 --> 00:12:08.072
+<v Baum, Hannes>zu brechen?"</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/345-0
+00:12:09.472 --> 00:12:11.312
+<v Baum, Hannes>Das erweitern.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/346-0
+00:12:09.672 --> 00:12:12.033
+<v Roeber, Jonas>O. K.,
+das sind sowas wie Wartbarkeit oder</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/346-1
+00:12:12.033 --> 00:12:12.912
+<v Roeber, Jonas>Erweiterbarkeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/347-0
+00:12:13.392 --> 00:12:14.112
+<v Baum, Hannes>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/349-0
+00:12:16.032 --> 00:12:18.032
+<v Roeber, Jonas>Beides einfach oder beides jetzt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/351-0
+00:12:16.992 --> 00:12:20.112
+<v Baum, Hannes>Erweiterbarkeit mal auf jeden Fall.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/352-0
+00:12:20.432 --> 00:12:23.152
+<v Roeber, Jonas>Ja,
+und Wartbarkeit dann als Extrakriterium.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/355-0
+00:12:23.992 --> 00:12:26.352
+<v Baum, Hannes>Mmm, but muh.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/354-0
+00:12:24.832 --> 00:12:25.392
+<v Hullen, Ulrich>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/356-0
+00:12:27.072 --> 00:12:27.552
+<v Roeber, Jonas>Wie bitte?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/357-0
+00:12:27.872 --> 00:12:28.592
+<v Baum, Hannes>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/358-0
+00:12:28.672 --> 00:12:29.352
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/359-0
+00:12:28.832 --> 00:12:29.472
+<v Hullen, Ulrich>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/368-0
+00:12:29.872 --> 00:12:32.693
+<v Baum, Hannes>Ja,
+und bei Wartbarkeit fallen mir jetzt auch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/368-1
+00:12:32.693 --> 00:12:36.065
+<v Baum, Hannes>noch Kosten ein, ne? Also,
+wenn das viel leichter ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/361-0
+00:12:34.112 --> 00:12:34.592
+<v Sladek, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/363-0
+00:12:35.432 --> 00:12:36.032
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/368-2
+00:12:36.065 --> 00:12:40.848
+<v Baum, Hannes>wenn das nur ein Token verbraucht,
+wenn ich die die passende Vorlage auswähl,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/368-3
+00:12:40.848 --> 00:12:45.017
+<v Baum, Hannes>ne, aber 10 Tokens braucht,
+um jedes Mal zu generieren und de facto</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/365-0
+00:12:42.112 --> 00:12:42.592
+<v Roeber, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/368-4
+00:12:45.017 --> 00:12:48.512
+<v Baum, Hannes>ist eigentlich immer das Gleiche,
+was ich generiert hab.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/367-0
+00:12:48.512 --> 00:12:49.632
+<v Roeber, Jonas>Ja, mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/370-0
+00:12:49.152 --> 00:12:52.352
+<v Baum, Hannes>Dann ist ja recht ineffizient.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/371-0
+00:12:52.912 --> 00:12:53.552
+<v Roeber, Jonas>Kim.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/374-0
+00:12:54.992 --> 00:12:57.736
+<v Roeber, Jonas>Dann ja,
+kann man das allgemein als Kosten</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/374-1
+00:12:57.736 --> 00:13:00.672
+<v Roeber, Jonas>schreiben oder möchtest du spezifizieren?
+Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/376-0
+00:12:58.832 --> 00:13:03.677
+<v Baum, Hannes>Nee, Kosten ist so allgemein. Also,
+ich würde es kosten im Kosten im Betrieb,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/375-0
+00:13:01.552 --> 00:13:02.592
+<v Sladek, Jonas>Betriebskosten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/376-1
+00:13:03.677 --> 00:13:04.112
+<v Baum, Hannes>ne die.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/377-0
+00:13:05.272 --> 00:13:05.992
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/381-0
+00:13:05.352 --> 00:13:08.677
+<v Baum, Hannes>Die Wasserszene, das Grenz,
+ne Betriebskosten, ja genau,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/380-0
+00:13:06.352 --> 00:13:07.952
+<v Sladek, Jonas>Betriebs Betriebskosten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/379-0
+00:13:06.952 --> 00:13:07.392
+<v Roeber, Jonas>Wissen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/383-0
+00:13:08.272 --> 00:13:13.032
+<v Roeber, Jonas>Ja, jetzt gibt's Kosten. Ist gut,
+Betriebskosten. Ja, okay.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/381-1
+00:13:08.677 --> 00:13:09.552
+<v Baum, Hannes>Betriebskosten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/390-0
+00:13:18.032 --> 00:13:21.413
+<v Baum, Hannes>Für dich als Entwickler,
+potenziell sind es die Initialen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/390-1
+00:13:21.413 --> 00:13:24.164
+<v Baum, Hannes>aber wer ist jetzt,
+wer ist jetzt das Ziel, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/390-2
+00:13:24.164 --> 00:13:28.004
+<v Baum, Hannes>Kann natürlich auch Kosten,
+also Aufwand der Umsetzung initial ist</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/390-3
+00:13:28.004 --> 00:13:29.952
+<v Baum, Hannes>potenziell auch ein Kriterium, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/387-0
+00:13:28.752 --> 00:13:29.392
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/388-0
+00:13:30.472 --> 00:13:30.912
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/391-0
+00:13:31.872 --> 00:13:33.712
+<v Baum, Hannes>Du willst sehr schnell sein und so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/392-0
+00:13:34.592 --> 00:13:34.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/395-0
+00:13:35.552 --> 00:13:38.283
+<v Baum, Hannes>Das ist ja potenziell.
+Sind die beiden Sachen ja auch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/395-1
+00:13:38.283 --> 00:13:39.952
+<v Baum, Hannes>entgegengesetzt, unter Umständen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/397-0
+00:13:42.352 --> 00:13:46.432
+<v Roeber, Jonas>Ach so, ja. Aufwand der Implementierung.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/398-0
+00:13:48.112 --> 00:13:48.592
+<v Baum, Hannes>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/399-0
+00:13:48.592 --> 00:13:49.472
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/402-0
+00:13:57.392 --> 00:13:58.272
+<v Roeber, Jonas>T.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/406-0
+00:14:04.272 --> 00:14:08.032
+<v Roeber, Jonas>Jetzt haben wir ja schon, ja, mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/405-0
+00:14:05.712 --> 00:14:07.872
+<v Baum, Hannes>was mich auch noch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/410-0
+00:14:10.112 --> 00:14:13.979
+<v Baum, Hannes>Irgendwie so Proven Technology oder so,
+vielleicht. Also,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/410-1
+00:14:13.979 --> 00:14:17.312
+<v Baum, Hannes>das weiß ich bei Wartbarkeit
+wahrscheinlich drin.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/410-2
+00:14:17.312 --> 00:14:21.512
+<v Baum, Hannes>Ich will jetzt halt nicht haben,
+dass morgen der AWS-Endpunkt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/418-0
+00:14:24.112 --> 00:14:27.645
+<v Baum, Hannes>Nicht mehr da ist, ne,
+weil auf dem Experimental Stack,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/411-0
+00:14:26.192 --> 00:14:26.832
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/418-1
+00:14:27.645 --> 00:14:30.800
+<v Baum, Hannes>sondern dass ich davon und dann ist alle
+D. U. I.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/413-0
+00:14:29.712 --> 00:14:30.392
+<v Roeber, Jonas>Ach so, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/418-2
+00:14:30.800 --> 00:14:35.658
+<v Baum, Hannes>Ich habe zwar irgendwie alles gemacht,
+aber irgendwo liefert eine Jason Null</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/418-3
+00:14:35.658 --> 00:14:39.949
+<v Baum, Hannes>zurück oder keine Ahnung,
+das will ich ja irgendwie auch nicht, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/418-4
+00:14:39.949 --> 00:14:40.832
+<v Baum, Hannes>Also, ich will</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/416-0
+00:14:40.512 --> 00:14:41.152
+<v Roeber, Jonas>Ja, klar.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/424-0
+00:14:41.472 --> 00:14:47.161
+<v Baum, Hannes>möglichst irgendwie bewährt sein,
+mich auf irgendwie Support von Libraries</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/419-0
+00:14:43.872 --> 00:14:44.272
+<v Roeber, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/424-1
+00:14:47.161 --> 00:14:51.712
+<v Baum, Hannes>verlassen können, L. T. S. Support,
+was jetzt so so Sachen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/421-0
+00:14:49.072 --> 00:14:49.872
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/422-0
+00:14:52.352 --> 00:14:52.832
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/427-0
+00:14:55.552 --> 00:14:59.927
+<v Roeber, Jonas>Ich ihn so vielleicht.
+Einsatz von bewährten Technologien.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/427-1
+00:14:59.927 --> 00:15:04.672
+<v Roeber, Jonas>Und vielleicht nicht nur bewährt,
+sondern vielleicht auch. Ähm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/433-0
+00:15:03.832 --> 00:15:08.728
+<v Baum, Hannes>Ja, ist die Frage, ne,
+so richtig bewährt ist das vielleicht</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/429-0
+00:15:08.032 --> 00:15:09.792
+<v Roeber, Jonas>Ja, ja, von.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/433-1
+00:15:08.728 --> 00:15:13.062
+<v Baum, Hannes>noch wenig,
+aber mit mit irgendwie Wartungszusage, N.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/433-2
+00:15:13.062 --> 00:15:16.032
+<v Baum, Hannes>T. S. Releases, garantierten Uptimes.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/431-0
+00:15:15.992 --> 00:15:16.752
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/434-0
+00:15:17.472 --> 00:15:19.792
+<v Hullen, Ulrich>Was spricht gegen Bewährt also?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/437-0
+00:15:19.312 --> 00:15:23.312
+<v Baum, Hannes>Ja, weil doch passt,
+aber sagen wir bewährte.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/435-0
+00:15:21.232 --> 00:15:21.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/438-0
+00:15:24.272 --> 00:15:24.872
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/443-0
+00:15:37.552 --> 00:15:40.672
+<v Roeber, Jonas>Jetzt schon 14 Kriterien, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/447-0
+00:15:39.032 --> 00:15:45.493
+<v Baum, Hannes>Security, Security, dass ich da kein,
+also dass ich ein Sanitizing und so</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/447-1
+00:15:45.493 --> 00:15:48.112
+<v Baum, Hannes>weiter hab von dem User Input.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/446-0
+00:15:48.552 --> 00:15:49.152
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/448-0
+00:15:49.392 --> 00:15:49.952
+<v Baum, Hannes>But.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/449-0
+00:15:50.992 --> 00:15:53.352
+<v Roeber, Jonas>Ja, Bereinigung.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/451-0
+00:15:55.952 --> 00:15:57.912
+<v Roeber, Jonas>Ich muss kurz, ich mach mal.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/456-0
+00:16:00.512 --> 00:16:05.312
+<v Hullen, Ulrich>Warte, warte, warte,
+vermischen wir da grad Dinge User Input.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/453-0
+00:16:01.152 --> 00:16:02.192
+<v Roeber, Jonas>Was spielst du mir so?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/455-0
+00:16:04.672 --> 00:16:05.072
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/458-0
+00:16:07.552 --> 00:16:09.952
+<v Hullen, Ulrich>Spielt der User Input eine Rolle?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/459-0
+00:16:11.392 --> 00:16:12.112
+<v Hullen, Ulrich>Bei der.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/461-0
+00:16:12.752 --> 00:16:14.392
+<v Roeber, Jonas>Ja, mhm, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/462-0
+00:16:13.392 --> 00:16:14.512
+<v Hullen, Ulrich>UI Generierung.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/465-0
+00:16:15.472 --> 00:16:18.331
+<v Hullen, Ulrich>Also,
+ich bin ich bin für den Begriff Security,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/463-0
+00:16:15.552 --> 00:16:17.072
+<v Roeber, Jonas>Ne, also beim.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/465-1
+00:16:18.331 --> 00:16:20.832
+<v Hullen, Ulrich>aber User Input stell ich gerade in Frage.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/469-0
+00:16:20.992 --> 00:16:25.703
+<v Roeber, Jonas>Ja, so bei dem offenen Gen UI,
+wo dann ja auch die UI sich darum kümmert,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/469-1
+00:16:25.703 --> 00:16:30.733
+<v Roeber, Jonas>wie die Logik im Hintergrund abläuft,
+könnte es wahrscheinlich schon eine oder</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/469-2
+00:16:30.733 --> 00:16:33.152
+<v Roeber, Jonas>denke ich schon eine Auswirkung haben.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/471-0
+00:16:34.192 --> 00:16:38.006
+<v Baum, Hannes>Ich meinte jetzt, Ulrich,
+wenn die wenn die UI ein Textfeld</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/471-1
+00:16:38.006 --> 00:16:41.312
+<v Baum, Hannes>generiert,
+in dem die jetzt um Feedback bittet, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/475-0
+00:16:42.352 --> 00:16:44.929
+<v Baum, Hannes>Und ich schreibe in das Textfeld,
+wo die U.I.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/475-1
+00:16:44.929 --> 00:16:47.899
+<v Baum, Hannes>mir irgendwie programmiert hat,
+Drop Table rein. Ne,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/475-2
+00:16:47.899 --> 00:16:50.477
+<v Baum, Hannes>dann würde ich jetzt erwarten, dass die U.
+I.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/475-3
+00:16:50.477 --> 00:16:53.895
+<v Baum, Hannes>nicht nur das Billigste vom Billigsten
+irgendwie gebaut hat,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/475-4
+00:16:53.895 --> 00:16:56.472
+<v Baum, Hannes>sondern dass das Textfeld dann so schlau
+ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/477-0
+00:16:58.672 --> 00:17:00.312
+<v Baum, Hannes>Dass das das jetzt nicht ausführt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/485-0
+00:17:01.552 --> 00:17:06.554
+<v Hullen, Ulrich>Mhm, also erstens, da würde ich sagen,
+eines ist von bewährten Technologien und</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/480-0
+00:17:06.032 --> 00:17:07.352
+<v Roeber, Jonas>Ja, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/485-1
+00:17:06.554 --> 00:17:10.181
+<v Hullen, Ulrich>zweitens, das ist nicht Aufgabe des U.I.s.
+Also, ein U.I.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/479-0
+00:17:06.672 --> 00:17:07.072
+<v Baum, Hannes>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/482-0
+00:17:09.952 --> 00:17:10.392
+<v Baum, Hannes>I good.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/485-2
+00:17:10.181 --> 00:17:13.808
+<v Hullen, Ulrich>zeigt nur Dinge an und dass das,
+dass das SAP heißt wird,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/483-0
+00:17:12.752 --> 00:17:13.512
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/485-3
+00:17:13.808 --> 00:17:17.872
+<v Hullen, Ulrich>das hat gefälligst das RAP oder CAP oder
+sonstige Modell zu tun.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/487-0
+00:17:18.032 --> 00:17:20.712
+<v Roeber, Jonas>Ja, OK, stimmt. Ja, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/489-0
+00:17:19.072 --> 00:17:22.722
+<v Baum, Hannes>gut, stimmt, aber dann Security, was,
+was würdest denn, was, was,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/489-1
+00:17:22.722 --> 00:17:25.432
+<v Baum, Hannes>was wäre ein Beispiel, wo du dann sagst,
+Ulrich,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/495-0
+00:17:29.072 --> 00:17:33.396
+<v Hullen, Ulrich>Ich dachte eher an Security von außen,
+aber tatsächlich ist das eher intern</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/495-1
+00:17:33.396 --> 00:17:38.060
+<v Hullen, Ulrich>deployed alles nur ne. Also, wenn wir,
+wenn wir so eine App deployen auf der B.T.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/495-2
+00:17:38.060 --> 00:17:41.474
+<v Hullen, Ulrich>P. und so weiter,
+hab ich gedacht in die Richtung Security,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/492-0
+00:17:39.552 --> 00:17:40.152
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/495-3
+00:17:41.474 --> 00:17:44.432
+<v Hullen, Ulrich>aber die Wahrheit ist,
+die wird wahrscheinlich nie.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/496-0
+00:17:44.592 --> 00:17:46.192
+<v Hullen, Ulrich>Public sein? Ne, keine Ahnung.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/498-0
+00:17:48.112 --> 00:17:50.546
+<v Baum, Hannes>Aber andererseits, ich glaube,
+der Begriff ist wahrscheinlich trotzdem</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/498-1
+00:17:50.546 --> 00:17:50.992
+<v Baum, Hannes>nicht falsch.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/501-0
+00:17:52.992 --> 00:17:55.841
+<v Baum, Hannes>Security,
+aber wir müssten vielleicht noch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/499-0
+00:17:53.392 --> 00:17:53.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/501-1
+00:17:55.841 --> 00:17:57.232
+<v Baum, Hannes>überlegen, inwiefern.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/507-0
+00:17:56.992 --> 00:18:00.815
+<v Hullen, Ulrich>Ja, das ich glaube,
+wenn der wenn der Begriff Security hier</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/507-1
+00:18:00.815 --> 00:18:04.256
+<v Hullen, Ulrich>auftaucht.
+Und irgendwie nicht so hoch bewertet wird,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/503-0
+00:18:01.232 --> 00:18:01.792
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/507-2
+00:18:04.256 --> 00:18:08.271
+<v Hullen, Ulrich>dann wirft er sehr viele Fragen auf,
+wenn du ne was schreibst,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/507-3
+00:18:08.271 --> 00:18:11.712
+<v Hullen, Ulrich>du Bachelorarbeit oder was oder P. A.
+Bachelorarbeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/506-0
+00:18:09.872 --> 00:18:10.912
+<v Roeber, Jonas>Ja, Bachelorarbeit, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/512-0
+00:18:11.872 --> 00:18:16.860
+<v Hullen, Ulrich>Ja, wenn du es einreichst, also deswegen,
+wenn wir das nicht präzisieren können mit</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/508-0
+00:18:14.592 --> 00:18:15.152
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/512-1
+00:18:16.860 --> 00:18:21.017
+<v Hullen, Ulrich>irgendwas hinterlegen können,
+dann sollten wir den Begriff vielleicht</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/512-2
+00:18:21.017 --> 00:18:23.392
+<v Hullen, Ulrich>besser rauslassen. Der ist zu allgemein.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/511-0
+00:18:23.992 --> 00:18:24.912
+<v Roeber, Jonas>Ja, also.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/518-0
+00:18:26.152 --> 00:18:29.814
+<v Roeber, Jonas>stimm ich zu, aber wir,
+also ich würd ja auch oder ich werde ja</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/518-1
+00:18:29.814 --> 00:18:33.019
+<v Roeber, Jonas>auch begründen,
+warum die einzelnen Kriterien so und so</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/515-0
+00:18:32.992 --> 00:18:33.312
+<v Hullen, Ulrich>Uh.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/518-2
+00:18:33.019 --> 00:18:36.338
+<v Roeber, Jonas>bewertet sind. Also,
+es es steht ja nicht nur am Ende das</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/516-0
+00:18:34.672 --> 00:18:35.072
+<v Hullen, Ulrich>Uh.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/518-3
+00:18:36.338 --> 00:18:38.112
+<v Roeber, Jonas>Kriterium und die Bewertung da.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/524-0
+00:18:38.752 --> 00:18:41.719
+<v Hullen, Ulrich>Ja, du,
+ansonsten muss ich euch leider jetzt</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/524-1
+00:18:41.719 --> 00:18:45.872
+<v Hullen, Ulrich>verlassen, tut mir leid. Ach,
+aber viel Erfolg noch, bis dann.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/520-0
+00:18:42.912 --> 00:18:44.352
+<v Roeber, Jonas>Okay, alles gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/521-0
+00:18:45.472 --> 00:18:46.112
+<v Roeber, Jonas>Dankeschön.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/528-0
+00:18:53.472 --> 00:18:57.206
+<v Baum, Hannes>Was mir jetzt gerade einfällt,
+was ja bisschen Security ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/528-1
+00:18:57.206 --> 00:19:00.512
+<v Baum, Hannes>aber irgendwie so gegen Bots oder so
+einen, so einen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/534-0
+00:19:01.952 --> 00:19:07.671
+<v Baum, Hannes>Denial of Service oder ein ein,
+dass Tokens verbraucht werden en masse,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/530-0
+00:19:02.312 --> 00:19:03.072
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/531-0
+00:19:03.992 --> 00:19:04.632
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/534-1
+00:19:07.671 --> 00:19:13.072
+<v Baum, Hannes>weil weil irgendwie der Endpunkt von
+diesem Ding offen ist und ich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/538-0
+00:19:14.272 --> 00:19:18.565
+<v Baum, Hannes>Könnte also, was ich meine,
+und ich automatisiere das irgendwie und</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/535-0
+00:19:16.352 --> 00:19:16.992
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/538-1
+00:19:18.565 --> 00:19:22.352
+<v Baum, Hannes>du müsstest aber einen Captcha vorne dran
+schalten oder so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/539-0
+00:19:23.152 --> 00:19:23.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/541-0
+00:19:25.792 --> 00:19:27.841
+<v Roeber, Jonas>Ja,
+aber es stimmt halt auch schon irgendwie,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/541-1
+00:19:27.841 --> 00:19:29.801
+<v Roeber, Jonas>was Ulrich meinte,
+also ist halt die Frage,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/541-2
+00:19:29.801 --> 00:19:31.672
+<v Roeber, Jonas>ob das wirklich der Job von vom U. I. ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/542-0
+00:19:32.272 --> 00:19:32.912
+<v Baum, Hannes>Yes, on.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/548-0
+00:19:33.152 --> 00:19:37.577
+<v Roeber, Jonas>Wenn wir ja also das das Feedback Tool
+wird dann ja auch nur ein Popup zum</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/544-0
+00:19:36.832 --> 00:19:37.232
+<v Sladek, Jonas>Spin.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/548-1
+00:19:37.577 --> 00:19:41.766
+<v Roeber, Jonas>Beispiel in dem UI sein, also das Gefühl,
+es wäre wahrscheinlich schon</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/546-0
+00:19:41.472 --> 00:19:41.792
+<v Sladek, Jonas>Hi.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/548-2
+00:19:41.766 --> 00:19:42.592
+<v Roeber, Jonas>vorgeschaltet.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/551-0
+00:19:43.072 --> 00:19:47.472
+<v Sladek, Jonas>Die Nutzwertanalyse ist hier nur für das
+UI, also ist ja eigentlich nicht, oder?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/550-0
+00:19:45.952 --> 00:19:46.432
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/553-0
+00:19:48.432 --> 00:19:49.232
+<v Roeber, Jonas>Um.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/556-0
+00:19:50.272 --> 00:19:52.908
+<v Roeber, Jonas>Ja,
+es ist es ist für die Auswahl zwischen</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/556-1
+00:19:52.908 --> 00:19:54.992
+<v Roeber, Jonas>diesen 4 Optionen für das UI doch.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/561-0
+00:19:54.432 --> 00:19:57.449
+<v Sladek, Jonas>Ja, aber die,
+die aber es geht genau um die Auswahl</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/561-1
+00:19:57.449 --> 00:20:02.205
+<v Sladek, Jonas>dieser 4 Optionen und die vierte Option,
+wenn das komplett generisch gemacht ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/558-0
+00:19:58.752 --> 00:19:59.152
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/561-2
+00:20:02.205 --> 00:20:06.672
+<v Sladek, Jonas>ist es ja schon relevant mit klar
+Security bild schon einiges ab, aber auch.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/563-0
+00:20:08.032 --> 00:20:11.093
+<v Sladek, Jonas>Betriebskosten und so weiter,
+was wir da alles besprochen haben,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/563-1
+00:20:11.093 --> 00:20:13.588
+<v Sladek, Jonas>das ist ja nicht nur das UI,
+was wir damit bewerten,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/563-2
+00:20:13.588 --> 00:20:15.472
+<v Sladek, Jonas>sondern auch den Agent, eigentlich oder?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/567-0
+00:20:17.952 --> 00:20:21.773
+<v Sladek, Jonas>Zum Beispiel gibt es ja beim Agent auch
+Abhängigkeiten, also zum Beispiel,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/565-0
+00:20:18.352 --> 00:20:19.072
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/567-1
+00:20:21.773 --> 00:20:23.352
+<v Sladek, Jonas>wenn ein neues Model rauskommt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/569-0
+00:20:26.832 --> 00:20:31.632
+<v Sladek, Jonas>Wenn Model irgendwie ad acta gelegt wird,
+müssen wir dann müssen wir dann neues</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/569-1
+00:20:31.632 --> 00:20:33.072
+<v Sladek, Jonas>Release dann mitbringen?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/574-0
+00:20:34.192 --> 00:20:39.417
+<v Sladek, Jonas>Das geht wahrscheinlich schneller wie wie
+wenn ne UI Five Bibliothek rausgelegt</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/571-0
+00:20:34.592 --> 00:20:35.232
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/573-0
+00:20:36.352 --> 00:20:38.832
+<v Roeber, Jonas>Wird das wahrscheinlich auch wieder
+Einsatz von bewährten Technologien oder?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/574-1
+00:20:39.417 --> 00:20:40.592
+<v Sladek, Jonas>wird. Ne, nochmal.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/576-0
+00:20:40.952 --> 00:20:43.392
+<v Roeber, Jonas>Das ist dann wahrscheinlich auch wieder
+Einsatz von bewährten Technologien, oder?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/577-0
+00:20:46.592 --> 00:20:48.272
+<v Baum, Hannes>Ja, und oder ne Wartbarkeit?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/579-0
+00:20:48.832 --> 00:20:49.952
+<v Roeber, Jonas>Ja, oder Wartbarkeit, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/581-0
+00:20:51.632 --> 00:20:54.716
+<v Sladek, Jonas>Ja, wenn es da, wenn es darunter fällt,
+dann müssen wir es darunter auch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/581-1
+00:20:54.716 --> 00:20:55.392
+<v Sladek, Jonas>beschreiben, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/583-0
+00:20:56.512 --> 00:20:58.800
+<v Sladek, Jonas>Ja, das sind ja schon relativ viele. Ne,
+das ist eigentlich mehr,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/585-0
+00:20:58.672 --> 00:21:05.632
+<v Roeber, Jonas>Ja, ich denke auch. Also,
+es sind jetzt 15, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/583-1
+00:20:58.800 --> 00:20:59.632
+<v Sladek, Jonas>was du eigentlich haben.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/589-0
+00:21:02.112 --> 00:21:06.706
+<v Baum, Hannes>Aber mir fehlt, mir fehlt,
+mir fehlt noch so der wichtigste Punkt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/589-1
+00:21:06.706 --> 00:21:10.409
+<v Baum, Hannes>Ich hab davor zurück,
+ich hab davor zurückgeschreckt,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/586-0
+00:21:06.752 --> 00:21:07.312
+<v Roeber, Jonas>männlich</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/588-0
+00:21:09.792 --> 00:21:10.352
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/589-2
+00:21:10.409 --> 00:21:11.712
+<v Baum, Hannes>den zu sagen, aber.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/594-0
+00:21:13.232 --> 00:21:17.646
+<v Baum, Hannes>Dass das eine, weil das so allgemein ist,
+dass es eine gute UX ist. Also,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/594-1
+00:21:17.646 --> 00:21:21.224
+<v Baum, Hannes>wir haben noch gar nicht hier drin,
+dass die, die ich sehe,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/592-0
+00:21:18.112 --> 00:21:18.712
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/594-2
+00:21:21.224 --> 00:21:23.312
+<v Baum, Hannes>dass die mir die Funktionen bietet.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/596-0
+00:21:24.192 --> 00:21:27.392
+<v Baum, Hannes>Gut dargestellt, so wie ich sie will, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/597-0
+00:21:27.712 --> 00:21:29.392
+<v Roeber, Jonas>Ja, es ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/602-0
+00:21:28.552 --> 00:21:32.799
+<v Baum, Hannes>Das steht hier eigentlich noch nicht.
+Da steht nur: "Das muss einheitlich sein</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/599-0
+00:21:30.912 --> 00:21:33.072
+<v Roeber, Jonas>Das ist halt so ein bisschen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/602-1
+00:21:32.799 --> 00:21:36.616
+<v Baum, Hannes>in der passenden Sprache und so.
+" Aber das ist auch irgendwie für den</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/601-0
+00:21:34.592 --> 00:21:34.992
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/602-2
+00:21:36.616 --> 00:21:36.992
+<v Baum, Hannes>Nutzer.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/609-0
+00:21:38.672 --> 00:21:42.422
+<v Baum, Hannes>bedienbar ist,
+dass es von der Komplexität her richtig</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/609-1
+00:21:42.422 --> 00:21:45.832
+<v Baum, Hannes>ist. Kann ja sein,
+du machst so eine Chat UI, ne,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/604-0
+00:21:43.472 --> 00:21:44.112
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/606-0
+00:21:45.552 --> 00:21:45.952
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/609-2
+00:21:45.832 --> 00:21:49.378
+<v Baum, Hannes>und die ist viel,
+die bietet nicht die Möglichkeit,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/609-3
+00:21:49.378 --> 00:21:54.219
+<v Baum, Hannes>die für das komplexe Problem eigentlich
+nötig wäre. Dann ist es nicht,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/609-4
+00:21:54.219 --> 00:21:55.992
+<v Baum, Hannes>dann ist es nicht gut, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/615-0
+00:21:56.112 --> 00:22:00.357
+<v Roeber, Jonas>Das stimmt ja, aber mhm, ja, ich glaube,
+ich würde das aber noch versuchen zu</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/611-0
+00:21:56.992 --> 00:21:59.872
+<v Baum, Hannes>Auch wenn die schnell generiert ist,
+die die Chat UI oder so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/615-1
+00:22:00.357 --> 00:22:04.929
+<v Roeber, Jonas>spezifizieren auf den Punkt, weil in U. X.
+allgemein hängt hier schon ziemlich viel</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/615-2
+00:22:04.929 --> 00:22:07.869
+<v Roeber, Jonas>anderes noch mit drin, würde ich sagen.
+Zum Beispiel,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/615-3
+00:22:07.869 --> 00:22:11.352
+<v Roeber, Jonas>einheitliche Darstellung innerhalb einer
+Session ist auch U. X.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/613-0
+00:22:08.352 --> 00:22:08.832
+<v Baum, Hannes>Na ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/616-0
+00:22:11.472 --> 00:22:12.672
+<v Roeber, Jonas>Oder reaktionsschnell.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/622-0
+00:22:11.952 --> 00:22:14.428
+<v Polland, Tim>gibt doch diese diese 10 Kriterien oder
+so von,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/622-1
+00:22:14.428 --> 00:22:17.007
+<v Polland, Tim>es gibt so 10 offiziellen oder mehr
+UX-Kriterien.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/618-0
+00:22:16.512 --> 00:22:17.152
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/622-2
+00:22:17.007 --> 00:22:20.257
+<v Polland, Tim>Und das ist ja einiges hier schon genannt
+worden und der Rest,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/619-0
+00:22:19.872 --> 00:22:20.272
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/622-3
+00:22:20.257 --> 00:22:22.784
+<v Polland, Tim>der wird natürlich auch noch mit
+eingeschlossen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/622-4
+00:22:22.784 --> 00:22:25.312
+<v Polland, Tim>weil es allgemein relevant ist für
+Frontend, ne,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/622-5
+00:22:25.312 --> 00:22:27.272
+<v Polland, Tim>dass man die Usability User Experience</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/623-0
+00:22:25.712 --> 00:22:28.912
+<v Baum, Hannes>Ich hab ein ein für den Zweck.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/627-0
+00:22:31.232 --> 00:22:36.432
+<v Baum, Hannes>Ein für den für den eine für den Zweck
+oder für das Ziel des Endanwenders.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/625-0
+00:22:34.512 --> 00:22:35.352
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/628-0
+00:22:37.552 --> 00:22:38.952
+<v Baum, Hannes>Passende UI.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/631-0
+00:22:39.952 --> 00:22:42.112
+<v Roeber, Jonas>Ja, ja oder.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/629-0
+00:22:40.032 --> 00:22:40.512
+<v Baum, Hannes>Bing.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/633-0
+00:22:43.872 --> 00:22:46.672
+<v Roeber, Jonas>situationsspezifisch oder</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/634-0
+00:22:48.312 --> 00:22:48.952
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/637-0
+00:22:51.512 --> 00:22:53.742
+<v Polland, Tim>Ich meine,
+wenn du für deine Bachelorarbeit auch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/637-1
+00:22:53.742 --> 00:22:56.882
+<v Polland, Tim>eine theoretische Grundlage willst,
+es gibt die sogenannten ISO 9241</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/637-2
+00:22:56.882 --> 00:22:57.792
+<v Polland, Tim>Usability Standards.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/639-0
+00:22:58.192 --> 00:23:01.872
+<v Roeber, Jonas>Ja, ich glaube,
+die hatte ich auch schon mal gesehen, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/646-0
+00:23:00.352 --> 00:23:03.605
+<v Polland, Tim>Wenn du die drin hast,
+kannst du die ja so ein bisschen</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/646-1
+00:23:03.605 --> 00:23:06.916
+<v Polland, Tim>abarbeiten, so grob mal kurz. Also ne,
+weil das sind ja,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/641-0
+00:23:04.792 --> 00:23:05.392
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/646-2
+00:23:06.916 --> 00:23:11.389
+<v Polland, Tim>das sagt ja so allgemein so die ganzen
+Themen, wie man so Dialoge gestaltet,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/644-0
+00:23:10.032 --> 00:23:12.192
+<v Roeber, Jonas>Ja, wie heißen die nochmal, ihr so?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/646-3
+00:23:11.389 --> 00:23:14.352
+<v Polland, Tim>was ist konforme Benutzerfreundlichkeit,
+ISO 9241.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/645-0
+00:23:14.432 --> 00:23:15.832
+<v Roeber, Jonas>Ernst, nicht ernst.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/647-0
+00:23:15.232 --> 00:23:16.672
+<v Polland, Tim>UX und Benutzerfreundlichkeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/649-0
+00:23:17.072 --> 00:23:17.752
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/653-0
+00:23:17.952 --> 00:23:21.617
+<v Baum, Hannes>Und der, der Punkt,
+der nicht so 92 für 1 Konformität oder so,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/650-0
+00:23:18.272 --> 00:23:18.992
+<v Polland, Tim>Und das sind ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/652-0
+00:23:21.232 --> 00:23:22.192
+<v Roeber, Jonas>Ja, genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/656-0
+00:23:21.232 --> 00:23:24.101
+<v Polland, Tim>Genau, konformitär. Da, ja genau.
+Dann sind wir dann offiziell auch.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/653-1
+00:23:21.617 --> 00:23:21.792
+<v Baum, Hannes>ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/654-0
+00:23:23.872 --> 00:23:24.672
+<v Roeber, Jonas>Von vorne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/656-1
+00:23:24.101 --> 00:23:27.219
+<v Polland, Tim>Da kannst du ja gut drüber schreiben,
+wirklich auch in der Bachelorarbeit,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/656-2
+00:23:27.219 --> 00:23:27.552
+<v Polland, Tim>dann ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/657-0
+00:23:27.392 --> 00:23:28.512
+<v Roeber, Jonas>Ja, auf jeden Fall.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/660-0
+00:23:33.472 --> 00:23:37.814
+<v Baum, Hannes>Frag mal hinten dran noch für für uns ist,
+dass wir wissen morgen habe ich vergessen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/660-1
+00:23:37.814 --> 00:23:38.672
+<v Baum, Hannes>was ISO 9241 war.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/661-0
+00:23:39.872 --> 00:23:42.352
+<v Baum, Hannes>Dass das jetzt irgendwie Usability ist
+oder so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/663-0
+00:23:42.032 --> 00:23:43.952
+<v Roeber, Jonas>Yeah, UX.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/664-0
+00:23:44.352 --> 00:23:45.072
+<v Polland, Tim>Downloads.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/666-0
+00:23:45.432 --> 00:23:46.112
+<v Roeber, Jonas>Standards, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/665-0
+00:23:45.472 --> 00:23:45.792
+<v Baum, Hannes>Hey.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/668-0
+00:23:48.352 --> 00:23:50.112
+<v Roeber, Jonas>Ja, das macht so Arbeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/674-0
+00:23:49.152 --> 00:23:52.409
+<v Polland, Tim>Da sind aber glaube ich so Sachen wie
+Accessibility und so ist das glaube ich</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/674-1
+00:23:52.409 --> 00:23:54.497
+<v Polland, Tim>mit eingeschlossen.
+Schon da musst du mal gucken,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/674-2
+00:23:54.497 --> 00:23:56.502
+<v Polland, Tim>ob du da nicht dann Verbindung dahin zu
+machst.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/674-3
+00:23:56.502 --> 00:23:59.300
+<v Polland, Tim>Das ist irgendwie so aufteilst hier,
+dass man sieht, zum Beispiel,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/670-0
+00:23:56.552 --> 00:23:57.232
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/674-4
+00:23:59.300 --> 00:24:02.432
+<v Polland, Tim>ISO 9241 beinhaltet dann einige der
+Punkte von uns, glaube ich halt schon.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/673-0
+00:24:01.472 --> 00:24:04.192
+<v Baum, Hannes>Responsible ist wahrscheinlich auch und
+so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/676-0
+00:24:03.712 --> 00:24:05.461
+<v Polland, Tim>Ja,
+ja und auch diese Statusdarstellung und</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/676-1
+00:24:05.461 --> 00:24:08.361
+<v Polland, Tim>sowas ist ja wahrscheinlich alles mit,
+ist ja glaube ich alles mit drin.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/676-2
+00:24:08.361 --> 00:24:09.792
+<v Polland, Tim>Kannst du dann nochmal ein bisschen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/680-0
+00:24:08.592 --> 00:24:11.733
+<v Roeber, Jonas>Ich hatte vorhin auch,
+wie hieß das noch mal,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/680-1
+00:24:11.733 --> 00:24:15.899
+<v Roeber, Jonas>Nielsen oder so hatte ich.
+Es gibt auch irgendwie, ja genau,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/680-2
+00:24:15.899 --> 00:24:21.089
+<v Roeber, Jonas>es gibt Heuristiken nach Nielsen.
+Da ist zum Beispiel das mit Visibility of</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/680-3
+00:24:21.089 --> 00:24:23.752
+<v Roeber, Jonas>System State, das ist da auch mit drin.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/681-0
+00:24:25.232 --> 00:24:26.032
+<v Roeber, Jonas>Also ja, da gibt es.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/683-0
+00:24:27.232 --> 00:24:30.592
+<v Roeber, Jonas>Da gibt es einige von diesen Heuristiken.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/685-0
+00:24:31.792 --> 00:24:36.325
+<v Roeber, Jonas>Nicht, äh,
+wie viel hat die ISO 9241 und was genau</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/685-1
+00:24:36.325 --> 00:24:37.392
+<v Roeber, Jonas>ist da drin?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/687-0
+00:24:38.032 --> 00:24:40.832
+<v Polland, Tim>Ja, das ist eine gute Frage,
+wie viele da drin sind.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/688-0
+00:24:41.632 --> 00:24:42.992
+<v Roeber, Jonas>Warte, ich guck doch mal.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/689-0
+00:24:41.952 --> 00:24:43.912
+<v Polland, Tim>Das weiß ich gerade auch nicht auswendig,
+also.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/691-0
+00:24:43.232 --> 00:24:45.632
+<v Baum, Hannes>Immer im Nachgang an oder.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/692-0
+00:24:45.232 --> 00:24:46.592
+<v Roeber, Jonas>Ja, gut. Ja, macht Sinn.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/694-0
+00:24:46.752 --> 00:24:50.122
+<v Baum, Hannes>Eben ist mir gerade noch etwas
+eingefallen. Moment, ****,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/694-1
+00:24:50.122 --> 00:24:51.632
+<v Baum, Hannes>das habe ich ja vergessen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/695-0
+00:24:53.232 --> 00:24:53.872
+<v Baum, Hannes>*******.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/697-0
+00:24:56.832 --> 00:24:58.752
+<v Baum, Hannes>Was wollte ich jetzt gerade sagen?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/699-0
+00:25:02.272 --> 00:25:04.072
+<v Baum, Hannes>Nee, sorry, muss kurz, muss kurz passen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/701-0
+00:25:03.632 --> 00:25:06.510
+<v Roeber, Jonas>Alles gut. Ja, sonst,
+wenn euch im Nachhinein noch etwas</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/701-1
+00:25:06.510 --> 00:25:08.832
+<v Roeber, Jonas>einfällt,
+könnt ihr das natürlich auch gerne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/702-0
+00:25:09.472 --> 00:25:10.032
+<v Sladek, Jonas>Ich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/704-0
+00:25:11.232 --> 00:25:13.712
+<v Roeber, Jonas>Ja, noch nachreichen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/709-0
+00:25:13.552 --> 00:25:21.099
+<v Baum, Hannes>Ja, ah, wobei ich weiß nicht,
+ob das so relevant ist, dass diese U.I.,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/706-0
+00:25:18.592 --> 00:25:19.632
+<v Roeber, Jonas>Ja, sag mal.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/709-1
+00:25:21.099 --> 00:25:28.752
+<v Baum, Hannes>aber sind wir bei dem Punkt irgendwie,
+dass sie sich selbst verbessert.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/712-0
+00:25:29.072 --> 00:25:32.346
+<v Baum, Hannes>Dass sie ein Feedback,
+also dass sie ein Feedback Channel</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/712-1
+00:25:32.346 --> 00:25:36.974
+<v Baum, Hannes>bereitstellt oder dass sie darüber hinaus
+vielleicht sich sogar selbst optimiert,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/712-2
+00:25:36.974 --> 00:25:38.272
+<v Baum, Hannes>indem sie das Feedback.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/716-0
+00:25:39.952 --> 00:25:43.128
+<v Baum, Hannes>Entgegennimmt,
+aber dann ist ja die Frage auch Feedback</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/716-1
+00:25:43.128 --> 00:25:46.076
+<v Baum, Hannes>zu was. Ne,
+es uns geht es ja nicht um das Feedback</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/714-0
+00:25:43.632 --> 00:25:44.272
+<v Roeber, Jonas>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/716-2
+00:25:46.076 --> 00:25:48.968
+<v Baum, Hannes>zum Bild,
+sondern uns geht von daher das das passt</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/718-0
+00:25:46.432 --> 00:25:50.813
+<v Roeber, Jonas>Ja, eben. Ja,
+mìsste man nochmal nen Feedback Channel</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/716-3
+00:25:48.968 --> 00:25:49.592
+<v Baum, Hannes>eigentlich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/718-1
+00:25:50.813 --> 00:25:52.192
+<v Roeber, Jonas>aufmachen, quasi.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/721-0
+00:25:52.832 --> 00:25:56.191
+<v Baum, Hannes>Und das ist wahrscheinlich auch ziemlich
+unabhängig von deinen Varianten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/721-1
+00:25:56.191 --> 00:25:58.869
+<v Baum, Hannes>Wäre das ja möglich,
+jetzt einen Daumen hoch zu platzieren</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/720-0
+00:25:56.352 --> 00:25:57.952
+<v Roeber, Jonas>Ja, also.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/721-2
+00:25:58.869 --> 00:25:59.232
+<v Baum, Hannes>oder so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/724-0
+00:25:59.072 --> 00:26:02.832
+<v Roeber, Jonas>Ja, gut, das stimmt. Ja, ja, also ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/723-0
+00:26:00.992 --> 00:26:01.472
+<v Baum, Hannes>Von daher.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/729-0
+00:26:03.952 --> 00:26:07.845
+<v Roeber, Jonas>Wahrscheinlich also zumindest für
+statische und chatbasierte UI würde es</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/729-1
+00:26:07.845 --> 00:26:11.045
+<v Roeber, Jonas>wahrscheinlich aber dann trotzdem keinen
+Sinn machen. Also,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/729-2
+00:26:11.045 --> 00:26:15.045
+<v Roeber, Jonas>das wäre dann ja deklarativ oder offen.
+Bei den beiden würde Feedback Sinn</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/729-3
+00:26:15.045 --> 00:26:18.352
+<v Roeber, Jonas>ergeben, weil ja gut,
+du könntest natürlich auch Feedback für</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/728-0
+00:26:16.432 --> 00:26:16.912
+<v Polland, Tim>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/729-4
+00:26:18.352 --> 00:26:19.312
+<v Roeber, Jonas>Deklarative geben.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/731-0
+00:26:19.632 --> 00:26:22.511
+<v Roeber, Jonas>Äh, für statische meine ich,
+das ist halt einfach für den Entwickler.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/731-1
+00:26:22.511 --> 00:26:24.032
+<v Roeber, Jonas>Also ja, macht vielleicht schon Sinn.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/737-0
+00:26:23.112 --> 00:26:25.931
+<v Polland, Tim>Das macht dann ja theoretisch nur Sinn,
+wenn du verschiedene,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/737-1
+00:26:25.931 --> 00:26:28.567
+<v Polland, Tim>also wenn du jetzt verschiedene
+statischen Cards hättest,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/737-2
+00:26:28.567 --> 00:26:30.840
+<v Polland, Tim>die dasselbe darstellen in verschiedenen
+Designs,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/737-3
+00:26:30.840 --> 00:26:33.841
+<v Polland, Tim>das dann halt die Nutzer bewerten können.
+Würde dann Sinn machen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/734-0
+00:26:33.152 --> 00:26:33.632
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/737-4
+00:26:33.841 --> 00:26:35.432
+<v Polland, Tim>aber sonst halt wirklich nicht, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/736-0
+00:26:36.352 --> 00:26:37.152
+<v Roeber, Jonas>Ja, das stimmt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/738-0
+00:26:37.472 --> 00:26:38.272
+<v Polland, Tim>Weil ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/743-0
+00:26:40.912 --> 00:26:43.800
+<v Roeber, Jonas>O. K., ja,
+weil ich würde sonst auch sagen,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/743-1
+00:26:43.800 --> 00:26:48.787
+<v Roeber, Jonas>dass es jetzt schon so einige sind,
+vor allem in dieser diesem ISO-Standard</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/743-2
+00:26:48.787 --> 00:26:51.872
+<v Roeber, Jonas>hängt ja noch einiges mit drin.
+Dann würde ich</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/741-0
+00:26:48.992 --> 00:26:50.392
+<v Sladek, Jonas>Yeah, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/745-0
+00:26:52.872 --> 00:26:55.516
+<v Roeber, Jonas>Wenn ich jetzt noch kurz Zeit hab,
+würde ich noch,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/745-1
+00:26:55.516 --> 00:26:57.952
+<v Roeber, Jonas>würde ich sie noch in Kategorien
+einsortieren.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/746-0
+00:26:59.312 --> 00:27:00.912
+<v Roeber, Jonas>Und dann.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/751-0
+00:27:01.872 --> 00:27:06.688
+<v Roeber, Jonas>Würde ich vor allem aus der ISO-Norm das
+rausarbeiten und euch im Anschluss</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/751-1
+00:27:06.688 --> 00:27:11.250
+<v Roeber, Jonas>schicken und dann könntet ihr die so
+priorisieren, wie ihr das möchtet.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/751-2
+00:27:11.250 --> 00:27:15.558
+<v Roeber, Jonas>Einfach dann von 1 bis 10,
+dann würde ich aber nochmal eine Mail zu</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/751-3
+00:27:15.558 --> 00:27:16.192
+<v Roeber, Jonas>schreiben.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/752-0
+00:27:20.032 --> 00:27:20.352
+<v Polland, Tim>Jo.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/757-0
+00:27:20.832 --> 00:27:25.132
+<v Roeber, Jonas>Okay, gut, dann äh, denk ich mal,
+ich ISO und ähm,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/757-1
+00:27:25.132 --> 00:27:31.540
+<v Roeber, Jonas>also die Norm und Accessibility.
+Und Responsive gehört, äh, ja, ja, stimmt,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/755-0
+00:27:29.872 --> 00:27:31.472
+<v Polland, Tim>Responsive gehört auch dahin, oder?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/757-2
+00:27:31.540 --> 00:27:34.912
+<v Roeber, Jonas>es gehört wahrscheinlich alles zusammen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/764-0
+00:27:34.272 --> 00:27:36.680
+<v Polland, Tim>Ja,
+schnell generiert ist aber auch gehört ja</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/764-1
+00:27:36.680 --> 00:27:40.816
+<v Polland, Tim>auch so zu den auch zu den technischen
+Anforderungen, ne? Es kann beides sein,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/759-0
+00:27:38.832 --> 00:27:39.472
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/764-2
+00:27:40.816 --> 00:27:43.538
+<v Polland, Tim>also. Klar,
+schnell generiert ist geil für die ISO,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/761-0
+00:27:42.592 --> 00:27:43.232
+<v Roeber, Jonas>Ja, stimmt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/764-3
+00:27:43.538 --> 00:27:47.202
+<v Polland, Tim>nur ist für die so billig allgemein geil,
+aber ist ja auch technisch,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/762-0
+00:27:46.352 --> 00:27:46.992
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/764-4
+00:27:47.202 --> 00:27:49.872
+<v Polland, Tim>dass du halt Ja, soll wissen,
+wie du es aufteilst.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/766-0
+00:27:50.472 --> 00:27:53.792
+<v Roeber, Jonas>Okay, ja, aber wir können ja erstmal um.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/768-0
+00:27:57.952 --> 00:27:58.992
+<v Roeber, Jonas>kann ich Template stoppen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/770-0
+00:28:00.672 --> 00:28:04.832
+<v Roeber, Jonas>Sind dann da hier Shapes?
+Wir können ja erstmal hier drum.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/772-0
+00:28:08.992 --> 00:28:10.192
+<v Roeber, Jonas>Ich mache über die Überschrift drüber.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/775-0
+00:28:16.112 --> 00:28:18.832
+<v Roeber, Jonas>Ja,
+also das kann man wahrscheinlich dann mit</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/775-1
+00:28:18.832 --> 00:28:20.192
+<v Roeber, Jonas>UX überschreiben, oder?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/776-0
+00:28:23.152 --> 00:28:23.872
+<v Polland, Tim>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/782-0
+00:28:25.952 --> 00:28:29.399
+<v Roeber, Jonas>Wahrscheinlich einheitliche Darstellung
+innerhalb einer Session gehört auch noch</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/782-1
+00:28:29.399 --> 00:28:31.271
+<v Roeber, Jonas>mit dazu.
+Funktionelle einheitliche Session</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/779-0
+00:28:30.672 --> 00:28:30.912
+<v Polland, Tim>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/782-2
+00:28:31.271 --> 00:28:34.292
+<v Roeber, Jonas>übergreifend würde ich dann aber
+vielleicht gar nicht mehr reinmachen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/782-3
+00:28:34.292 --> 00:28:35.952
+<v Roeber, Jonas>Vielleicht ist das dann eher sowas wie.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/781-0
+00:28:36.352 --> 00:28:37.872
+<v Polland, Tim>Platos gehört da noch zu, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/785-0
+00:28:38.272 --> 00:28:41.312
+<v Roeber, Jonas>Äh, Status. Ah, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/784-0
+00:28:39.552 --> 00:28:40.432
+<v Polland, Tim>Ganz rechts.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/787-0
+00:28:43.792 --> 00:28:45.072
+<v Roeber, Jonas>Status.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/789-0
+00:28:47.632 --> 00:28:49.232
+<v Roeber, Jonas>Vielleicht kann man dann so etwas machen
+wie.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/790-0
+00:28:50.232 --> 00:28:50.872
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/792-0
+00:28:51.712 --> 00:28:55.257
+<v Roeber, Jonas>Funktionalität,
+wo man dann die Einheitlichkeit</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/792-1
+00:28:55.257 --> 00:28:56.512
+<v Roeber, Jonas>reinmachen wìrde.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/793-0
+00:28:58.032 --> 00:28:58.832
+<v Roeber, Jonas>Und.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/795-0
+00:29:02.752 --> 00:29:03.832
+<v Roeber, Jonas>Security vielleicht.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/797-0
+00:29:07.512 --> 00:29:09.671
+<v Roeber, Jonas>Nicht gut,
+das hier kommt wahrscheinlich auch Psycho</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/797-1
+00:29:09.671 --> 00:29:09.752
+<v Roeber, Jonas>X.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/799-0
+00:29:12.752 --> 00:29:13.152
+<v Polland, Tim>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/800-0
+00:29:13.472 --> 00:29:14.552
+<v Roeber, Jonas>Und das ja auch.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/803-0
+00:29:19.152 --> 00:29:22.032
+<v Roeber, Jonas>Genau, und das hier.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/805-0
+00:29:21.232 --> 00:29:25.472
+<v Polland, Tim>Der Rest sind doch eher so technische
+oder also so Wartbarkeit?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/806-0
+00:29:23.072 --> 00:29:25.876
+<v Roeber, Jonas>Ja, die sind alle ziemlich technisch. Ja,
+das ist gut,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/806-1
+00:29:25.876 --> 00:29:28.832
+<v Roeber, Jonas>dass hier die beiden Wìrd ich vielleicht
+zusammen machen.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/809-0
+00:29:35.472 --> 00:29:35.792
+<v Polland, Tim>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/810-0
+00:29:35.832 --> 00:29:38.432
+<v Roeber, Jonas>Aufwand und Wartbarkeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/815-0
+00:29:40.672 --> 00:29:45.017
+<v Roeber, Jonas>Ja, vielleicht, wenn das hier so die gut,
+äh, ja, schnell generiert ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/814-0
+00:29:44.912 --> 00:29:46.432
+<v Baum, Hannes>Bist du jetzt auch da?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/815-1
+00:29:45.017 --> 00:29:48.112
+<v Roeber, Jonas>schnell generiert eher UX oder eher
+Funktionalität?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/823-0
+00:29:51.672 --> 00:29:54.660
+<v Baum, Hannes>Ist das heißen U.X. oder eine U.I.?
+Die du, du,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/823-1
+00:29:54.660 --> 00:29:59.639
+<v Baum, Hannes>du befindest dich ja schon in einer U.I.,
+irgendwo wo du das Haus startest, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/819-0
+00:29:57.152 --> 00:29:57.832
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/820-0
+00:29:59.232 --> 00:29:59.712
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/823-2
+00:29:59.639 --> 00:30:03.872
+<v Baum, Hannes>Und dann ist ja die U.X. *****,
+wenn dann erst mal 10 Sekunden was.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/822-0
+00:30:04.472 --> 00:30:04.672
+<v Polland, Tim>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/825-0
+00:30:05.312 --> 00:30:08.352
+<v Roeber, Jonas>Ja, aber das ist ja auch reaktionsschnell.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/831-0
+00:30:09.392 --> 00:30:14.496
+<v Baum, Hannes>Ja, gut, ist halt der Unterschied. Ne,
+ist dann innerhalb von dem Ding,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/827-0
+00:30:10.672 --> 00:30:11.952
+<v Polland, Tim>Beides noch, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/828-0
+00:30:14.312 --> 00:30:14.912
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/831-1
+00:30:14.496 --> 00:30:18.112
+<v Baum, Hannes>das zu schnell ist,
+aber beim Aufruf von dem Ding.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/830-0
+00:30:16.592 --> 00:30:17.152
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/832-0
+00:30:18.912 --> 00:30:20.472
+<v Baum, Hannes>Dass es halt auch schnell da ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/835-0
+00:30:20.552 --> 00:30:22.472
+<v Roeber, Jonas>Mhm, ja, OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/834-0
+00:30:21.632 --> 00:30:22.112
+<v Baum, Hannes>Stuck.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/836-0
+00:30:23.792 --> 00:30:26.352
+<v Baum, Hannes>Für mich ist das schon die gleiche
+Kategorie.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/838-0
+00:30:26.512 --> 00:30:28.672
+<v Roeber, Jonas>Ja, okay, gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/840-0
+00:30:30.712 --> 00:30:33.312
+<v Roeber, Jonas>Aber wie geht es sonst der Chor mit der
+Einteilung so?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/842-0
+00:30:36.832 --> 00:30:38.592
+<v Roeber, Jonas>Und wie benennen wir das noch?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/844-0
+00:30:40.112 --> 00:30:42.992
+<v Roeber, Jonas>Die einzelnen, äh,
+einzelnen doch Kategorien.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/846-0
+00:30:47.152 --> 00:30:48.272
+<v Roeber, Jonas>Vielleicht.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/848-0
+00:30:51.392 --> 00:30:52.032
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/850-0
+00:30:54.992 --> 00:30:57.526
+<v Roeber, Jonas>Nein,
+das hier ist die bei mir unten sind</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/850-1
+00:30:57.526 --> 00:30:58.672
+<v Roeber, Jonas>Aufwand und Kosten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/851-0
+00:30:59.952 --> 00:31:00.992
+<v Roeber, Jonas>Also vielleicht.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/853-0
+00:31:02.272 --> 00:31:03.392
+<v Sladek, Jonas>Wirtschaftlichkeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/854-0
+00:31:03.552 --> 00:31:04.032
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/855-0
+00:31:04.112 --> 00:31:04.592
+<v Polland, Tim>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/856-0
+00:31:04.992 --> 00:31:06.192
+<v Baum, Hannes>Ich hoffe, dich geht es gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/857-0
+00:31:06.272 --> 00:31:07.112
+<v Roeber, Jonas>Ist sehr gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/859-0
+00:31:10.392 --> 00:31:10.672
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/861-0
+00:31:12.512 --> 00:31:13.392
+<v Roeber, Jonas>Ähm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/863-0
+00:31:14.832 --> 00:31:17.592
+<v Roeber, Jonas>Das hier wäre dann wäre hier für
+Funktionalität OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/864-0
+00:31:18.432 --> 00:31:19.392
+<v Roeber, Jonas>Die oberen beiden.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/866-0
+00:31:21.472 --> 00:31:23.552
+<v Baum, Hannes>Security as funktionalität.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/869-0
+00:31:23.072 --> 00:31:25.312
+<v Roeber, Jonas>Ja, ich weiß nicht.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/868-0
+00:31:23.232 --> 00:31:25.152
+<v Sladek, Jonas>Schließlich jetzt hören.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/867-0
+00:31:24.672 --> 00:31:25.072
+<v Baum, Hannes>Ich will.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/871-0
+00:31:26.672 --> 00:31:27.992
+<v Roeber, Jonas>Wie wirst du es sonst benennen?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/874-0
+00:31:29.552 --> 00:31:33.152
+<v Baum, Hannes>Boah, die beiden passen auch nicht. Also,
+es passt auch nicht zusammen, glaube ich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/873-0
+00:31:33.592 --> 00:31:34.392
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/876-0
+00:31:35.552 --> 00:31:39.552
+<v Baum, Hannes>Security ist, glaube ich,
+echt separat zu sehen, wenn es überhaupt.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/877-0
+00:31:40.752 --> 00:31:42.192
+<v Baum, Hannes>Teil ist ne</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/879-0
+00:31:42.592 --> 00:31:43.232
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/883-0
+00:31:52.072 --> 00:31:55.597
+<v Baum, Hannes>Da funktioniert es halt. Ja, gut.
+Finde eine Überschrift für ein einzelnes</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/883-1
+00:31:55.597 --> 00:31:55.832
+<v Baum, Hannes>Ding.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/885-0
+00:31:56.512 --> 00:31:58.272
+<v Roeber, Jonas>Ja, das ist super.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/882-0
+00:31:56.912 --> 00:31:57.392
+<v Sladek, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/886-0
+00:31:57.632 --> 00:32:00.954
+<v Baum, Hannes>Hast du dann ja quasi,
+hast du dann ja quasi selbst eine</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/886-1
+00:32:00.954 --> 00:32:01.712
+<v Baum, Hannes>Funktion und.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/888-0
+00:32:02.752 --> 00:32:03.632
+<v Baum, Hannes>Sicherheit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/891-0
+00:32:11.192 --> 00:32:11.632
+<v Roeber, Jonas>Um.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/893-0
+00:32:15.312 --> 00:32:17.392
+<v Sladek, Jonas>Einsatz von bewährten Techniken.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/895-0
+00:32:20.032 --> 00:32:20.432
+<v Baum, Hannes>Yes.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/896-0
+00:32:20.512 --> 00:32:22.410
+<v Sladek, Jonas>Oh,
+das ist auch irgendwie nicht so ein</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/896-1
+00:32:22.410 --> 00:32:23.312
+<v Sladek, Jonas>Kriterium oder was?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/898-0
+00:32:24.352 --> 00:32:25.392
+<v Polland, Tim>Geht es da nicht eher auch um?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/901-0
+00:32:26.192 --> 00:32:30.370
+<v Polland, Tim>Designpatterns allgemein,
+dass man da jetzt nicht oder was mit</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/901-1
+00:32:30.370 --> 00:32:31.232
+<v Polland, Tim>Technologien.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/907-0
+00:32:31.392 --> 00:32:34.494
+<v Baum, Hannes>Ich hatte ja vorher gemeint,
+ich war ja mit dem Bewährter,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/907-1
+00:32:34.494 --> 00:32:37.386
+<v Baum, Hannes>ist nicht so happy, oder? Doch,
+passt doch eigentlich.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/907-2
+00:32:37.386 --> 00:32:40.068
+<v Baum, Hannes>Mir ging es ja da drum,
+dass ja gewährleistet ist,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/907-3
+00:32:40.068 --> 00:32:44.116
+<v Baum, Hannes>dass das auch übermorgen noch supported
+ist, ne, dass du dann, dass du auch,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/904-0
+00:32:41.872 --> 00:32:42.592
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/905-0
+00:32:42.432 --> 00:32:43.552
+<v Polland, Tim>Ach so, so.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/907-4
+00:32:44.116 --> 00:32:46.272
+<v Baum, Hannes>dass du das im U. Five Stack nicht auf ne</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/908-0
+00:32:44.832 --> 00:32:48.192
+<v Roeber, Jonas>Ja, oder zukunftssicher oder so,
+vielleicht. Ich weiß nicht ganz.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/912-0
+00:32:47.472 --> 00:32:49.691
+<v Baum, Hannes>Ja,
+Zukunft sicher ist vielleicht sogar</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/912-1
+00:32:49.691 --> 00:32:52.188
+<v Baum, Hannes>besser,
+weil bewährt hat es sich sich in der</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/912-2
+00:32:52.188 --> 00:32:56.072
+<v Baum, Hannes>Vergangenheit ja vielleicht noch gar
+nicht so lange, ne, aber es ist.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/911-0
+00:32:57.232 --> 00:32:57.632
+<v Polland, Tim>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/914-0
+00:32:57.832 --> 00:33:00.192
+<v Baum, Hannes>Zukunft, Zukunft sicherlich besser, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/915-0
+00:33:00.512 --> 00:33:01.472
+<v Polland, Tim>Wünsch ich auch, gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/916-0
+00:33:01.032 --> 00:33:02.992
+<v Sladek, Jonas>Geht es nicht eher um die Stabilität?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/919-0
+00:33:03.712 --> 00:33:05.312
+<v Baum, Hannes>Auch genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/918-0
+00:33:04.832 --> 00:33:05.392
+<v Roeber, Jonas>Yeah.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/923-0
+00:33:08.112 --> 00:33:11.838
+<v Sladek, Jonas>Geht auch darum, wenn man es ausrollt,
+wie lange ist das Ganze stabil? Also,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/923-1
+00:33:11.838 --> 00:33:14.112
+<v Sladek, Jonas>es geht auch so ein bisschen Richtung
+Wartung.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/926-0
+00:33:14.592 --> 00:33:17.952
+<v Baum, Hannes>Ja, deshalb ist es ja in der gleichen,
+in der gleichen Kategorie auch, ne.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/924-0
+00:33:15.552 --> 00:33:16.032
+<v Polland, Tim>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/925-0
+00:33:16.192 --> 00:33:16.592
+<v Sladek, Jonas>Here.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/927-0
+00:33:17.392 --> 00:33:18.432
+<v Roeber, Jonas>Welche? Ja, genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/931-0
+00:33:22.112 --> 00:33:25.724
+<v Roeber, Jonas>Ich denke, es ist als vor allem in dem,
+also in dem Kontext,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/931-1
+00:33:25.724 --> 00:33:30.342
+<v Roeber, Jonas>in dem ja alles schon 'n bisschen volatil
+ist, wahrscheinlich schon sinnvoll,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/931-2
+00:33:30.342 --> 00:33:32.592
+<v Roeber, Jonas>das auch als Kriterium dabei zu haben.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/934-0
+00:33:36.192 --> 00:33:42.192
+<v Baum, Hannes>Wie nennst du den Punkt Reife, ne Wartung?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/935-0
+00:33:42.032 --> 00:33:43.792
+<v Sladek, Jonas>Ich sag Entwicklung oder so irgendwas.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/937-0
+00:33:45.632 --> 00:33:46.672
+<v Sladek, Jonas>Da geht es ja darum.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/939-0
+00:33:47.552 --> 00:33:48.952
+<v Sladek, Jonas>Hast du auch in Zukunft?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/938-0
+00:33:47.792 --> 00:33:48.512
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/941-0
+00:33:51.832 --> 00:33:53.152
+<v Roeber, Jonas>Bin ich gar nicht so schlecht, ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/943-0
+00:33:56.112 --> 00:33:56.512
+<v Baum, Hannes>Und.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/944-0
+00:33:58.192 --> 00:33:59.232
+<v Baum, Hannes>Na ja, aber.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/946-0
+00:34:00.512 --> 00:34:03.312
+<v Baum, Hannes>Uns geht es ja eigentlich eher um die
+Verlässlichkeit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/948-0
+00:34:04.512 --> 00:34:07.785
+<v Baum, Hannes>Bei Wartbarkeit und Einsatz in
+zukunftssicheren Technologien geht es ja</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/948-1
+00:34:07.785 --> 00:34:08.512
+<v Baum, Hannes>eher um so eine.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/953-0
+00:34:10.672 --> 00:34:15.703
+<v Roeber, Jonas>Ja, das stimmt. Das ja, das ja, stimmt.
+Ist ja die Frage,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/950-0
+00:34:10.832 --> 00:34:12.272
+<v Baum, Hannes>Verletztheit.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/952-0
+00:34:15.312 --> 00:34:16.912
+<v Baum, Hannes>Nur in der Tschechowakei.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/953-1
+00:34:15.703 --> 00:34:18.912
+<v Roeber, Jonas>ob man Erweiterbarkeit rausnimmt oder</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/956-0
+00:34:26.752 --> 00:34:28.832
+<v Roeber, Jonas>Könnte man das irgendwo anders
+unterbringen?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/963-0
+00:34:39.232 --> 00:34:42.094
+<v Baum, Hannes>Ja,
+aber aber Erweiterbarkeit ist ja auch so</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/963-1
+00:34:42.094 --> 00:34:45.591
+<v Baum, Hannes>ein bisschen,
+also ich fände vielleicht das Schlagwort</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/963-2
+00:34:45.591 --> 00:34:50.551
+<v Baum, Hannes>Stabilität oder so gar nicht so schlecht,
+weil Erweiterbarkeit heißt ja auch,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/961-0
+00:34:47.472 --> 00:34:48.312
+<v Roeber, Jonas>Mhm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/963-3
+00:34:50.551 --> 00:34:54.112
+<v Baum, Hannes>dass nicht das ganze Kartenhaus
+zusammenfällt, wenn man</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/964-0
+00:34:55.392 --> 00:34:56.112
+<v Baum, Hannes>Um.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/966-0
+00:34:57.792 --> 00:34:59.392
+<v Baum, Hannes>Was gleiches draufsetzt, ne?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/968-0
+00:35:02.752 --> 00:35:03.312
+<v Roeber, Jonas>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/970-0
+00:35:06.672 --> 00:35:08.992
+<v Roeber, Jonas>Find ich ja, find ich OK, find ich gut.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/974-0
+00:35:17.712 --> 00:35:17.952
+<v Baum, Hannes>Umm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/975-0
+00:35:18.672 --> 00:35:19.152
+<v Roeber, Jonas>Can.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/977-0
+00:35:25.192 --> 00:35:26.592
+<v Roeber, Jonas>Ich glaub, damit kann man arbeiten hier.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/979-0
+00:35:29.952 --> 00:35:30.672
+<v Roeber, Jonas>Vielen Dank.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/981-0
+00:35:34.032 --> 00:35:34.592
+<v Roeber, Jonas>Ähm.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/983-0
+00:35:36.912 --> 00:35:40.592
+<v Roeber, Jonas>Habt ihr denn sonst noch irgendwas?
+Ist euch noch was eingefallen?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/986-0
+00:35:46.592 --> 00:35:47.392
+<v Baum, Hannes>No.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/987-0
+00:35:47.792 --> 00:35:49.472
+<v Roeber, Jonas>OK, gut, dann.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/989-0
+00:35:48.512 --> 00:35:51.417
+<v Sladek, Jonas>Was machst du jetzt als nächstes oder was
+sind deine nächsten Schritte?</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/989-1
+00:35:51.417 --> 00:35:53.072
+<v Sladek, Jonas>Vielleicht kurz die letzten zwei Minuten.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/993-0
+00:35:52.272 --> 00:35:54.959
+<v Roeber, Jonas>Also,
+die nächsten Schritte sind das noch mal</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/993-1
+00:35:54.959 --> 00:35:59.048
+<v Roeber, Jonas>zusammenfassend beziehungsweise ja
+runterzuschreiben, auch die U. X.,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/993-2
+00:35:59.048 --> 00:36:02.028
+<v Roeber, Jonas>diese U. X.
+Standards hier noch mal rauszuarbeiten</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/993-3
+00:36:02.028 --> 00:36:05.357
+<v Roeber, Jonas>und dann würde ich euch das,
+würde ich das eben noch mal</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/993-4
+00:36:05.357 --> 00:36:08.512
+<v Roeber, Jonas>zusammenschreiben, dann euch schicken,
+damit ihr das.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/997-0
+00:36:10.032 --> 00:36:13.522
+<v Roeber, Jonas>Damit ihr das bewerten könnt, nein,
+nicht bewerten,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/997-1
+00:36:13.522 --> 00:36:17.952
+<v Roeber, Jonas>damit ihr das Priori nicht,
+damit ihr es gewichten könnt, so und.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/995-0
+00:36:16.992 --> 00:36:17.312
+<v Sladek, Jonas>And.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1000-0
+00:36:18.752 --> 00:36:23.281
+<v Roeber, Jonas>Dann wìrde ich in die Recherche gehen
+nochmal und gucken,</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1000-1
+00:36:23.281 --> 00:36:28.512
+<v Roeber, Jonas>wie die einzelnen Alternativen eben
+performen in diesen Kriterien.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1004-0
+00:36:30.432 --> 00:36:34.186
+<v Roeber, Jonas>dann eben bewerten,
+mit die Bewertung mit der Gewichtung</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1004-1
+00:36:34.186 --> 00:36:39.125
+<v Roeber, Jonas>multiplizieren, dann bekommt jedes,
+jede von diesen 4 Alternativen bekommt</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1004-2
+00:36:39.125 --> 00:36:43.472
+<v Roeber, Jonas>'nen Nutzwertscore und das mit dem besten
+Nutzwertscore wird dann</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1006-0
+00:36:44.552 --> 00:36:46.707
+<v Roeber, Jonas>Genau,
+hat dann gewonnen und damit wird dann</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1006-1
+00:36:46.707 --> 00:36:47.712
+<v Roeber, Jonas>wird er fortgefahren.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1007-0
+00:36:49.712 --> 00:36:51.872
+<v Roeber, Jonas>Ja, das wird dann implementiert.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1009-0
+00:36:54.352 --> 00:36:55.072
+<v Sladek, Jonas>Alles klar.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1010-0
+00:36:55.592 --> 00:36:56.392
+<v Roeber, Jonas>OK.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1012-0
+00:36:58.192 --> 00:36:59.392
+<v Roeber, Jonas>Dann nochmal vielen Dank.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1015-0
+00:37:02.432 --> 00:37:06.592
+<v Roeber, Jonas>und bis morgen wahrscheinlich oder ja,
+Tim, bis nächste Woche dann.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1014-0
+00:37:05.312 --> 00:37:05.952
+<v Sladek, Jonas>Genau.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1016-0
+00:37:07.072 --> 00:37:07.472
+<v Polland, Tim>Ja.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1018-0
+00:37:07.312 --> 00:37:10.272
+<v Sladek, Jonas>Nächste Woche, ja, warte mal,
+ich stopp mal die Aufnahme.</v>
+
+bed53cef-4e9c-4c58-9ffa-8bf4249cb28e/1019-0
+00:37:10.672 --> 00:37:11.072
+<v Roeber, Jonas>Ja.</v>
