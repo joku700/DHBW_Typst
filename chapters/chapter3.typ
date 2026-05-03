@@ -2,12 +2,10 @@
 #import "../template.typ": caption_with_source
 
 = Konzeption
-Zur Konzeption des Feedback-Systems wird zunächst die Ausgangssituation des @KI\-Agenten des SAP Lean Catalogs erläutert. Anschließend wird ermittelt, welcher Ansatz zur Generierung der Feedback-Formulare sich für den Anwendungsfall am besten eignet. Da das zu implementierende System von einem Agenten aufgerufen werden soll, kann hier von einem Tool gesprochen werden. Der Arbeitstitel für das System ist also _Feedback-Tool_. 
+Zur Konzeption des Feedback-Systems wird zunächst die Ausgangssituation des @KI\-Agenten des SAP Lean Catalogs erläutert. Anschließend wird ermittelt, welcher Ansatz sich zur Generierung der Feedback-Formulare für den Anwendungsfall am besten eignet. Da das zu implementierende System von einem Agenten aufgerufen werden soll, kann hier von einem Tool gesprochen werden. Der Arbeitstitel für das System ist also _Feedback-Tool_.
 
 == Ausgangssituation
-Vor der Implementierung des Feedback-Tools verfügte der SAP Lean Catalog über zwei unabhängige prototypische @KI\-Agenten. Hierbei handelte es sich um einen Agenten zur Bildgenerierung für Katalogbereiche (Catalog Image Generation Agent) und einen Agenten zur Übersetzung von Katalogtexten (Catalog Text Translation). Die Logik beider Agenten wurde in @ABAP Klassen implementiert. Die @KI\-Modelle laufen auf dem SAP AI Core. Ursprünglich wurden beide Agenten durch @ABAP Reports (ausführbare Programme im Kontext von SAP @GUI #cite(<SAP_Report>)) aufgerufen. Vor dem Beginn der Bearbeitung dieser Bachelorarbeit wurden beide Klassen mit SAP @RAP verschalt und so durch @OData V4 (einem @HTTP\-basierten Standard mit dem Daten über @REST\ful Schnittstellen frei ausgetauscht werden können #cite(<Pizzo_2020>)) aufrufbar gemacht.
-Anschließend wurde ein weiterer Agent (Content Manager Agent) entwickelt, der die beiden Inhaltsgenerierungs-Agenten mit @OData V4 Actions dynamisch und selbstbestimmt aufrufen kann. Dieser Meta-Agent ist in einer TypeScript-Klasse implementiert, die direkt vom @UI\5-Frontend verwendet werden kann. Dieses Frontend wurde ebenfalls neu entwickelt. Die Implementierung des Content Manager Agenten in @UI\5 hat mehrere Vorteile. Insbesondere die bessere Unterstützung von asynchroner Programmierung im Vergleich zu @ABAP ist positiv hervorzuheben. So können beispielsweise mehrere Texte gleichzeitig übersetzt werden, wodurch Zeit eingespart wird. Außerdem kann dem Content Manager Agenten durch Dependency Injection eine Referenz auf das @UI gegeben werden. Hierdurch kann der Agent auf die @UI\-Elemente bzw. Daten, die im Frontend angezeigt werden, Einfluss nehmen. Diese Funktionalität ist für die Implementierung des Feedback-Tools essenziell.
-#inline-note(text("kürzen"))
+Der SAP Lean Catalog verfügt über einen Content Manager Agent, der einen Bildgenerierungs-Agenten und einen Textübersetzungs-Agenten orchestriert. Beide Inhaltsgenerierungs-Agenten sind in @ABAP implementiert, laufen auf dem SAP AI Core und sind über @OData V4 Actions (einem @HTTP\-basierten Standard mit dem Daten über @REST\ful Schnittstellen frei ausgetauscht werden können #cite(<Pizzo_2020>)) aufrufbar. Der Content Manager Agent selbst ist in TypeScript implementiert und wird direkt vom @UI\5-Frontend verwendet. Dies ermöglicht asynchrone Verarbeitung sowie durch Dependency Injection direkten Zugriff auf @UI\-Elemente, eine Voraussetzung für die Implementierung des Feedback-Tools.
 
 
 == Nutzwertanalyse <sec:nwa>
@@ -18,7 +16,6 @@ Im Folgenden werden die einzelnen Schritte der @NWA dokumentiert.
 === Ziel und Entscheidungsproblem
 Das Ziel dieser @NWA ist die Auswahl eines geeigneten Ansatzes zur Generierung von Feedback-Formularen für den @KI\-Agenten des SAP Lean Catalog.
 
-=== Auswahl der Entscheidungsalternativen
 Auf Basis der in Kapitel 2 vorgestellten Ansätze für @GenUI werden die folgenden vier Alternativen zur Generierung von Feedback-Formularen betrachtet:
 
 1. Statisches Generatives UI
@@ -29,17 +26,16 @@ Auf Basis der in Kapitel 2 vorgestellten Ansätze für @GenUI werden die folgend
 Diese Alternativen unterscheiden sich insbesondere im Grad der Autonomie, die der @KI\-Agent bei der Formulargestaltung erhält.
 
 === Bestimmung der Entscheidungskriterien
-Die Auswahl der Entscheidungskriterien erfolgt systematisch auf Basis einer Brainstorming-Sitzung. Diese Sitzung wurde zusammen mit 4 Experten aus dem SAP Lean Catalog-Team durchgeführt. Das Transkript der Sitzung ist im Anhang zu finden. 
+Die Auswahl der Entscheidungskriterien erfolgt systematisch auf Basis einer Brainstorming-Sitzung. Diese Sitzung wurde zusammen mit 4 Experten aus dem SAP Lean Catalog-Team durchgeführt. Das Transkript der Sitzung ist in den Beigaben zu finden.
 
-#inline-note(text("Transkript in den Anhang packen, Nummer des Anhangs erwähnen"))
+#inline-note(text("Transkript in die Beigaben packen,"))
 
 Die Kriterien werden in vier Hauptkategorien gruppiert: @UX, Wirtschaftlichkeit, Stabilität und Sicherheit.
 
 ==== User Experience
 Die @UX\-Kriterien leiten sich größtenteils aus den in Kapitel 2 vorgestellten Standards ab. Sie bewerten, wie benutzerfreundlich und zugänglich die generierten Feedback-Formulare sind.
 
-===== Reaktionszeit
-Beschreibt, wie schnell das System auf Benutzereingaben reagiert. Eine niedrige Reaktionszeit ist essenziell für eine positive @UX, da Verzögerungen die Wahrnehmung der Systemqualität negativ beeinflussen.
+*Reaktionszeit* beschreibt, wie schnell das System auf Benutzereingaben reagiert. Eine niedrige Reaktionszeit ist essenziell für eine positive @UX, da Verzögerungen die Wahrnehmung der Systemqualität negativ beeinflussen.
 
 *Accessibility* bewertet die Zugänglichkeit der Formulare für Menschen mit Einschränkungen. Dies umfasst die Einhaltung von @WCAG 2-Richtlinien wie Tastaturnavigation, Screenreader-Kompatibilität und ausreichende Kontraste.
 
@@ -119,7 +115,7 @@ Dabei ist $g_(i j)$ die Bewertung von Experte $j$ für Kriterium $i$, $n$ die An
     [Stabilität], [Einsatz von zukunftssicheren Technologien], [8], [4], [8], [9], [6], [7], [5,82 %],
     [Stabilität], [Funktionale Konsistenz (sessionübergreifend)], [5], [8], [6], [9], [7], [7], [5,82 %],
     [Sicherheit], [Manipulationssicherheit], [5], [10], [9], [10], [10], [8,8], [7,32 %],
-  )
+  ),
 ) <tab:nwa_gewichtung>
 
 === Skalen und Bewertungsvorschriften
@@ -137,14 +133,13 @@ Die Bewertung der Alternativen erfolgt auf einer kardinalen Skala von 1 bis 100 
     [41-60], [Befriedigend], [Anforderung ausreichend erfüllt],
     [21-40], [Mangelhaft], [Anforderung nur teilweise erfüllt],
     [1-20], [Ungenügend], [Anforderung kaum oder nicht erfüllt],
-  )
+  ),
 ) <tab:nwa_skala>
 
-Die Bewertung erfolgt auf Basis einer qualitativen Einschätzung basierend auf Quellenrecherche sowie praktischer Erfahrungen mit den verschiedenen Ansätzen.
+Die Bewertung wurde vom Autor dieser Arbeit auf Basis von Quellenrecherche sowie praktischer Erfahrungen mit den verschiedenen Ansätzen vorgenommen.
 
 === Bewertung der Entscheidungskriterien
-Im Folgenden werden die vier Alternativen anhand der definierten Kriterien bewertet. @tab:nwa_bewertung im Anhang zeigt die vollständige Bewertungsmatrix. @tab:nwa_teilnutzwerte gewährt zudem eine Übersicht über die gewichteten Teilnutzwerte nach Kategorien.
-#inline-note(text("nummer für anhang"))
+Im Folgenden werden die vier Alternativen anhand der definierten Kriterien bewertet. @tab:nwa_bewertung im Anhang unter @anhang:nwa_table zeigt die vollständige Bewertungsmatrix. @tab:nwa_teilnutzwerte gewährt zudem eine Übersicht über die gewichteten Teilnutzwerte nach Kategorien.
 
 #figure(
   caption: [Gewichtete Teilnutzwerte nach Kategorien],
@@ -155,10 +150,10 @@ Im Folgenden werden die vier Alternativen anhand der definierten Kriterien bewer
     [*Kategorie*], [*Gewichtung (Maximum des Teilnutzwerts)*], [*Statisch*], [*Deklarativ*], [*Offen*], [*Chat*],
     [User Experience], [56,42 %], [*49,86*], [42,71], [26,56], [42,15],
     [Wirtschaftlichkeit], [12,97 %], [*11,21*], [9,73], [5,62], [10,96],
-    [Stabilität], [23,29 %],[18,13], [*18,64*], [14,78], [17,19],
+    [Stabilität], [23,29 %], [18,13], [*18,64*], [14,78], [17,19],
     [Sicherheit], [7,32 %], [*6,95*], [6,22], [1,83], [6,59],
     [*Gesamt*], [100 %], [*86,15*], [77,30], [48,79], [76,89],
-  )
+  ),
 ) <tab:nwa_teilnutzwerte>
 
 Die Bewertungen werden im Folgenden nach Kategorien erläutert und auf Basis wissenschaftlicher Literatur sowie technischer Analysen begründet.
@@ -178,7 +173,7 @@ Chat-basierte Schnittstellen erzielen sehr gute Werte (Reaktionszeit: 90, Generi
 
 ===== Darstellungskonsistenz
 
-Statisches @GenUI garantiert theoretisch Konsistenz (95), da Frontend-Entwickler Details wie Layout, Styling und Interaktionsmuster zur Entwicklungszeit festlegen #cite(<copilotkit_2026>). Dies ermöglicht die Einhaltung der Markenidentität und stellt sicher, dass Agent-Ausgaben optisch einheitlich sind #cite(<copilotkit_2026>). 
+Statisches @GenUI garantiert theoretisch Konsistenz (95), da Frontend-Entwickler Details wie Layout, Styling und Interaktionsmuster zur Entwicklungszeit festlegen #cite(<copilotkit_2026>). Dies ermöglicht die Einhaltung der Markenidentität und stellt sicher, dass Agent-Ausgaben optisch einheitlich sind #cite(<copilotkit_2026>).
 
 Deklaratives @GenUI bietet gute Konsistenz (80), da das Frontend native Komponenten mit einheitlichem Styling rendert #cite(<copilotkit_2026>). Die Interpretation der @JSON\-Struktur erfolgt deterministisch durch die Rendering-Engine, wodurch strukturelle und visuelle Konsistenz gewährleistet wird #cite(<hojo_generativegui_2025>, supplement: "S. 6").
 
@@ -188,7 +183,7 @@ Chat-Interfaces erreichen moderate Konsistenz (75), da die Darstellung durch das
 
 ===== Accessibility
 
-Statisches @GenUI erzielt hohe Werte (90), da @WCAG 2.1 Level AA-Konformität bei der Entwicklung sichergestellt werden kann. Alle Templates können vorab validiert und mit assistiven Technologien getestet werden. 
+Statisches @GenUI erzielt hohe Werte (90), da @WCAG 2.1 Level AA-Konformität bei der Entwicklung sichergestellt werden kann. Alle Templates können vorab validiert und mit assistiven Technologien getestet werden.
 
 Deklaratives @GenUI erreicht gute Werte (75). Da der Agent eine strukturierte Beschreibung sendet und das Host-Framework native Komponenten eigenständig rendert, erben die @UI\-Elemente automatisch die Barrierefreiheitsfunktionen des Frameworks #cite(<copilotkit_2026>) #cite(<hojo_generativegui_2025>, supplement: "S. 7").
 
@@ -200,7 +195,7 @@ Chat-Interfaces erreichen moderate Werte (60), da grundlegende Textausgabe für 
 
 Statisches @GenUI bietet maximale Kontrolle (95), da alle visuellen Elemente den SAP Fiori Gestaltungsrichtlinien entsprechen können. Entwickler haben Kontrolle über Farben, Typografie, Spacing und Komponenten-Bibliotheken, wodurch perfekte Markenkonformität garantiert wird #cite(<copilotkit_2026>).
 
-Deklaratives @GenUI ermöglicht gute Corporate-Design-Unterstützung (75). Die Trennung von Struktur und visueller Umsetzung ermöglicht es dem @UI\-Framework, das finale Styling zu kontrollieren, wodurch die generierten Oberflächen automatisch Gestaltungsrichtlinien erben #cite(<copilotkit_2026>). @UI\5 bietet vordefinierte @UI\-Elemente, die den SAP Fiori Gestaltungsrichtlinien entsprechen #cite(<Richter_2015>). 
+Deklaratives @GenUI ermöglicht gute Corporate-Design-Unterstützung (75). Die Trennung von Struktur und visueller Umsetzung ermöglicht es dem @UI\-Framework, das finale Styling zu kontrollieren, wodurch die generierten Oberflächen automatisch Gestaltungsrichtlinien erben #cite(<copilotkit_2026>). @UI\5 bietet vordefinierte @UI\-Elemente, die den SAP Fiori Gestaltungsrichtlinien entsprechen #cite(<Richter_2015>).
 
 Offenes @GenUI bietet eingeschränkte Kontrolle, wodurch es in diesem Aspekt eine geringe Bewertung erhält (40). Die @KI generiert HTML bzw. CSS ohne Zugriff auf Corporate-Design-Token oder Komponenten-Bibliotheken. Das Styling muss durch System-Prompts gesteuert werden, was inkonsistente Ergebnisse liefert und nicht die Präzision vordefinierter Gestaltungs-Systeme erreicht #cite(<copilotkit_2026>).
 
@@ -220,7 +215,7 @@ Chat-Interfaces (70) sind grundsätzlich responsive, da Text-Container anpassbar
 
 Sowohl statisches @GenUI (90) als auch deklaratives @GenUI (80) ermöglichen dedizierte Statusanzeigen. Bei statischen Ansätzen werden Ladebalken, Spinner und Fortschrittsanzeigen zur Entwicklungszeit implementiert, während bei deklarativen Ansätzen die @JSON\-Beschreibung entsprechende Komponenten spezifiziert, die vom Host-Framework gerendert werden #cite(<hojo_generativegui_2025>, supplement: "S. 6"). Beide erfüllen die Nielsen-Heuristik "Sichtbarkeit des Systemstatus" #cite(<nielsen_molich_1990>, supplement: "S. 250"). Der leichte Vorteil des statischen Ansatzes liegt in der vollständigen Kontrolle über Timing und Verhalten der Indikatoren.
 
-Offenes @GenUI (50) muss Statusanzeigen selbst generieren. Die Generierung solcher Elemente ist jedoch nicht garantiert #cite(<hojo_generativegui_2025>, supplement: "S. 6"). Da Antwortzeiten bei @KI\-Systemen oft groß und variabel sind, wären Statusanzeigen insbesondere bei solchen Systemen aber eigentlich essenziell. 
+Offenes @GenUI (50) muss Statusanzeigen selbst generieren. Die Generierung solcher Elemente ist jedoch nicht garantiert #cite(<hojo_generativegui_2025>, supplement: "S. 6"). Da Antwortzeiten bei @KI\-Systemen oft groß und variabel sind, wären Statusanzeigen insbesondere bei solchen Systemen aber eigentlich essenziell.
 
 Chat-Interfaces (70) zeigen typische Typing-Indikatoren, die signalisieren, dass das System arbeitet. Diese bieten jedoch keine Fortschrittsanzeige für mehrstufige Prozesse und vermitteln keine Information über die verbleibende Wartezeit #cite(<copilotkit_2026>).
 
@@ -279,7 +274,7 @@ Offenes @GenUI verursacht die höchsten Kosten (50), da vollständiger HTML-, CS
 
 ===== Implementierungsaufwand
 
-Chat-basierte Schnittstellen sind am einfachsten zu implementieren (90), da sie auf bestehenden Chat-Frameworks und Markdown-Rendering aufbauen. Die Integration erfordert minimalen zusätzlichen Aufwand #cite(<leviathan_generative_2025>) #cite(<Bieniek_2024>). 
+Chat-basierte Schnittstellen sind am einfachsten zu implementieren (90), da sie auf bestehenden Chat-Frameworks und Markdown-Rendering aufbauen. Die Integration erfordert minimalen zusätzlichen Aufwand #cite(<leviathan_generative_2025>) #cite(<Bieniek_2024>).
 
 Statisches @GenUI erfordert die manuelle Entwicklung aller Formularvorlagen (76). Jedes neue Szenario benötigt einen separaten Entwicklungsprozess, was zu einem linearen Anwachsen der Codebasis führt #cite(<copilotkit_2026>). Insbesondere bei einer hohen Anzahl von Templates zu Beginn der Entwicklung steigt der initiale Entwicklungsprozess deutlich. Die Anbindung der Formulare in das System ist allerdings unkompliziert, da lediglich wiederverwendbare @UI\-Elemente, wie @UI\5-Fragments,dynamisch geladen werden müssen #cite(<SAP_2026>).
 
@@ -322,7 +317,7 @@ Offenes @GenUI (95) profitiert von der kontinuierlichen Verbesserung der Code-Ge
 
 ===== Funktionale Konsistenz (sitzungsübergreifend)
 
-Statisches @GenUI (95) garantiert optische Einheitlichkeit über Sitzungen hinweg, wenn die gleichen Formulare ausgewählt werden. Da die Formulare zur Entwicklungszeit definiert sind, produziert derselbe Aufruf immer dieselbe @UI #cite(<copilotkit_2026>). Die Bewertung ist nicht perfekt, da es durch nicht-deterministisches Verhalten des Agenten dazu kommen kann, dass er bei der selben Situation verschiedene Templates auswählt. Diesem Risiko kann allerdings durch Prompt-Engineering entgegengewirkt werden. #inline-note(text("Quelle"))
+Statisches @GenUI (95) garantiert optische Einheitlichkeit über Sitzungen hinweg, wenn die gleichen Formulare ausgewählt werden. Da die Formulare zur Entwicklungszeit definiert sind, produziert derselbe Aufruf immer dieselbe @UI #cite(<copilotkit_2026>). Die Bewertung ist nicht perfekt, da es durch nicht-deterministisches Verhalten des Agenten dazu kommen kann, dass er bei der selben Situation verschiedene Templates auswählt. Diesem Risiko kann allerdings durch Prompt-Engineering entgegengewirkt werden #cite(<sapkota_ai_2026>, supplement: "S. 18").
 
 Deklaratives @GenUI (80) ist konsistent, solange das @JSON\-Schema eingehalten wird. Die strukturierte Natur der Beschreibung minimiert Variabilität. Allerdings können @LLM:pl gelegentlich leicht unterschiedliche @JSON\-Strukturen für ähnliche Anfragen generieren.
 
@@ -331,7 +326,7 @@ Chat-Interfaces (70) zeigen konsistente Darstellung, da das Chat-Framework fix i
 Offenes @GenUI (35) leidet unter variabler Konsistenz durch die stochastische Natur der @LLM\-Generierung. Halluzinationen in @UI\-Layout und -Struktur treten auf, wodurch ähnliche Anfragen zu unterschiedlichen Interfaces führen können #cite(<verhulsdonck_incorporating_2024>, supplement: "S. 62-63"). Dies erschwert die Vorhersagbarkeit und Zuverlässigkeit des Systems.
 
 ==== Sicherheit
-Die Sicherheitsbewertung fokussiert auf das Risiko von Code-Injection und anderen Manipulationsangriffen bei der dynamischen @UI\-Generierung.
+Die Sicherheitsbewertung fokussiert sich auf das Risiko von Code-Injection und anderen Manipulationsangriffen bei der dynamischen @UI\-Generierung.
 
 ===== Manipulationssicherheit
 
@@ -350,9 +345,7 @@ $ N_j = sum_(i=1)^n g_i dot p_(i j) $
 
 Dabei ist $N_j$ der Nutzwert der Alternative $j$, $g_i$ die Gewichtung des Kriteriums $i$ und $p_(i j)$ die Punktzahl der Alternative $j$ für Kriterium $i$.
 
-Die Einzelwerte sind im Anhang dokumentiert. @tab:nwa_ranking zeigt das resultierende Ranking der Alternativen.
-
-#inline-note(text("nummer fehlt") )
+Die Einzelwerte sind in @tab:nwa_bewertung im Anhang unter @anhang:nwa_table dokumentiert. @tab:nwa_ranking zeigt das resultierende Ranking der Alternativen.
 
 #figure(
   caption: [Ranking der Alternativen],
@@ -365,7 +358,7 @@ Die Einzelwerte sind im Anhang dokumentiert. @tab:nwa_ranking zeigt das resultie
     [2], [Deklaratives @GenUI], [77,30], [Gut],
     [3], [Chat-basierte Schnittstellen], [76,89], [Gut],
     [4], [Offenes @GenUI], [48,79], [Befriedigend],
-  )
+  ),
 ) <tab:nwa_ranking>
 
 === Präsentation und Dokumentation des Ergebnisses

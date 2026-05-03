@@ -87,6 +87,7 @@
     it
     v(9pt)
   }
+  show heading.where(level: 5): set heading(numbering: none)
 
   // ── Math equations ───────────────────────────────────────────────────────
   // Chapter-prefixed numbering: (1.1), (1.2), (2.1) …
@@ -292,8 +293,9 @@
     }
     // List of tables
     if query(figure.where(kind: table)).len() > 0 {
-      pagebreak()
-      heading(t("list-tables"), numbering: none)
+      v(24pt)
+      text(size: 16pt, weight: "bold", font: "Times New Roman", t("list-tables"))
+      v(18pt)
       outline(target: figure.where(kind: table).before(<__appendix-start>), title: none)
     }
     // List of source code
@@ -381,7 +383,7 @@
   }
   [#[] <__appendix-end>]
 
-  bibliography(library_paths, title: t("list-bibliography"))
+  bibliography(library_paths, title: t("list-bibliography"), style: "american-psychological-association")
 
   {
     import "assets/index_of_attachments.typ": indexOfAttachmentsWith

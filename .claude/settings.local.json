@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__notebooklm__get_health",
+      "mcp__notebooklm__setup_auth",
+      "mcp__notebooklm__cleanup_data",
+      "mcp__notebooklm__ask_question",
+      "mcp__notebooklm__close_session",
+      "Bash(typst compile *)"
+    ]
+  }
+}
